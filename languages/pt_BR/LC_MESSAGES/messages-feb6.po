@@ -1,0 +1,4412 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: iSecretShop v1\n"
+"POT-Creation-Date: 2014-01-23 12:37-1000\n"
+"PO-Revision-Date: 2014-01-27 11:25-1000\n"
+"Last-Translator: \n"
+"Language-Team: iSecretShop <jennifer@isecretshop.com>\n"
+"Language: en_US\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Poedit 1.6.3\n"
+"X-Poedit-KeywordsList: _;gettext;gettext_noop\n"
+"X-Poedit-Basepath: .\n"
+"X-Poedit-SourceCharset: UTF-8\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"X-Poedit-SearchPath-0: ../../../include\n"
+
+#: ../../../include/app_functions/AccountUpdate.php:126
+#: ../../../include/app_functions/AccountUpdate.php:150
+#: ../../../include/app_functions/AccountUpdate.php:184
+#: ../../../include/app_functions/AccountUpdate.php:214
+#: ../../../include/app_functions/SaveDemographic.php:27
+#: ../../../include/manual/class.PDFs.php:1063
+#: ../../../include/manual/class.PDFs.php:1252
+#: ../../../include/manual/class.ShopEmails.php:369
+#: ../../../include/manual/class.ShopEmails.php:518
+#: ../../../include/manual/class.ShopEmails.php:628
+#: ../../../include/manual/class.ShopEmails.php:760
+#: ../../../include/manual/class.ShopEmails.php:828
+#: ../../../include/manual/class.Texts.php:105
+#: ../../../include/pages/admin/campaign_instances.php:129
+#: ../../../include/pages/admin/instance_view.php:116
+#: ../../../include/pages/admin/shop_assigned.php:163
+#: ../../../include/pages/admin/shop_available.php:288
+#: ../../../include/pages/admin/shop_gallery.php:364
+#: ../../../include/pages/admin/shop_instances.php:660
+#: ../../../include/pages/admin/shop_pending.php:985
+#: ../../../include/pages/admin/client_views/runs.php:519
+#: ../../../include/pages/admin/instance_views/edit.php:91
+#: ../../../include/pages/admin/instance_views/edit.php:93
+#: ../../../include/pages/admin/instance_views/edit.php:200
+#: ../../../include/pages/admin/shopper_views/edit.php:153
+#: ../../../include/pages/admin/shopper_views/shops.php:160
+#: ../../../include/pages/admin/shopper_views/shops.php:292
+#: ../../../include/pages/agent/assignments.php:97
+#: ../../../include/pages/agent/available.php:200
+#: ../../../include/pages/agent/available.php:471
+#: ../../../include/pages/agent/available.php:580
+#: ../../../include/pages/agent/profile.php:143
+#: ../../../include/pages/agent/shop_edit.php:481
+#: ../../../include/pages/agent/waitlist.php:341
+#: ../../../include/pages/mobile/account/home.php:66
+#: ../../../include/pages/mobile/shops/assignments.php:22
+#: ../../../include/pages/mobile/shops/home.php:103
+#: ../../../include/pages/mobile/shops/home.php:183
+#: ../../../include/voice_functions/InboundText.php:50
+msgid "to"
+msgstr "para"
+
+#: ../../../include/app_functions/AssignedShops.php:99
+#: ../../../include/app_functions/BackupShops.php:94
+#: ../../../include/manual/class.ShopEmails.php:345
+#: ../../../include/manual/class.ShopEmails.php:493
+#: ../../../include/manual/class.ShopEmails.php:607
+#: ../../../include/manual/class.ShopEmails.php:749
+#: ../../../include/manual/class.ShopEmails.php:812
+msgid "Do NOT shop"
+msgstr "NÃO fazer Tarefa"
+
+#: ../../../include/app_functions/AssignedShops.php:101
+#: ../../../include/app_functions/AvailableShops.php:96
+#: ../../../include/app_functions/BackupShops.php:96
+#: ../../../include/manual/class.PDFs.php:1063
+#: ../../../include/pages/admin/instance_view.php:120
+#: ../../../include/pages/agent/available.php:201
+#: ../../../include/pages/agent/available.php:472
+#: ../../../include/pages/agent/available.php:581
+#: ../../../include/pages/agent/shop_edit.php:486
+#: ../../../include/pages/agent/waitlist.php:342
+#: ../../../include/pages/mobile/shops/assignments.php:23
+#: ../../../include/pages/mobile/shops/home.php:104
+#: ../../../include/pages/mobile/shops/home.php:184
+msgid "NOT Between"
+msgstr "NÃO Entre"
+
+#: ../../../include/app_functions/AssignedShops.php:101
+#: ../../../include/app_functions/AvailableShops.php:96
+#: ../../../include/app_functions/BackupShops.php:96
+#: ../../../include/manual/class.PDFs.php:1063
+#: ../../../include/manual/class.PDFs.php:1252
+#: ../../../include/manual/class.ShopEmails.php:370
+#: ../../../include/manual/class.ShopEmails.php:519
+#: ../../../include/manual/class.ShopEmails.php:629
+#: ../../../include/manual/class.ShopEmails.php:735
+#: ../../../include/manual/class.ShopEmails.php:761
+#: ../../../include/manual/class.ShopEmails.php:798
+#: ../../../include/manual/class.ShopEmails.php:829
+#: ../../../include/manual/class.Texts.php:81
+#: ../../../include/pages/admin/campaign_instances.php:116
+#: ../../../include/pages/admin/campaign_instances.php:132
+#: ../../../include/pages/admin/instance_view.php:103
+#: ../../../include/pages/admin/instance_view.php:120
+#: ../../../include/pages/admin/shop_available.php:275
+#: ../../../include/pages/admin/shop_available.php:291
+#: ../../../include/pages/admin/shop_gallery.php:351
+#: ../../../include/pages/admin/shop_gallery.php:367
+#: ../../../include/pages/admin/shop_instances.php:647
+#: ../../../include/pages/admin/shop_instances.php:663
+#: ../../../include/pages/admin/shop_pending.php:990
+#: ../../../include/pages/admin/shopper_views/shops.php:279
+#: ../../../include/pages/agent/assignments.php:98
+#: ../../../include/pages/agent/available.php:169
+#: ../../../include/pages/agent/available.php:201
+#: ../../../include/pages/agent/available.php:415
+#: ../../../include/pages/agent/available.php:472
+#: ../../../include/pages/agent/available.php:524
+#: ../../../include/pages/agent/available.php:581
+#: ../../../include/pages/agent/reschedule.php:115
+#: ../../../include/pages/agent/shop_edit.php:486
+#: ../../../include/pages/agent/waitlist.php:111
+#: ../../../include/pages/agent/waitlist.php:307
+#: ../../../include/pages/agent/waitlist.php:342
+#: ../../../include/pages/mobile/shops/accept.php:130
+#: ../../../include/pages/mobile/shops/assignments.php:23
+#: ../../../include/pages/mobile/shops/home.php:69
+#: ../../../include/pages/mobile/shops/home.php:104
+#: ../../../include/pages/mobile/shops/home.php:146
+#: ../../../include/pages/mobile/shops/home.php:184
+msgid "and"
+msgstr "e"
+
+#: ../../../include/app_functions/AssignedShops.php:106
+#: ../../../include/app_functions/AvailableShops.php:102
+#: ../../../include/manual/class.PDFs.php:1074
+#: ../../../include/manual/class.PDFs.php:1262
+#: ../../../include/manual/class.ShopEmails.php:377
+#: ../../../include/manual/class.ShopEmails.php:526
+#: ../../../include/pages/agent/available.php:233
+msgid "Specific Visit Instructions"
+msgstr "Instruções para Visita Especial"
+
+#: ../../../include/app_functions/ShopRequest.php:70
+#: ../../../include/app_functions/ShopRequest.php:73
+#: ../../../include/app_functions/ShopRequest.php:118
+#: ../../../include/manual/class.ShopEmails.php:89
+#: ../../../include/manual/class.ShopEmails.php:222
+#: ../../../include/manual/class.ShopEmails.php:384
+#: ../../../include/manual/class.ShopEmails.php:456
+#: ../../../include/manual/class.ShopEmails.php:534
+#: ../../../include/manual/class.ShopEmails.php:635
+#: ../../../include/manual/class.ShopEmails.php:675
+#: ../../../include/manual/class.ShopEmails.php:718
+#: ../../../include/pages/agent/shop_edit.php:376
+msgid "If you have questions, please contact the responsible MSP directly"
+msgstr "Se você tiver dúvidas, contate diretamente o PSE responsável "
+
+#: ../../../include/app_functions/ShopRequest.php:118
+#: ../../../include/app_functions/ShopRequest.php:155
+#: ../../../include/pages/agent/available.php:76
+#: ../../../include/pages/agent/available.php:88
+#: ../../../include/pages/agent/available.php:109
+#: ../../../include/pages/agent/waitlist.php:65
+#: ../../../include/pages/agent/waitlist.php:73
+#: ../../../include/pages/mobile/shops/accept.php:77
+#: ../../../include/pages/mobile/shops/accept.php:104
+#: ../../../include/voice_functions/InboundText.php:111
+msgid "Unable to request shop"
+msgstr "Não é possível pedir tarefa"
+
+#: ../../../include/app_functions/ShopRequest.php:130
+#: ../../../include/pages/admin/all_requests.php:60
+#: ../../../include/pages/admin/instance_views/nearby_shoppers.php:87
+#: ../../../include/pages/admin/instance_views/past_shoppers.php:76
+#: ../../../include/pages/admin/instance_views/requests.php:61
+#: ../../../include/pages/admin/shopper_views/requests.php:62
+#: ../../../include/pages/admin/shopper_views/shops.php:86
+#: ../../../include/pages/agent/available.php:50
+#: ../../../include/pages/agent/available.php:121
+#: ../../../include/pages/agent/available.php:147
+#: ../../../include/pages/agent/waitlist.php:97
+#: ../../../include/pages/mobile/shops/accept.php:21
+#: ../../../include/pages/mobile/shops/accept.php:37
+#: ../../../include/pages/mobile/shops/accept.php:50
+#: ../../../include/pages/mobile/shops/accept.php:88
+#: ../../../include/voice_functions/InboundText.php:92
+#: ../../../include/voice_functions/InboundText.php:118
+msgid "Unable to assign shop"
+msgstr "Não é possível atribuir tarefa"
+
+#: ../../../include/app_functions/ShopRequest.php:152
+#: ../../../include/common/class.ShopperEmails.php:42
+#: ../../../include/manual/class.ShopEmails.php:72
+#: ../../../include/manual/class.ShopEmails.php:92
+#: ../../../include/pages/contact.php:280
+#: ../../../include/pages/merchant.php:19
+#: ../../../include/pages/agent/available.php:84
+#: ../../../include/pages/agent/available.php:99
+#: ../../../include/pages/agent/commentcard.php:157
+#: ../../../include/pages/agent/reschedule.php:32
+#: ../../../include/pages/agent/waitlist.php:58
+#: ../../../include/pages/client/commentcard.php:180
+#: ../../../include/pages/client/confirmation.php:22
+#: ../../../include/pages/client/survey.php:182
+#: ../../../include/pages/client/survey_confirmation.php:20
+#: ../../../include/pages/client/mobile/commentcard.php:171
+#: ../../../include/pages/client/mobile/confirmation.php:22
+#: ../../../include/pages/mobile/commentcards/edit.php:152
+#: ../../../include/pages/mobile/shops/accept.php:75
+#: ../../../include/pages/mobile/shops/accept.php:85
+#: ../../../include/pages/mobile/shops/accept.php:96
+msgid "Thank you"
+msgstr "Obrigado"
+
+#: ../../../include/common/class.MiscFunctions.php:153
+#: ../../../include/common/class.MiscFunctions.php:180
+#: ../../../include/common/class.MiscFunctions.php:212
+msgid "Change"
+msgstr "Mudar"
+
+#: ../../../include/common/class.MiscFunctions.php:303
+#: ../../../include/pages/register.php:289
+#: ../../../include/pages/register.php:386
+#: ../../../include/pages/admin/admins.php:278
+#: ../../../include/pages/admin/msps.php:111
+#: ../../../include/pages/admin/shop_gallery.php:235
+#: ../../../include/pages/admin/shop_instances.php:422
+#: ../../../include/pages/admin/shopper_msp.php:169
+#: ../../../include/pages/admin/client_views/accounts.php:265
+#: ../../../include/pages/admin/client_views/campaigns.php:219
+#: ../../../include/pages/admin/client_views/edit.php:203
+#: ../../../include/pages/admin/client_views/locations.php:320
+#: ../../../include/pages/admin/client_views/locations.php:356
+#: ../../../include/pages/admin/msp_views/edit.php:161
+#: ../../../include/pages/admin/msp_views/edit.php:181
+#: ../../../include/pages/admin/shopper_views/edit.php:292
+#: ../../../include/pages/admin/shopper_views/edit.php:339
+#: ../../../include/pages/agent/profile.php:305
+#: ../../../include/pages/agent/profile.php:333
+#: ../../../include/pages/mobile/register.php:177
+#: ../../../include/pages/mobile/register.php:183
+#: ../../../include/pages/mobile/account/home.php:106
+msgid "Please Choose"
+msgstr "Escolha"
+
+#: ../../../include/common/class.ShopperEmails.php:42
+msgid "Welcome to the iSecretShop system!"
+msgstr "Bem-vindo ao sistema iSecretShop!"
+
+#: ../../../include/common/class.ShopperEmails.php:43
+msgid ""
+"Attached, you will find information about iSecretShop. Please read it "
+"carefully as we want to ensure both you and participating Mystery Shopping "
+"Providers have the best experience possible. As you complete shops through "
+"the iSS platform, you also earn points to increase your Agent Rank and climb "
+"the iSS Leaderboards. It's all explained in the attached file."
+msgstr ""
+"Em anexo, você encontrará informações sobre iSecretShop. Leia com atenção "
+"para garantir que você e os Provedores de Serviço Espião participantes "
+"tenham a melhor experiência possível. À medida que você realiza tarefas pela "
+"plataforma iSS você ganha pontos para elevar  sua Posição de Agente e subir "
+"na Classificação iSS. Tudo está explicado no arquivo em anexo."
+
+#: ../../../include/common/class.ShopperEmails.php:44
+msgid ""
+"To earn extra points and to become more familiar with the iSecretShop "
+"platform, please visit our system training center http://iSSPrep.com.  "
+"Before accepting some shops, MSPs might require you take specific coursework "
+"at iSS Prep."
+msgstr ""
+"Para ganhar pontos extras e familiarizar-se com a plataforma iSecretShop, "
+"visite nosso o centro de treinamento do sistema em http://iSSPrep.com. Antes "
+"de aceitar algumas tarefas, PSEs podem pedir que você faça um curso "
+"específico em iSS Prep."
+
+#: ../../../include/common/class.ShopperEmails.php:45
+msgid ""
+"iSecretShop is a software system that mystery shopping providers (MSPs) and "
+"Market Research Compaies (MRCs) use to offer and collect feedback. The MSPs/"
+"MRCs are solely responsible for every aspect of their shops - including "
+"payment to you. iSecretShop is NOT a Mystery Shopping Provider - it is also "
+"a shopper portal - helping shoppers find opportunities all in one place. You "
+"will need to complete each MSP/MRC Independent Contractor Agreement in order "
+"to be eligible to accept and perform assignments for them."
+msgstr ""
+"iSecretShop é um sistema de software que Provedores de Serviço Espião (PSEs) "
+"e Companias de Pesquisa de Mercado (CPMs) usam para oferecer e coletar "
+"feedback. Os MSPs/MRCs são os únicos responsáveis por cada aspecto das "
+"tarefas - incluindo o pagamento para você. iSecretShop NÃO é um Provedor de "
+"Serviço Espião - também é um portal de clientes - ajudando clientes a "
+"encontrar oportunidades em um só lugar. Você precisará completar cada Acordo "
+"de Contrato Independente de PSE/CPM para ser elegível para aceitar e "
+"realizar tarefas para eles."
+
+#: ../../../include/common/class.ShopperEmails.php:45
+msgid ""
+"Please note that new opportunities and new clients are being added "
+"constantly. If you don't see anything near you now, check back often! You "
+"will be emailed as secret shop opportunities come up in your area."
+msgstr ""
+"Note que oportunidades e clientes novos são adicionados constantemente. Se "
+"não há nada perto de você agora, volte e confira frequentemente! Você "
+"receberá um e-mail quando surgirem oportunidades de tarefa secreta na sua "
+"área."
+
+#: ../../../include/common/class.ShopperEmails.php:45
+msgid "Thank you again for registering with iSecretShop!"
+msgstr "Obrigado novamente por se registrar em iSecretShop!"
+
+#: ../../../include/common/class.ShopperEmails.php:48
+#: ../../../include/common/class.ShopperEmails.php:136
+#: ../../../include/common/class.ShopperEmails.php:175
+#: ../../../include/manual/class.AdminEmails.php:12
+#: ../../../include/manual/class.AdminEmails.php:44
+#: ../../../include/manual/class.CardEmails.php:76
+#: ../../../include/manual/class.CardEmails.php:140
+#: ../../../include/manual/class.EmailsShopper.php:16
+#: ../../../include/manual/class.EmailsShopper.php:39
+#: ../../../include/manual/class.EmailsShopper.php:63
+#: ../../../include/manual/class.ShopEmails.php:33
+#: ../../../include/manual/class.ShopEmails.php:128
+#: ../../../include/manual/class.ShopEmails.php:183
+msgid "Sincerely"
+msgstr "Sinceramente"
+
+#: ../../../include/common/class.ShopperEmails.php:49
+#: ../../../include/manual/class.CardEmails.php:111
+#: ../../../include/manual/class.CardEmails.php:142
+#: ../../../include/manual/class.PDFs.php:406
+#: ../../../include/manual/class.ShopEmails.php:48
+#: ../../../include/manual/class.ShopEmails.php:186
+#: ../../../include/manual/class.ShopEmails.php:304
+msgid "Powered by"
+msgstr "Alimentado por"
+
+#: ../../../include/common/class.ShopperEmails.php:50
+#: ../../../include/manual/class.ShopEmails.php:49
+msgid "Find iSS on Facebook at"
+msgstr "Encontre iSS no Facebook em"
+
+#: ../../../include/common/class.ShopperEmails.php:51
+#: ../../../include/manual/class.ShopEmails.php:50
+msgid "Follow iSS on Twitter"
+msgstr "Siga iSS no Twitter"
+
+#: ../../../include/manual/class.Answer.php:154
+#: ../../../include/pages/agent/commentcard.php:730
+#: ../../../include/pages/agent/demographics.php:69
+#: ../../../include/pages/agent/demographics.php:128
+msgid "Edit"
+msgstr "Editar"
+
+#: ../../../include/manual/class.CardEmails.php:13
+#: ../../../include/manual/class.CardEmails.php:55
+#: ../../../include/manual/class.CardEmails.php:101
+#: ../../../include/manual/class.CardEmails.php:136
+#: ../../../include/manual/class.CardPDFs.php:62
+#: ../../../include/manual/class.CardPDFs.php:88
+#: ../../../include/manual/class.CardPDFs.php:93
+#: ../../../include/manual/class.CardPDFs.php:129
+#: ../../../include/manual/class.CardPDFs.php:284
+#: ../../../include/manual/class.CardPDFs.php:353
+#: ../../../include/manual/class.CardPDFs.php:497
+#: ../../../include/manual/class.CardPDFs.php:565
+#: ../../../include/manual/class.CardPDFs.php:631
+#: ../../../include/pages/agent/commentcard.php:367
+#: ../../../include/pages/agent/commentcard.php:548
+#: ../../../include/pages/agent/commentcard.php:549
+#: ../../../include/pages/agent/commentcards.php:153
+#: ../../../include/pages/client/commentcard.php:180
+#: ../../../include/pages/client/commentcard.php:214
+#: ../../../include/pages/client/commentcard.php:415
+#: ../../../include/pages/client/commentcard.php:416
+#: ../../../include/pages/client/home.php:53
+#: ../../../include/pages/client/home.php:197
+#: ../../../include/pages/client/mobile/home.php:186
+msgid "Comment Card"
+msgstr "Cartão de Comentário"
+
+#: ../../../include/manual/class.CardEmails.php:20
+#: ../../../include/manual/class.PDFs.php:1068
+#: ../../../include/manual/class.PDFs.php:1256
+#: ../../../include/manual/class.ShopEmails.php:107
+#: ../../../include/manual/class.ShopEmails.php:376
+#: ../../../include/manual/class.ShopEmails.php:525
+#: ../../../include/manual/class.ShopEmails.php:768
+#: ../../../include/manual/class.ShopEmails.php:836
+#: ../../../include/pages/agent/available.php:221
+#: ../../../include/pages/agent/available.php:378
+#: ../../../include/pages/agent/available.php:461
+#: ../../../include/pages/agent/available.php:570
+#: ../../../include/pages/agent/shop_edit.php:404
+#: ../../../include/pages/agent/waitlist.php:142
+#: ../../../include/pages/agent/waitlist.php:230
+#: ../../../include/pages/agent/waitlist.php:332
+#: ../../../include/pages/mobile/shops/accept.php:171
+msgid "Coupon"
+msgstr "Cupom"
+
+#: ../../../include/manual/class.CardEmails.php:20
+#: ../../../include/manual/class.PDFs.php:1068
+#: ../../../include/manual/class.PDFs.php:1256
+#: ../../../include/manual/class.ShopEmails.php:107
+#: ../../../include/manual/class.ShopEmails.php:376
+#: ../../../include/manual/class.ShopEmails.php:525
+#: ../../../include/manual/class.ShopEmails.php:768
+#: ../../../include/manual/class.ShopEmails.php:836
+#: ../../../include/pages/agent/available.php:224
+#: ../../../include/pages/agent/shop_edit.php:407
+#: ../../../include/pages/agent/waitlist.php:145
+#: ../../../include/pages/mobile/shops/accept.php:172
+msgid "Coupon Description"
+msgstr "Descrição do Cupom"
+
+#: ../../../include/manual/class.CardEmails.php:20
+#: ../../../include/manual/class.PDFs.php:1068
+#: ../../../include/manual/class.PDFs.php:1256
+#: ../../../include/manual/class.ShopEmails.php:107
+#: ../../../include/manual/class.ShopEmails.php:376
+#: ../../../include/manual/class.ShopEmails.php:525
+#: ../../../include/manual/class.ShopEmails.php:768
+#: ../../../include/manual/class.ShopEmails.php:836
+#: ../../../include/pages/agent/available.php:227
+#: ../../../include/pages/agent/shop_edit.php:410
+#: ../../../include/pages/agent/waitlist.php:148
+#: ../../../include/pages/mobile/shops/accept.php:173
+msgid "Coupon Details"
+msgstr "Dados do Cupom"
+
+#: ../../../include/manual/class.CardPDFs.php:97
+#: ../../../include/manual/class.CardPDFs.php:321
+#: ../../../include/manual/class.CardPDFs.php:533
+#: ../../../include/pages/agent/commentcard.php:387
+#: ../../../include/pages/agent/commentcard.php:731
+#: ../../../include/pages/client/commentcard.php:235
+msgid "Start Time"
+msgstr "Hora de Início"
+
+#: ../../../include/manual/class.CommentCardSubmitted.php:362
+#: ../../../include/manual/class.ShopInstance.php:833
+#: ../../../include/pages/admin/question_edit.php:352
+#: ../../../include/pages/admin/question_edit.php:359
+#: ../../../include/pages/admin/section_edit.php:74
+#: ../../../include/pages/admin/section_edit.php:99
+#: ../../../include/pages/admin/section_edit.php:113
+#: ../../../include/pages/admin/section_edit.php:162
+#: ../../../include/pages/admin/client_views/question_lang.php:199
+#: ../../../include/pages/admin/client_views/question_lang.php:206
+#: ../../../include/pages/admin/client_views/shop_questions.php:350
+#: ../../../include/pages/admin/client_views/shop_questions.php:357
+#: ../../../include/pages/agent/commentcard.php:84
+#: ../../../include/pages/agent/commentcard.php:94
+#: ../../../include/pages/agent/commentcard.php:127
+#: ../../../include/pages/agent/commentcard.php:260
+#: ../../../include/pages/agent/commentcard.php:268
+#: ../../../include/pages/agent/shop_edit.php:177
+#: ../../../include/pages/agent/shop_edit.php:191
+#: ../../../include/pages/agent/shop_edit.php:260
+#: ../../../include/pages/client/commentcard.php:95
+#: ../../../include/pages/client/commentcard.php:105
+#: ../../../include/pages/client/commentcard.php:142
+#: ../../../include/pages/client/survey.php:105
+#: ../../../include/pages/client/survey.php:126
+#: ../../../include/pages/client/survey.php:129
+#: ../../../include/pages/client/mobile/commentcard.php:94
+#: ../../../include/pages/client/mobile/commentcard.php:104
+#: ../../../include/pages/client/mobile/commentcard.php:137
+#: ../../../include/pages/mobile/commentcards/edit.php:79
+#: ../../../include/pages/mobile/commentcards/edit.php:89
+#: ../../../include/pages/mobile/shops/edit.php:157
+#: ../../../include/pages/mobile/shops/edit.php:167
+#: ../../../include/pages/mobile/shops/edit.php:224
+msgid "Question"
+msgstr "Questão "
+
+#: ../../../include/manual/class.PDFs.php:135
+#: ../../../include/manual/class.PDFs.php:416
+#: ../../../include/manual/class.PDFs.php:624
+#: ../../../include/manual/class.PDFs.php:840
+#: ../../../include/pages/admin/shop_completed.php:120
+#: ../../../include/pages/admin/shop_declined.php:95
+#: ../../../include/pages/agent/shop_edit.php:384
+#: ../../../include/pages/mobile/shops/accept.php:156
+#: ../../../include/pages/mobile/shops/edit.php:314
+msgid "Shop Name"
+msgstr "Nome da Tarefa"
+
+#: ../../../include/manual/class.PDFs.php:380
+#: ../../../include/manual/class.PDFs.php:425
+msgid "Shop Report"
+msgstr "Relatório da Tarefa"
+
+#: ../../../include/manual/class.PDFs.php:403
+#: ../../../include/pages/admin/client_view.php:154
+msgid "Page"
+msgstr "Página"
+
+#: ../../../include/manual/class.PDFs.php:411
+#: ../../../include/manual/class.PDFs.php:413
+msgid "Shop Summary"
+msgstr "Resumo da Tarefa"
+
+#: ../../../include/manual/class.PDFs.php:415
+#: ../../../include/manual/class.PDFs.php:839
+#: ../../../include/manual/class.ShopEmails.php:95
+#: ../../../include/manual/class.ShopEmails.php:367
+#: ../../../include/manual/class.ShopEmails.php:516
+#: ../../../include/manual/class.ShopEmails.php:626
+#: ../../../include/manual/class.ShopEmails.php:670
+#: ../../../include/manual/class.ShopEmails.php:755
+#: ../../../include/manual/class.ShopEmails.php:825
+#: ../../../include/pages/admin/card_completed.php:94
+#: ../../../include/pages/admin/card_declined.php:92
+#: ../../../include/pages/admin/card_pending.php:575
+#: ../../../include/pages/admin/instance_view.php:125
+#: ../../../include/pages/admin/shop_completed.php:168
+#: ../../../include/pages/admin/shop_declined.php:119
+#: ../../../include/pages/admin/shop_gallery.php:193
+#: ../../../include/pages/admin/shop_instances.php:380
+#: ../../../include/pages/admin/shop_pending.php:1015
+#: ../../../include/pages/admin/shopper_views/shops.php:141
+#: ../../../include/pages/admin/shopper_views/shops.php:187
+#: ../../../include/pages/agent/assignments.php:71
+#: ../../../include/pages/agent/assignments.php:123
+#: ../../../include/pages/agent/available.php:242
+#: ../../../include/pages/agent/commentcard.php:378
+#: ../../../include/pages/agent/reschedule.php:146
+#: ../../../include/pages/agent/shop_edit.php:495
+#: ../../../include/pages/agent/text.php:83
+#: ../../../include/pages/agent/waitlist.php:157
+#: ../../../include/pages/client/commentcard.php:225
+#: ../../../include/pages/client/survey.php:218
+#: ../../../include/pages/client/mobile/commentcard.php:207
+#: ../../../include/pages/mobile/shops/accept.php:181
+#: ../../../include/pages/mobile/shops/edit.php:343
+msgid "Location"
+msgstr "Local"
+
+#: ../../../include/manual/class.PDFs.php:418
+#: ../../../include/manual/class.PDFs.php:842
+#: ../../../include/templates/admin.php:259
+#: ../../../include/templates/admin.php:266
+#: ../../../include/templates/admin.php:279
+#: ../../../include/templates/admin.php:289
+msgid "Completed"
+msgstr "Concluída"
+
+#: ../../../include/manual/class.PDFs.php:1060
+#: ../../../include/manual/class.PDFs.php:1249
+#: ../../../include/manual/class.ShopEmails.php:368
+#: ../../../include/manual/class.ShopEmails.php:517
+#: ../../../include/manual/class.ShopEmails.php:627
+#: ../../../include/pages/agent/shop_edit.php:506
+#: ../../../include/pages/mobile/shops/edit.php:352
+msgid ""
+"See Shop time and description to see if shop requires a specific day or time"
+msgstr ""
+"Veja hora da Tarefa e descrição para saber se requer dia ou hora específicos "
+
+#: ../../../include/manual/class.PDFs.php:1063
+#: ../../../include/manual/class.PDFs.php:1252
+#: ../../../include/manual/class.ShopEmails.php:369
+#: ../../../include/manual/class.ShopEmails.php:518
+#: ../../../include/manual/class.ShopEmails.php:628
+#: ../../../include/manual/class.ShopEmails.php:760
+#: ../../../include/manual/class.ShopEmails.php:828
+#: ../../../include/pages/admin/shopper_views/shops.php:160
+#: ../../../include/pages/agent/assignments.php:97
+#: ../../../include/pages/agent/available.php:200
+#: ../../../include/pages/agent/available.php:471
+#: ../../../include/pages/agent/available.php:580
+#: ../../../include/pages/agent/waitlist.php:341
+#: ../../../include/pages/mobile/shops/assignments.php:22
+#: ../../../include/pages/mobile/shops/home.php:103
+#: ../../../include/pages/mobile/shops/home.php:183
+msgid "From"
+msgstr "De"
+
+#: ../../../include/manual/class.PDFs.php:1065
+#: ../../../include/manual/class.PDFs.php:1254
+#: ../../../include/manual/class.ShopEmails.php:372
+#: ../../../include/manual/class.ShopEmails.php:521
+#: ../../../include/manual/class.ShopEmails.php:764
+#: ../../../include/manual/class.ShopEmails.php:832
+#: ../../../include/pages/admin/notify_shopper.php:133
+#: ../../../include/pages/agent/available.php:210
+#: ../../../include/pages/agent/waitlist.php:132
+#: ../../../include/pages/mobile/shops/accept.php:164
+msgid "Compensation"
+msgstr "Compensação"
+
+#: ../../../include/manual/class.PDFs.php:1066
+#: ../../../include/manual/class.PDFs.php:1254
+#: ../../../include/manual/class.ShopEmails.php:372
+#: ../../../include/manual/class.ShopEmails.php:521
+#: ../../../include/manual/class.ShopEmails.php:764
+#: ../../../include/manual/class.ShopEmails.php:832
+#: ../../../include/pages/agent/available.php:211
+#: ../../../include/pages/agent/shop_edit.php:390
+#: ../../../include/pages/agent/waitlist.php:133
+#: ../../../include/pages/mobile/shops/accept.php:165
+msgid "Shop Pays"
+msgstr "Tarefa Paga"
+
+#: ../../../include/manual/class.PDFs.php:1067
+#: ../../../include/manual/class.PDFs.php:1255
+#: ../../../include/manual/class.ShopEmails.php:87
+#: ../../../include/manual/class.ShopEmails.php:104
+#: ../../../include/manual/class.ShopEmails.php:374
+#: ../../../include/manual/class.ShopEmails.php:523
+#: ../../../include/manual/class.ShopEmails.php:766
+#: ../../../include/manual/class.ShopEmails.php:834
+#: ../../../include/manual/class.Texts.php:96
+#: ../../../include/pages/admin/shop_available.php:298
+#: ../../../include/pages/admin/shop_completed.php:134
+#: ../../../include/pages/admin/shop_instances.php:690
+#: ../../../include/pages/admin/shop_pending.php:762
+#: ../../../include/pages/admin/shop_pending.php:954
+#: ../../../include/pages/admin/client_views/runs.php:726
+#: ../../../include/pages/admin/client_views/runs.php:1156
+#: ../../../include/pages/admin/instance_views/edit.php:153
+#: ../../../include/pages/admin/shopper_views/payments.php:26
+#: ../../../include/pages/admin/shopper_views/shops.php:299
+#: ../../../include/pages/agent/available.php:215
+#: ../../../include/pages/agent/available.php:377
+#: ../../../include/pages/agent/available.php:460
+#: ../../../include/pages/agent/available.php:569
+#: ../../../include/pages/agent/shop_edit.php:393
+#: ../../../include/pages/agent/waitlist.php:136
+#: ../../../include/pages/agent/waitlist.php:229
+#: ../../../include/pages/agent/waitlist.php:331
+#: ../../../include/pages/mobile/shops/accept.php:166
+msgid "Reimbursement"
+msgstr "Reembolso"
+
+#: ../../../include/manual/class.PDFs.php:1076
+#: ../../../include/manual/class.PDFs.php:1264
+#: ../../../include/manual/class.ShopEmails.php:378
+#: ../../../include/manual/class.ShopEmails.php:527
+#: ../../../include/manual/class.ShopEmails.php:769
+#: ../../../include/manual/class.ShopEmails.php:837
+#: ../../../include/pages/admin/shop_completed.php:148
+#: ../../../include/pages/admin/shop_declined.php:99
+#: ../../../include/pages/admin/shop_pending.php:974
+#: ../../../include/pages/agent/available.php:238
+#: ../../../include/pages/agent/reschedule.php:142
+#: ../../../include/pages/agent/shop_edit.php:421
+#: ../../../include/pages/agent/waitlist.php:153
+#: ../../../include/pages/mobile/shops/accept.php:177
+#: ../../../include/pages/mobile/shops/edit.php:328
+msgid "Shop Description"
+msgstr "Descrição da Tarefa"
+
+#: ../../../include/manual/class.PDFs.php:1791
+#: ../../../include/pages/admin/client_views/edit.php:248
+#: ../../../include/pages/agent/reimbursements.php:38
+#: ../../../include/pages/agent/reimbursements.php:55
+#: ../../../include/templates/admin.php:155
+#: ../../../include/templates/admin.php:213
+#: ../../../include/templates/admin.php:241
+msgid "MSP"
+msgstr "PSE"
+
+#: ../../../include/manual/class.PDFs.php:1793
+#: ../../../include/manual/class.ShopEmails.php:365
+#: ../../../include/manual/class.ShopEmails.php:514
+#: ../../../include/pages/contact.php:1006
+#: ../../../include/pages/merchant.php:63
+#: ../../../include/pages/admin/client_view.php:142
+#: ../../../include/pages/admin/client_view2.php:75
+#: ../../../include/pages/admin/client_view3.php:81
+#: ../../../include/pages/admin/survey_completed.php:70
+#: ../../../include/pages/admin/client_views/accounts.php:251
+#: ../../../include/pages/admin/client_views/edit.php:229
+#: ../../../include/pages/admin/client_views/locations.php:361
+#: ../../../include/pages/admin/instance_views/nearby_shoppers.php:279
+#: ../../../include/pages/admin/msp_views/edit.php:173
+#: ../../../include/pages/agent/contracts.php:196
+msgid "Phone"
+msgstr "Fone "
+
+#: ../../../include/manual/class.ShopEmails.php:7
+msgid "To remove yourself from future notification emails, please click"
+msgstr "Para remover seu nome de futuras notificações, clique"
+
+#: ../../../include/manual/class.ShopEmails.php:7
+msgid "Remove"
+msgstr "Remover"
+
+#: ../../../include/manual/class.ShopEmails.php:14
+msgid "Shopper Announcements"
+msgstr "Comunicados do Cliente"
+
+#: ../../../include/manual/class.ShopEmails.php:72
+#: ../../../include/manual/class.ShopEmails.php:92
+#: ../../../include/manual/class.ShopEmails.php:221
+#: ../../../include/manual/class.ShopEmails.php:352
+#: ../../../include/manual/class.ShopEmails.php:450
+#: ../../../include/manual/class.ShopEmails.php:501
+#: ../../../include/manual/class.ShopEmails.php:616
+#: ../../../include/manual/class.ShopEmails.php:667
+#: ../../../include/manual/class.ShopEmails.php:716
+#: ../../../include/manual/class.ShopEmails.php:879
+#: ../../../include/modules/agent_login.php:9
+msgid "Agent"
+msgstr "Agente "
+
+#: ../../../include/manual/class.ShopEmails.php:74
+msgid "Your shop was submitted and has been sent to the client for review"
+msgstr "A sua tarefa foi enviada para revisão do cliente"
+
+#: ../../../include/manual/class.ShopEmails.php:75
+#: ../../../include/manual/class.ShopEmails.php:95
+#: ../../../include/manual/class.ShopEmails.php:159
+#: ../../../include/manual/class.ShopEmails.php:270
+#: ../../../include/manual/class.ShopEmails.php:352
+#: ../../../include/manual/class.ShopEmails.php:367
+#: ../../../include/manual/class.ShopEmails.php:501
+#: ../../../include/manual/class.ShopEmails.php:516
+#: ../../../include/manual/class.ShopEmails.php:626
+#: ../../../include/manual/class.ShopEmails.php:670
+#: ../../../include/manual/class.ShopEmails.php:755
+#: ../../../include/manual/class.ShopEmails.php:825
+#: ../../../include/pages/contact.php:1013
+#: ../../../include/pages/admin/campaign_instances.php:58
+#: ../../../include/pages/admin/shop_assigned.php:123
+#: ../../../include/pages/admin/shop_available.php:209
+#: ../../../include/pages/admin/shop_completed.php:294
+#: ../../../include/pages/admin/shop_declined.php:263
+#: ../../../include/pages/admin/shop_gallery.php:154
+#: ../../../include/pages/admin/shop_gallery.php:290
+#: ../../../include/pages/admin/shop_instances.php:340
+#: ../../../include/pages/admin/shop_instances.php:560
+#: ../../../include/pages/admin/shop_pending.php:1190
+#: ../../../include/pages/admin/client_views/editor_detail.php:22
+#: ../../../include/pages/admin/reports/editor_detail.php:22
+#: ../../../include/pages/admin/shopper_views/points.php:27
+#: ../../../include/pages/admin/shopper_views/requests.php:94
+#: ../../../include/pages/admin/shopper_views/shops.php:138
+#: ../../../include/pages/admin/shopper_views/shops.php:241
+#: ../../../include/pages/agent/assignments.php:68
+#: ../../../include/pages/agent/available.php:192
+#: ../../../include/pages/agent/available.php:364
+#: ../../../include/pages/agent/available.php:447
+#: ../../../include/pages/agent/available.php:556
+#: ../../../include/pages/agent/reimbursements.php:40
+#: ../../../include/pages/agent/reimbursements.php:57
+#: ../../../include/pages/agent/reschedule.php:134
+#: ../../../include/pages/agent/waitlist.php:217
+msgid "Shop ID"
+msgstr "ID da Tarefa"
+
+#: ../../../include/manual/class.ShopEmails.php:75
+msgid "for"
+msgstr "para"
+
+#: ../../../include/manual/class.ShopEmails.php:77
+#: ../../../include/manual/class.ShopEmails.php:94
+#: ../../../include/manual/class.ShopEmails.php:354
+#: ../../../include/manual/class.ShopEmails.php:503
+#: ../../../include/manual/class.ShopEmails.php:619
+msgid "Note from"
+msgstr "Nota de"
+
+#: ../../../include/manual/class.ShopEmails.php:78
+#: ../../../include/manual/class.ShopEmails.php:96
+msgid ""
+" is the company you are contracting with and the company that will pay you."
+msgstr ""
+"é a compania que está contratando você e a compania que irá pagar você."
+
+#: ../../../include/manual/class.ShopEmails.php:78
+msgid ""
+"Your compensation has been held for the issues stated above. If released, "
+"the payment for this assignment is"
+msgstr ""
+"A sua compensação está retida pelos motivos referidos acima. Se liberado, o "
+"pagamento desta tarefa é "
+
+#: ../../../include/manual/class.ShopEmails.php:81
+#: ../../../include/manual/class.ShopEmails.php:99
+#: ../../../include/pages/admin/shop_pending.php:944
+#: ../../../include/pages/agent/available.php:375
+#: ../../../include/pages/agent/available.php:458
+#: ../../../include/pages/agent/available.php:567
+#: ../../../include/pages/agent/waitlist.php:228
+#: ../../../include/pages/agent/waitlist.php:330
+msgid "Shop Fee"
+msgstr "Pagar de Tarefa"
+
+#: ../../../include/manual/class.ShopEmails.php:83
+#: ../../../include/manual/class.ShopEmails.php:101
+#: ../../../include/manual/class.ShopEmails.php:765
+#: ../../../include/manual/class.ShopEmails.php:833
+#: ../../../include/pages/admin/shop_available.php:297
+#: ../../../include/pages/admin/shop_instances.php:689
+#: ../../../include/pages/admin/shop_pending.php:949
+#: ../../../include/pages/admin/shopper_views/shops.php:298
+#: ../../../include/pages/agent/shop_edit.php:398
+msgid "Bonus"
+msgstr "Bônus "
+
+#: ../../../include/manual/class.ShopEmails.php:95
+msgid "Shop was successfully submitted and approved"
+msgstr "Tarefa enviada com sucesso e aprovada"
+
+#: ../../../include/manual/class.ShopEmails.php:96
+msgid "Your compensation for this assignment is"
+msgstr "A sua compensação para esta tarefa é"
+
+#: ../../../include/manual/class.ShopEmails.php:107
+msgid "You have received the following coupon to use on your next visit"
+msgstr "Você recebeu o seguinte cupom para usar na próxima visita:"
+
+#: ../../../include/manual/class.ShopEmails.php:108
+msgid " points have been awarded towards your next Agent rank."
+msgstr "pontos foram concedidos para a sua próxima posição de Agente."
+
+#: ../../../include/manual/class.ShopEmails.php:109
+msgid ""
+"We would really appreciate a great rating on iTunes! Please tell your "
+"friends about iSecretShop and check the iSecretShop application often for "
+"new opportunities!"
+msgstr ""
+"Apreciaremos muito uma ótima avaliação no iTunes! Conte aos seus amigos "
+"sobre iSecretShop e confira frequentemente o app iSecretShop para novas "
+"oportunidades."
+
+#: ../../../include/manual/class.ShopEmails.php:116
+msgid "Assignment Approved"
+msgstr "Tarefa Aprovada"
+
+#: ../../../include/manual/class.ShopEmails.php:191
+#: ../../../include/pages/admin/shop_pending.php:1009
+#: ../../../include/pages/agent/shop_edit.php:515
+#: ../../../include/pages/mobile/shops/edit.php:360
+msgid "Shop Completed"
+msgstr "Tarefa Concluída"
+
+#: ../../../include/manual/class.ShopEmails.php:221
+msgid "You have successfully submitted Shop"
+msgstr "Tarefa enviada com sucesso"
+
+#: ../../../include/manual/class.ShopEmails.php:222
+msgid "Attached is a copy for your records."
+msgstr "Anexado uma cópia para seu controle."
+
+#: ../../../include/manual/class.ShopEmails.php:228
+msgid "Report"
+msgstr "Relatório"
+
+#: ../../../include/manual/class.ShopEmails.php:348
+#: ../../../include/manual/class.ShopEmails.php:496
+#: ../../../include/manual/class.ShopEmails.php:610
+#: ../../../include/manual/class.ShopEmails.php:752
+#: ../../../include/manual/class.ShopEmails.php:815
+msgid "Please see shop for detailed times"
+msgstr "Veja tarefa para horários detalhados"
+
+#: ../../../include/manual/class.ShopEmails.php:352
+msgid "You have successfully accepted an Assignment!"
+msgstr "Você aceitou uma Tarefa com sucesso!"
+
+#: ../../../include/manual/class.ShopEmails.php:357
+#: ../../../include/manual/class.ShopEmails.php:506
+msgid ""
+"Please thoroughly review the attached Shop Description and all other "
+"attachments (if applicable). Go to the location and complete the shop. Take "
+"pictures where required and anywhere else you feel would be helpful."
+msgstr ""
+"Favor revisar totalmente a Descrição da Tarefa anexada e todos os outros "
+"anexos (se aplicáveis). Vá para o local e complete a tarefa. Tire fotos de "
+"onde foi pedido e de tudo que você julgar útil."
+
+#: ../../../include/manual/class.ShopEmails.php:358
+#: ../../../include/manual/class.ShopEmails.php:507
+msgid ""
+"After you have completed the visit, log in to <a href='http://www."
+"isecretshop.com'>iSecretShop.com</a> and complete the survey online. You can "
+"upload your photos there. To begin: go to Your Assignments, then click "
+"'Enter/Edit Shop'. Make sure to answer every question to the best of your "
+"ability and to upload pictures where appropriate and required. Also be "
+"certain to enter the date and time that you performed the shop."
+msgstr ""
+"Após terminar a visita, login em <a href='http://www.isecretshop."
+"com'>iSecretShop.com</a> e complete a pesquisa online. Você pode carregar as "
+"suas  fotos no site. Para iniciar: vá para Suas Tarefas, depois clique "
+"'Enter/Editar Tarefa'. Certifique-se de responder a cada questão com o "
+"máximo de empenho e de carregar fotos quando for apropriado e requisitado. "
+"Assegure-se de inserir data e hora da realização da tarefa."
+
+#: ../../../include/manual/class.ShopEmails.php:359
+#: ../../../include/manual/class.ShopEmails.php:508
+msgid ""
+"You can also do your shop using a smart phone, either through the web "
+"browser or, if you have an iPhone or Android, with the iSecretShop iPhone or "
+"Android app."
+msgstr ""
+"Você também pode fazer a sua tarefa com um smartphone, através do navegador "
+"web ou um iPhone ou Android, com o app iSecretShop iPhone ou Android. "
+
+#: ../../../include/manual/class.ShopEmails.php:361
+#: ../../../include/manual/class.ShopEmails.php:510
+msgid ""
+"iPhone and Android Shops: We encourage you to click 'save work' periodically "
+"throughout the shop. If you wish to complete your shop at home, do not click "
+"Submit on the phone. Simply hit Save Work, then log in from your home "
+"computer and enter any additional information you wish and submit from there."
+msgstr ""
+"Tarefas em iPhone e Android: Recomendamos que você clique periodicamente em "
+"'salvar trabalho' durante a tarefa. Simplesmente toque em Salvar Trabalho, "
+"depois faça login no seu computador para inserir informações adicionais que "
+"você deseja enviar pelo computador."
+
+#: ../../../include/manual/class.ShopEmails.php:363
+#: ../../../include/manual/class.ShopEmails.php:512
+msgid ""
+"Once you Submit your shop it still needs to be reviewed and approved. "
+"Approval takes anywhere from a few hours to a day or more, depending on the "
+"MSP and the specific situation. Once approved, your payment will be "
+"scheduled for issue from "
+msgstr ""
+"Após Enviar a sua tarefa, ela deve ser revisada e aprovada. Aprovação pode "
+"levar algumas horas a um dia ou mais, conforme a PSE e situação específica. "
+"Assim que for aprovado, o seu pagamento será programado para emissão a "
+"partir de"
+
+#: ../../../include/manual/class.ShopEmails.php:365
+#: ../../../include/manual/class.ShopEmails.php:514
+#: ../../../include/manual/class.ShopEmails.php:754
+#: ../../../include/manual/class.ShopEmails.php:818
+#: ../../../include/manual/class.ShopEmails.php:820
+#: ../../../include/pages/contact.php:1016
+#: ../../../include/pages/admin/shopper_views/contracts.php:129
+#: ../../../include/pages/agent/available.php:187
+#: ../../../include/pages/agent/contracts.php:191
+#: ../../../include/pages/agent/reschedule.php:129
+#: ../../../include/pages/agent/waitlist.php:123
+#: ../../../include/pages/mobile/contracts.php:183
+#: ../../../include/pages/mobile/shops/accept.php:150
+msgid "Mystery Shopping Provider"
+msgstr "Provedor de Serviço Espião "
+
+#: ../../../include/manual/class.ShopEmails.php:365
+#: ../../../include/manual/class.ShopEmails.php:514
+#: ../../../include/pages/agent/available.php:188
+#: ../../../include/pages/agent/available.php:370
+#: ../../../include/pages/agent/available.php:453
+#: ../../../include/pages/agent/available.php:562
+#: ../../../include/pages/agent/reschedule.php:130
+#: ../../../include/pages/agent/waitlist.php:124
+#: ../../../include/pages/agent/waitlist.php:223
+#: ../../../include/pages/agent/waitlist.php:325
+#: ../../../include/pages/mobile/shops/accept.php:151
+msgid ""
+"This is the company you are contracting with and the company that will pay "
+"you."
+msgstr "Esta é compania que está contratando você e que irá pagar você."
+
+#: ../../../include/manual/class.ShopEmails.php:367
+#: ../../../include/manual/class.ShopEmails.php:516
+#: ../../../include/manual/class.ShopEmails.php:626
+#: ../../../include/manual/class.ShopEmails.php:755
+#: ../../../include/pages/register.php:268
+#: ../../../include/pages/register.php:274
+#: ../../../include/pages/admin/client_view.php:138
+#: ../../../include/pages/admin/client_view2.php:71
+#: ../../../include/pages/admin/client_view3.php:77
+#: ../../../include/pages/admin/msps.php:90
+#: ../../../include/pages/admin/msps.php:96
+#: ../../../include/pages/admin/payroll.php:230
+#: ../../../include/pages/admin/shop_pending.php:866
+#: ../../../include/pages/admin/shopper_msp.php:148
+#: ../../../include/pages/admin/shopper_msp.php:154
+#: ../../../include/pages/admin/client_views/accounts.php:224
+#: ../../../include/pages/admin/client_views/edit.php:182
+#: ../../../include/pages/admin/client_views/edit.php:188
+#: ../../../include/pages/admin/client_views/locations.php:309
+#: ../../../include/pages/admin/msp_views/edit.php:140
+#: ../../../include/pages/admin/msp_views/edit.php:146
+#: ../../../include/pages/admin/shopper_views/edit.php:271
+#: ../../../include/pages/admin/shopper_views/edit.php:277
+#: ../../../include/pages/admin/shopper_views/edit.php:535
+#: ../../../include/pages/admin/shopper_views/edit.php:540
+#: ../../../include/pages/agent/profile.php:284
+#: ../../../include/pages/agent/profile.php:290
+#: ../../../include/pages/mobile/register.php:165
+#: ../../../include/pages/mobile/register.php:169
+#: ../../../include/pages/mobile/account/home.php:95
+#: ../../../include/pages/mobile/account/home.php:98
+msgid "Address"
+msgstr "Endereço"
+
+#: ../../../include/manual/class.ShopEmails.php:367
+#: ../../../include/manual/class.ShopEmails.php:516
+#: ../../../include/manual/class.ShopEmails.php:626
+#: ../../../include/pages/admin/card_available.php:85
+#: ../../../include/pages/admin/instance_view.php:130
+#: ../../../include/pages/admin/shop_available.php:258
+#: ../../../include/pages/admin/client_views/commentcard_locations.php:136
+#: ../../../include/pages/admin/shopper_views/shops.php:265
+#: ../../../include/pages/agent/commentcard.php:382
+#: ../../../include/pages/agent/shop_edit.php:504
+#: ../../../include/pages/client/commentcard.php:229
+#: ../../../include/pages/client/survey.php:222
+#: ../../../include/pages/client/mobile/commentcard.php:211
+#: ../../../include/pages/mobile/shops/edit.php:350
+msgid "Hours"
+msgstr "Horas"
+
+#: ../../../include/manual/class.ShopEmails.php:368
+#: ../../../include/manual/class.ShopEmails.php:517
+#: ../../../include/manual/class.ShopEmails.php:627
+#: ../../../include/manual/class.ShopEmails.php:755
+#: ../../../include/manual/class.ShopEmails.php:825
+msgid "Date"
+msgstr "Data"
+
+#: ../../../include/manual/class.ShopEmails.php:368
+#: ../../../include/manual/class.ShopEmails.php:517
+#: ../../../include/manual/class.ShopEmails.php:627
+#: ../../../include/pages/agent/assignments.php:72
+msgid "Time"
+msgstr "Hora"
+
+#: ../../../include/manual/class.ShopEmails.php:371
+#: ../../../include/manual/class.ShopEmails.php:520
+#: ../../../include/manual/class.ShopEmails.php:630
+#: ../../../include/manual/class.ShopEmails.php:762
+#: ../../../include/manual/class.ShopEmails.php:830
+msgid "Date Details"
+msgstr "Detalhes da Data"
+
+#: ../../../include/manual/class.ShopEmails.php:376
+#: ../../../include/manual/class.ShopEmails.php:525
+#: ../../../include/manual/class.ShopEmails.php:768
+#: ../../../include/manual/class.ShopEmails.php:836
+#: ../../../include/pages/agent/available.php:220
+#: ../../../include/pages/agent/shop_edit.php:403
+#: ../../../include/pages/agent/waitlist.php:141
+#: ../../../include/pages/mobile/shops/accept.php:170
+msgid ""
+"As compensation you will receive the following coupon to use on your next "
+"visit:"
+msgstr ""
+"Como recompensa você receberá o seguinte cupom para usar na próxima visita:"
+
+#: ../../../include/manual/class.ShopEmails.php:380
+#: ../../../include/manual/class.ShopEmails.php:454
+msgid ""
+"If, for any reason, you are unable to complete assignments. Please click "
+"'cancel shop' after logging into the website or through your smart phone. "
+"Not completing assigned shops will reduce your points and can keep you from "
+"being able to accept shops in the future."
+msgstr ""
+"Se, por qualquer motivo, você não puder completar tarefas, clique em "
+"'cancelar tarefa' após fazer login no site ou smart phone. Não completar "
+"tarefas atribuídas irão diminuir seus pontos e você pode ficar impedido de "
+"aceitar futuras tarefas. "
+
+#: ../../../include/manual/class.ShopEmails.php:382
+#: ../../../include/manual/class.ShopEmails.php:532
+#: ../../../include/manual/class.ShopEmails.php:633
+#: ../../../include/manual/class.ShopEmails.php:673
+msgid "If you have questions, please contact"
+msgstr "Se tiver qualquer dúvida, contate"
+
+#: ../../../include/manual/class.ShopEmails.php:385
+#: ../../../include/manual/class.ShopEmails.php:457
+#: ../../../include/manual/class.ShopEmails.php:535
+#: ../../../include/manual/class.ShopEmails.php:637
+#: ../../../include/manual/class.ShopEmails.php:677
+msgid ""
+"iSecretShop does not contract, schedule, or pay shoppers.  The Mystery "
+"Shopping provider is responsible for all aspects of assignments."
+msgstr ""
+"iSecretShop não contrata, agenda ou paga clientes. O Provedor de Serviço "
+"Espião é responsável por todos os aspectos das tarefas."
+
+#: ../../../include/manual/class.ShopEmails.php:391
+#: ../../../include/manual/class.ShopEmails.php:460
+msgid "iSecretShop Assignment"
+msgstr "Tarefa iSecretShop"
+
+#: ../../../include/manual/class.ShopEmails.php:450
+msgid "You have assignments!"
+msgstr "Você tem tarefas!"
+
+#: ../../../include/manual/class.ShopEmails.php:452
+msgid ""
+"You have been assigned multiple assignments on the iSecretShop platform by a "
+"participating Mystery Shopper Provider.  To review your assignments, "
+"download instructions, forms etc, please log in to"
+msgstr ""
+"Você recebeu várias tarefas na plataforma de iSecretShop por um participante "
+"Provedor de Serviço Espião. Para revisar suas tarefas, baixar instruções, "
+"formulários etc, faça login em"
+
+#: ../../../include/manual/class.ShopEmails.php:501
+msgid "This is a reminder you have an upcoming assignment"
+msgstr "Isto é um lembrete de que você tem uma próxima tarefa"
+
+#: ../../../include/manual/class.ShopEmails.php:541
+msgid "Reminder - iSecretShop Assignment"
+msgstr "Lembrete - Tarefa iSecretShop "
+
+#: ../../../include/manual/class.ShopEmails.php:616
+msgid "This is a reminder your assignment is overdue."
+msgstr "Isto é um lembrete que a sua tarefa está atrasada."
+
+#: ../../../include/manual/class.ShopEmails.php:622
+msgid ""
+"If you have completed your evaluation and simply have not entered it on the "
+"iSecretShop.com website, you may still have a chance to enter it if your "
+"instructions say you are within the acceptable time frame.  If you are, "
+"please log in and submit your report."
+msgstr ""
+"Se você completou a sua avaliação e simplesmente não inseriu no site "
+"iSecretShop.com, você ainda pode ter uma chance para inserir se nas suas "
+"instruções disser que você está dentro do prazo aceitável. Se você estiver, "
+"faça login e envie o seu relatório."
+
+#: ../../../include/manual/class.ShopEmails.php:623
+msgid ""
+"If you have NOT completed your shop or have not inputed it within the "
+"acceptable time frame, please contact the Mystery Shopping Provider "
+"immediately to see if the shop can be rescheduled"
+msgstr ""
+"Se você ainda NÃO concluiu a sua tarefa ou ainda não inseriu dentro do prazo "
+"permitido, entre em contato com o Provedor de Serviço Espião imediatamente "
+"para ver se a tarefa pode ser remarcada"
+
+#: ../../../include/manual/class.ShopEmails.php:641
+msgid "Overdue Assignment"
+msgstr "Tarefa Atrasada"
+
+#: ../../../include/manual/class.ShopEmails.php:667
+msgid "Your request to be assigned to the following shop has been denied by "
+msgstr "O seu pedido para receber a seguinte tarefa foi negado por"
+
+#: ../../../include/manual/class.ShopEmails.php:667
+msgid ""
+"There are several reasons this could happen including a a client request for "
+"a mix of shoppers at a particular location or a shopper was a better fit for "
+"the requirements of this assignment.  We encourage you to try a different "
+"location if one is available. You will also be kept on the list as a back up "
+"shopper for this location."
+msgstr ""
+"Há várias razões para que isto ocorra incluindo um pedido do cliente para "
+"uma mistura de clientes num local específico ou um cliente esteve mais "
+"adequado às exigências da tarefa. Recomendamos tentar um local diferente se "
+"houver um disponível. Você também ficará na lista de cliente reserva deste "
+"local."
+
+#: ../../../include/manual/class.ShopEmails.php:682
+msgid "iSecretShop Request Denied"
+msgstr "Pedido iSecretShop Negado"
+
+#: ../../../include/manual/class.ShopEmails.php:716
+msgid "Assignments are available in your area"
+msgstr "Tarefas estão disponíveis na sua área"
+
+#: ../../../include/manual/class.ShopEmails.php:718
+msgid "Do NOT reply to this email."
+msgstr "NÃO responda a este e-mail."
+
+#: ../../../include/manual/class.ShopEmails.php:718
+msgid ""
+"To accept an assignment - you can log in at <a href='http://www.iSecretShop."
+"com'>iSecretShop.com</a> click on available assignments and accept the shop "
+"online.  You can also accept the assignment through the iSecretShop iPhone "
+"or Android app OR via any browser on a mobile device."
+msgstr ""
+"Para aceitar uma tarefa - você pode fazer login em <a href='http://www."
+"iSecretShop.com'> iSecretShop.com</a> clique nas tarefas disponíveis e "
+"aceite a tarefa online. Você também pode aceitar a tarefa pelo app "
+"iSecretShop Android ou iPhone OU por qualquer navegador em um celular."
+
+#: ../../../include/manual/class.ShopEmails.php:718
+msgid "DO NOT contact iSecretShop"
+msgstr "NÃO contate iSecretShop"
+
+#: ../../../include/manual/class.ShopEmails.php:720
+#: ../../../include/manual/class.ShopEmails.php:855
+msgid "Available Assignments"
+msgstr "Tarefas Disponíveis"
+
+#: ../../../include/manual/class.ShopEmails.php:735
+#: ../../../include/manual/class.ShopEmails.php:798
+#: ../../../include/manual/class.Texts.php:81
+#: ../../../include/pages/admin/campaign_instances.php:116
+#: ../../../include/pages/admin/instance_view.php:103
+#: ../../../include/pages/admin/shop_available.php:275
+#: ../../../include/pages/admin/shop_gallery.php:351
+#: ../../../include/pages/admin/shop_instances.php:647
+#: ../../../include/pages/admin/shopper_views/shops.php:279
+#: ../../../include/pages/agent/available.php:169
+#: ../../../include/pages/agent/available.php:415
+#: ../../../include/pages/agent/available.php:524
+#: ../../../include/pages/agent/reschedule.php:115
+#: ../../../include/pages/agent/waitlist.php:111
+#: ../../../include/pages/agent/waitlist.php:307
+#: ../../../include/pages/mobile/shops/accept.php:130
+#: ../../../include/pages/mobile/shops/home.php:69
+#: ../../../include/pages/mobile/shops/home.php:146
+msgid "Between"
+msgstr "Entre"
+
+#: ../../../include/manual/class.ShopEmails.php:737
+#: ../../../include/manual/class.ShopEmails.php:800
+#: ../../../include/manual/class.Texts.php:83
+#: ../../../include/pages/admin/campaign_instances.php:118
+#: ../../../include/pages/admin/instance_view.php:105
+#: ../../../include/pages/admin/shop_available.php:277
+#: ../../../include/pages/admin/shop_gallery.php:353
+#: ../../../include/pages/admin/shop_instances.php:649
+#: ../../../include/pages/admin/shopper_views/shops.php:281
+#: ../../../include/pages/agent/available.php:172
+#: ../../../include/pages/agent/available.php:417
+#: ../../../include/pages/agent/available.php:526
+#: ../../../include/pages/agent/reschedule.php:117
+#: ../../../include/pages/agent/waitlist.php:113
+#: ../../../include/pages/agent/waitlist.php:309
+#: ../../../include/pages/mobile/shops/accept.php:132
+#: ../../../include/pages/mobile/shops/home.php:71
+#: ../../../include/pages/mobile/shops/home.php:148
+msgid "After"
+msgstr "Depois"
+
+#: ../../../include/manual/class.ShopEmails.php:742
+#: ../../../include/manual/class.ShopEmails.php:805
+#: ../../../include/manual/class.Texts.php:88
+#: ../../../include/pages/admin/campaign_instances.php:123
+#: ../../../include/pages/admin/instance_view.php:110
+#: ../../../include/pages/admin/shop_available.php:282
+#: ../../../include/pages/admin/shop_gallery.php:358
+#: ../../../include/pages/admin/shop_instances.php:654
+#: ../../../include/pages/admin/shopper_views/shops.php:286
+#: ../../../include/pages/agent/available.php:177
+#: ../../../include/pages/agent/available.php:422
+#: ../../../include/pages/agent/available.php:531
+#: ../../../include/pages/agent/reschedule.php:119
+#: ../../../include/pages/agent/waitlist.php:115
+#: ../../../include/pages/agent/waitlist.php:311
+#: ../../../include/pages/mobile/shops/accept.php:137
+#: ../../../include/pages/mobile/shops/home.php:73
+#: ../../../include/pages/mobile/shops/home.php:150
+msgid "Before"
+msgstr "Antes"
+
+#: ../../../include/manual/class.ShopEmails.php:744
+#: ../../../include/manual/class.ShopEmails.php:807
+#: ../../../include/manual/class.Texts.php:90
+#: ../../../include/pages/admin/campaign_instances.php:125
+#: ../../../include/pages/admin/instance_view.php:112
+#: ../../../include/pages/admin/shop_available.php:284
+#: ../../../include/pages/admin/shop_gallery.php:360
+#: ../../../include/pages/admin/shop_instances.php:656
+#: ../../../include/pages/admin/shop_pending.php:983
+#: ../../../include/pages/admin/shopper_views/shops.php:288
+#: ../../../include/pages/agent/available.php:424
+#: ../../../include/pages/agent/available.php:533
+#: ../../../include/pages/agent/reschedule.php:121
+#: ../../../include/pages/agent/shop_edit.php:479
+#: ../../../include/pages/agent/waitlist.php:117
+#: ../../../include/pages/agent/waitlist.php:313
+#: ../../../include/pages/mobile/shops/accept.php:143
+#: ../../../include/pages/mobile/shops/home.php:75
+#: ../../../include/pages/mobile/shops/home.php:152
+msgid "Any day"
+msgstr "Qualquer Dia"
+
+#: ../../../include/manual/class.ShopEmails.php:760
+#: ../../../include/manual/class.ShopEmails.php:828
+msgid "See Shop Instructions for Specific Times"
+msgstr "Veja Instruções da Tarefa para Horários Específicos"
+
+#: ../../../include/manual/class.ShopEmails.php:761
+#: ../../../include/manual/class.ShopEmails.php:829
+msgid "NOT BETWEEN"
+msgstr "NÃO ENTRE"
+
+#: ../../../include/manual/class.ShopEmails.php:785
+#: ../../../include/pages/agent/available.php:510
+msgid "Phone and Web Shops - Can be done from Anywhere"
+msgstr "Tarefas deTelefone e Web - Pode ser feitas de Qualquer Lugar"
+
+#: ../../../include/manual/class.ShopEmails.php:835
+#: ../../../include/pages/register.php:339
+#: ../../../include/pages/agent/reimbursements.php:46
+#: ../../../include/pages/agent/reimbursements.php:63
+msgid "None"
+msgstr "Nenhum"
+
+#: ../../../include/manual/class.ShopInstance.php:550
+msgid "Compensation applied to shopper"
+msgstr "Compensação aplicada ao cliente"
+
+#: ../../../include/manual/class.ShopInstance.php:568
+msgid "Bonus applied to shopper"
+msgstr "Bônus aplicado ao cliente"
+
+#: ../../../include/manual/class.ShopInstance.php:583
+msgid "Reimbursement applied to shopper"
+msgstr "Reembolso aplicado ao cliente"
+
+#: ../../../include/manual/class.ShopInstance.php:590
+msgid "Recorded for Client"
+msgstr "Registrado para Cliente"
+
+#: ../../../include/manual/class.ShopInstance.php:594
+msgid "Shop Approved with Payment held"
+msgstr "Tarefa Aprovada com Pagamento realizado"
+
+#: ../../../include/manual/class.ShopInstance.php:596
+msgid "Shop Approved"
+msgstr "Tarefa Aprovada"
+
+#: ../../../include/manual/class.Texts.php:95
+#: ../../../include/pages/agent/available.php:213
+#: ../../../include/pages/agent/available.php:376
+#: ../../../include/pages/agent/available.php:459
+#: ../../../include/pages/agent/available.php:568
+msgid "Bonus of"
+msgstr "Bônus de"
+
+#: ../../../include/modules/admin_login.php:4
+#: ../../../include/modules/agent_login.php:28
+#: ../../../include/modules/business_login.php:9
+#: ../../../include/pages/adminpassword.php:50
+#: ../../../include/pages/contact.php:1002
+#: ../../../include/pages/lostpassword.php:31
+#: ../../../include/pages/merchant.php:60
+#: ../../../include/pages/privacy.php:20
+#: ../../../include/pages/register.php:404
+#: ../../../include/pages/admin/client_views/edit.php:235
+#: ../../../include/pages/agent/reimbursements.php:39
+#: ../../../include/pages/agent/reimbursements.php:56
+msgid "Email"
+msgstr "E-mail"
+
+#: ../../../include/modules/admin_login.php:10
+#: ../../../include/modules/agent_login.php:29
+#: ../../../include/modules/business_login.php:10
+#: ../../../include/pages/adminpassword.php:18
+#: ../../../include/pages/register.php:410
+#: ../../../include/pages/agent/profile.php:247
+msgid "Password"
+msgstr "Senha"
+
+#: ../../../include/modules/admin_login.php:18
+#: ../../../include/modules/agent_login.php:32
+#: ../../../include/modules/business_login.php:14
+#: ../../../include/pages/agent.php:86
+msgid "Log In"
+msgstr "Login"
+
+#: ../../../include/modules/admin_login.php:19
+msgid "Remember Me"
+msgstr "Lembrar "
+
+#: ../../../include/modules/admin_login.php:19
+#: ../../../include/pages/adminpassword.php:53
+#: ../../../include/pages/lostpassword.php:34
+msgid "Reset Password"
+msgstr "Redefinir Senha"
+
+#: ../../../include/modules/agent_login.php:10
+msgid "Rank"
+msgstr "Posição"
+
+#: ../../../include/modules/agent_login.php:11
+msgid "Points"
+msgstr "Pontos"
+
+#: ../../../include/modules/agent_login.php:12
+msgid "Earnings Year to Date"
+msgstr "Ganhos do Ano até à Data"
+
+#: ../../../include/modules/agent_login.php:13
+msgid "Earnings Lifetime"
+msgstr "Ganhos ao Longo da Vida"
+
+#: ../../../include/modules/agent_login.php:14
+#: ../../../include/templates/admin.php:91
+#: ../../../include/templates/admin_no_side.php:84
+msgid "Log Out"
+msgstr "Sair"
+
+#: ../../../include/modules/agent_login.php:14
+#: ../../../include/templates/admin.php:91
+#: ../../../include/templates/admin.php:155
+#: ../../../include/templates/admin.php:169
+#: ../../../include/templates/admin_no_side.php:84
+msgid "Profile"
+msgstr "Perfil"
+
+#: ../../../include/modules/agent_login.php:23
+msgid "Agent Log In"
+msgstr "Login de Agente "
+
+#: ../../../include/modules/agent_login.php:30
+#: ../../../include/modules/business_login.php:12
+#: ../../../include/pages/adminpassword.php:47
+#: ../../../include/pages/lostpassword.php:28
+msgid "Forgot Password"
+msgstr "Esqueceu Senha"
+
+#: ../../../include/modules/agent_login.php:36
+#: ../../../include/pages/agent.php:95 ../../../include/pages/register.php:422
+#: ../../../include/templates/home.php:307
+msgid "Register"
+msgstr "Registre-se"
+
+#: ../../../include/modules/business_login.php:4
+msgid "Log In for Reports"
+msgstr "Faça Login para Relatórios"
+
+#: ../../../include/modules/client.file.upload.php:146
+#: ../../../include/modules/instance.file.upload.php:84
+#: ../../../include/modules/run.file.upload.php:85
+#: ../../../include/modules/shop.file.upload.php:83
+#: ../../../include/pages/admin/client_views/campaigns.php:142
+#: ../../../include/pages/admin/client_views/commentcards.php:179
+#: ../../../include/pages/admin/client_views/demographics.php:112
+#: ../../../include/pages/admin/client_views/location_demographics.php:118
+#: ../../../include/pages/admin/client_views/products.php:172
+#: ../../../include/pages/admin/client_views/shop_demographics.php:119
+#: ../../../include/pages/admin/client_views/shops.php:206
+#: ../../../include/pages/admin/client_views/surveys.php:186
+#: ../../../include/pages/admin/msp_views/demographics.php:111
+#: ../../../include/pages/admin/shopper_views/demographics.php:70
+#: ../../../include/pages/admin/shopper_views/demographics.php:108
+#: ../../../include/pages/agent/commentcard.php:374
+#: ../../../include/pages/agent/demographics.php:76
+#: ../../../include/pages/agent/demographics.php:114
+#: ../../../include/pages/client/commentcard.php:221
+#: ../../../include/pages/client/survey.php:214
+#: ../../../include/pages/client/mobile/commentcard.php:203
+msgid "Description"
+msgstr "Descrição"
+
+#: ../../../include/modules/clipboard.php:3
+#: ../../../include/pages/agent/assignments.php:57
+#: ../../../include/pages/agent/assignments.php:64
+msgid "Your Assignments"
+msgstr "Suas Tarefas"
+
+#: ../../../include/modules/clipboard.php:4
+msgid "Available Shops"
+msgstr "Serviços Disponíveis"
+
+#: ../../../include/modules/clipboard.php:5
+msgid "Wait Lists"
+msgstr "Listas de Espera"
+
+#: ../../../include/modules/clipboard.php:6
+#: ../../../include/templates/admin.php:209
+#: ../../../include/templates/admin.php:276
+#: ../../../include/templates/msp.php:112
+msgid "Comment Cards"
+msgstr "Cartões de Comentário"
+
+#: ../../../include/modules/footer.php:3
+#: ../../../include/templates/admin.php:335
+#: ../../../include/templates/admin_no_side.php:116
+msgid "All rights reserved"
+msgstr "Todos os direitos reservados"
+
+#: ../../../include/modules/footer.php:3
+msgid "Site by"
+msgstr "Site por"
+
+#: ../../../include/modules/leaderboard.php:1
+#: ../../../include/modules/run.execute.php:183
+#: ../../../include/modules/run.execute.php:186
+msgid "Leaderboards"
+msgstr "Classificação"
+
+#: ../../../include/modules/run.execute.php:113
+msgid "You must choose a Location Query OR a Location from the list"
+msgstr "Você deve escolher uma Consulta de Local OU um local da lista"
+
+#: ../../../include/modules/run.execute.php:116
+msgid "You must choose a Shop Form"
+msgstr "Você deve escolher um Formulário de Tarefa"
+
+#: ../../../include/modules/run.execute.php:154
+msgid "Instances created for Run"
+msgstr "Instâncias criadas para RUN"
+
+#: ../../../include/modules/run.execute.php:156
+msgid "Instance(s) have been saved"
+msgstr "Instância(s) foram salvas"
+
+#: ../../../include/modules/run.execute.php:164
+msgid "Unable to Exectue Run"
+msgstr "Não é possível executar RUN"
+
+#: ../../../include/modules/run.execute.php:188
+#: ../../../include/modules/run.execute.php:210
+msgid "Not Applicable"
+msgstr "Não Aplicável"
+
+#: ../../../include/modules/run.execute.php:195
+msgid "OR Select Locations"
+msgstr "OU Selecione Locais"
+
+#: ../../../include/modules/run.execute.php:215
+msgid "Publish Date"
+msgstr "Data de Publicação"
+
+#: ../../../include/modules/run.execute.php:216
+msgid "Will Publish Immediately if Left Blank"
+msgstr "Será Publicado Imediatamente se Ficar em Branco"
+
+#: ../../../include/modules/run.execute.php:223
+msgid "Custom Instructions"
+msgstr "Instruções Personalizadas"
+
+#: ../../../include/modules/run.execute.php:227
+msgid "Visits to Create Per Location"
+msgstr "Visitas para Criar Por Local"
+
+#: ../../../include/modules/run.execute.php:231
+msgid "Execute"
+msgstr "Executar"
+
+#: ../../../include/modules/run.file.upload.php:30
+msgid "Unable to create file"
+msgstr "Não é possível criar arquivo."
+
+#: ../../../include/modules/run.file.upload.php:33
+#: ../../../include/modules/run.file.upload.php:62
+#: ../../../include/modules/shop.file.upload.php:28
+#: ../../../include/modules/shop.file.upload.php:31
+#: ../../../include/modules/shop.file.upload.php:60
+msgid "Unable to save file"
+msgstr "Não é possível salvar arquivo."
+
+#: ../../../include/modules/run.file.upload.php:45
+#: ../../../include/modules/shop.file.upload.php:43
+msgid "Unable to create thumbnail"
+msgstr "Não é possível criar miniatura"
+
+#: ../../../include/modules/run.file.upload.php:54
+#: ../../../include/modules/shop.file.upload.php:52
+msgid "File has been uploaded"
+msgstr "Arquivo foi carregado"
+
+#: ../../../include/modules/run.file.upload.php:77
+msgid "Upload File to include with a Run"
+msgstr "Carregar Arquivo para incluir com um Run"
+
+#: ../../../include/modules/run.file.upload.php:81
+#: ../../../include/modules/shop.file.upload.php:79
+msgid "Select File"
+msgstr "Selecionar Arquivo"
+
+#: ../../../include/modules/shop.file.upload.php:75
+msgid "Upload File to include with a Shop"
+msgstr "Carregar Arquivo para incluir com uma Tarefa "
+
+#: ../../../include/modules/topnav.php:15
+#: ../../../include/templates/admin.php:91
+#: ../../../include/templates/admin_no_side.php:84
+msgid "Home"
+msgstr "Início"
+
+#: ../../../include/modules/topnav.php:15 ../../../include/pages/about.php:8
+#: ../../../include/templates/admin.php:240
+#: ../../../include/templates/home.php:301
+msgid "Shoppers"
+msgstr "Clientes"
+
+#: ../../../include/modules/topnav.php:16
+#: ../../../include/templates/agent.php:159
+msgid "Assignments"
+msgstr "Tarefas "
+
+#: ../../../include/modules/topnav.php:18
+msgid "About Us"
+msgstr "Quem Somos"
+
+#: ../../../include/modules/topnav.php:19
+msgid "MSPs"
+msgstr "PSEs"
+
+#: ../../../include/modules/topnav.php:20
+msgid "Business Clients"
+msgstr "Clientes Empresariais"
+
+#: ../../../include/modules/topnav.php:22
+#: ../../../include/pages/privacy.php:15
+msgid "Contact Us"
+msgstr "Entre em Contato Conosco"
+
+#: ../../../include/modules/topnav.php:24
+msgid "Menu"
+msgstr "Menu"
+
+#: ../../../include/pages/about.php:2
+msgid "About"
+msgstr "Sobre"
+
+#: ../../../include/pages/about.php:12 ../../../include/templates/home.php:292
+#: ../../../include/templates/msp.php:59 ../../../include/templates/msp.php:73
+msgid "Mystery Shopping Providers"
+msgstr "Provedores de Serviço Espião"
+
+#: ../../../include/pages/about.php:16
+msgid "Merchants"
+msgstr "Comerciantes "
+
+#: ../../../include/pages/admin.php:9 ../../../include/pages/agent.php:74
+msgid "Unable to log in"
+msgstr "Não é possível fazer login"
+
+#: ../../../include/pages/admin.php:10
+msgid "Please try again"
+msgstr "Tente novamente"
+
+#: ../../../include/pages/adminpassword.php:15
+msgid "Your iSecretShop Admin Password"
+msgstr "Sua Senha Adm iSecretShop "
+
+#: ../../../include/pages/adminpassword.php:16
+msgid ""
+"A request has been made to reset the password on your account. Your "
+"iSecretShop username and new password are:"
+msgstr ""
+"Um pedido foi feito para redefinir a senha da sua conta. O seu nome de "
+"usuário e senha de iSecretShop são: "
+
+#: ../../../include/pages/adminpassword.php:17
+msgid "Username"
+msgstr "Nome de usuário"
+
+#: ../../../include/pages/adminpassword.php:19
+msgid "You may log in to the iSecretShop Admin Area"
+msgstr "Você pode fazer login na Área Adm de iSecretShop "
+
+#: ../../../include/pages/adminpassword.php:19
+msgid "Please make sure to change it by editing your profile."
+msgstr "Certifique-se de mudar editando seu perfil."
+
+#: ../../../include/pages/adminpassword.php:22
+#: ../../../include/pages/lostpassword.php:13
+msgid "Your new password has been sent to"
+msgstr "A sua senha nova foi enviada para"
+
+#: ../../../include/pages/adminpassword.php:30
+#: ../../../include/pages/adminpassword.php:36
+#: ../../../include/pages/lostpassword.php:19
+msgid "Unable to reset your password"
+msgstr "Não é possível redefinir sua senha"
+
+#: ../../../include/pages/adminpassword.php:31
+msgid "An unknown error has occurred"
+msgstr "Ocorreu um erro desconhecido"
+
+#: ../../../include/pages/adminpassword.php:37
+#: ../../../include/pages/lostpassword.php:20
+msgid "Your email address was not found"
+msgstr "Seu endereço de e-mail não foi encontrado"
+
+#: ../../../include/pages/adminpassword.php:48
+#: ../../../include/pages/lostpassword.php:29
+msgid "Enter your email address below, and a new password will be sent to you"
+msgstr ""
+"Insira seu endereço de e-mail abaixo e uma senha nova será enviada para você"
+
+#: ../../../include/pages/agent.php:6
+msgid "Please enter your username and password"
+msgstr "Insira seu nome de usuário e senha"
+
+#: ../../../include/pages/agent.php:67
+msgid "Your username and password do not match our records"
+msgstr "Seu nome de usuário e senha não correspondem ao nosso registo"
+
+#: ../../../include/pages/agent.php:82
+msgid "iSecretShop Registered Shoppers"
+msgstr "Clientes Registrados iSecretShop "
+
+#: ../../../include/pages/agent.php:83
+msgid "You must log in to continue!"
+msgstr "Você deve fazer login para continuar!"
+
+#: ../../../include/pages/agent.php:88
+msgid ""
+"Welcome to iSecretShop - log in to discover, accept and complete assignments."
+msgstr ""
+"Bem-vindo à iSecretShop - faça login para descobrir, aceitar e completar "
+"tarefas."
+
+#: ../../../include/pages/agent.php:90
+msgid ""
+"Please Remember that iSS is a software platform and a shopper job board, not "
+"an MSP. If you have questions about any assignment, please contact the "
+"responsible MSP directly."
+msgstr ""
+"Lembre-se que iSS é uma plataforma de software e um canal de trabalho do "
+"cliente, não um MPSE Se tiver dúvidas sobre qualquer tarefa, por favor "
+"contate diretamente o PSE responsável. "
+
+#: ../../../include/pages/agent.php:92
+msgid "Thank you for using the iSS system!"
+msgstr "Obrigado por usar o sistema iSS!"
+
+#: ../../../include/pages/agent.php:94
+msgid "Please use the log-in form on the right to log in."
+msgstr "Use o formulário de login à direita para entrar."
+
+#: ../../../include/pages/agent.php:95
+msgid "to become an iSecretShop Agent."
+msgstr "para ser um Agente iSecretShop."
+
+#: ../../../include/pages/contact.php:280
+#: ../../../include/pages/merchant.php:19
+msgid "Message has been sent"
+msgstr "Mensagem enviada"
+
+#: ../../../include/pages/contact.php:938
+#: ../../../include/pages/contact.php:947
+#: ../../../include/pages/contact.php:961
+#: ../../../include/pages/contact.php:972
+#: ../../../include/pages/contact.php:983
+#: ../../../include/pages/contact.php:990
+#: ../../../include/pages/admin/card_pending.php:228
+#: ../../../include/pages/admin/section_edit.php:353
+#: ../../../include/pages/admin/shop_pending.php:496
+#: ../../../include/pages/admin/client_views/shop_questions.php:462
+#: ../../../include/pages/admin/client_views/shop_questions.php:471
+#: ../../../include/pages/agent/commentcard.php:445
+#: ../../../include/pages/agent/commentcard.php:619
+#: ../../../include/pages/agent/shop_edit.php:684
+#: ../../../include/pages/client/commentcard.php:307
+#: ../../../include/pages/client/survey.php:291
+#: ../../../include/pages/client/mobile/commentcard.php:277
+#: ../../../include/pages/mobile/shops/edit.php:517
+msgid "Choose"
+msgstr "Escolher"
+
+#: ../../../include/pages/contact.php:984
+msgid "Existing Client"
+msgstr "Cliente Existente"
+
+#: ../../../include/pages/contact.php:985
+msgid "Potential Client"
+msgstr "Cliente Potencial"
+
+#: ../../../include/pages/contact.php:998
+#: ../../../include/pages/merchant.php:58
+msgid "Contact Name"
+msgstr "Nome do Contato"
+
+#: ../../../include/pages/contact.php:1009
+#: ../../../include/pages/admin/question_edit.php:352
+#: ../../../include/pages/admin/client_views/question_lang.php:199
+#: ../../../include/pages/admin/client_views/shop_questions.php:350
+#: ../../../include/pages/admin/client_views/shop_questions.php:459
+msgid "Shopper"
+msgstr "Cliente"
+
+#: ../../../include/pages/contact.php:1013
+#: ../../../include/pages/contact.php:1016
+#: ../../../include/pages/contact.php:1022
+#: ../../../include/pages/contact.php:1025
+#: ../../../include/pages/admin/section_edit.php:451
+#: ../../../include/pages/agent/shop_edit.php:790
+#: ../../../include/pages/mobile/shops/edit.php:620
+msgid "REQUIRED"
+msgstr "NECESSÁRIO"
+
+#: ../../../include/pages/contact.php:1019
+msgid "Client Company Name"
+msgstr "Nome da Empresa Cliente"
+
+#: ../../../include/pages/contact.php:1028
+#: ../../../include/pages/agent/reimbursements.php:42
+#: ../../../include/pages/agent/reimbursements.php:58
+msgid "Amount"
+msgstr "Montante"
+
+#: ../../../include/pages/contact.php:1031
+msgid "Browser Type"
+msgstr "Tipo de Navegador"
+
+#: ../../../include/pages/contact.php:1034
+msgid "Phone Type (ie iPhone 4s)"
+msgstr "Tipo de Celular (exe. iPhone 4s)"
+
+#: ../../../include/pages/contact.php:1037
+msgid "Version of App"
+msgstr "Versão do App"
+
+#: ../../../include/pages/contact.php:1040
+msgid "Description of the Problem"
+msgstr "Descrição do Problema"
+
+#: ../../../include/pages/contact.php:1043
+#: ../../../include/pages/merchant.php:65
+msgid "Message"
+msgstr "Mensagem"
+
+#: ../../../include/pages/contact.php:1052
+#: ../../../include/pages/merchant.php:68
+msgid "Submit"
+msgstr "Enviar"
+
+#: ../../../include/pages/contact.php:1059
+msgid ""
+"Additionally, we have a Merchant-specific toll free phone number that "
+"businesses may use at any time.  For documentation purposes, all Agent "
+"correspondence with iSecretShop is done exclusively through email."
+msgstr ""
+"Também temos um número de chamada gratuito específico para Comerciantes que "
+"empresas podem usar a qualquer hora. Para fins de documentação, toda "
+"correspondência entre iSecretShop e clientes é feita exclusivamente por e-"
+"mail."
+
+#: ../../../include/pages/contact.php:1062
+msgid "Our MSP and Merchant-Only toll free phone number is 1-888-206-2337."
+msgstr ""
+"O número de chamada gratuito somente para Comerciantes e PSE é "
+"1-888-206-2337."
+
+#: ../../../include/pages/contact.php:1064
+msgid "Please address any written communications to:"
+msgstr "Envie qualquer comunicado escrito para:"
+
+#: ../../../include/pages/home.php:3 ../../../include/templates/agent.php:16
+#: ../../../include/templates/home.php:11
+#: ../../../include/templates/interior.php:14
+#: ../../../include/templates/main.php:10 ../../../include/templates/msp.php:8
+msgid "iSecretShop Shopper Portal and Software Platform"
+msgstr "Plataforma de Software e Portal do Cliente iSecretShop "
+
+#: ../../../include/pages/home.php:3 ../../../include/templates/agent.php:16
+#: ../../../include/templates/home.php:11
+#: ../../../include/templates/interior.php:14
+#: ../../../include/templates/main.php:10 ../../../include/templates/msp.php:8
+msgid "Mystery Shopping"
+msgstr "Serviço Espião"
+
+#: ../../../include/pages/home.php:3 ../../../include/templates/agent.php:16
+#: ../../../include/templates/home.php:11
+#: ../../../include/templates/interior.php:14
+#: ../../../include/templates/main.php:10 ../../../include/templates/msp.php:8
+msgid "Secret Shopping"
+msgstr "Serviço Secreto"
+
+#: ../../../include/pages/merchant.php:9
+#: ../../../include/pages/register.php:36
+#: ../../../include/pages/register.php:38
+#: ../../../include/pages/agent/profile.php:28
+#: ../../../include/pages/agent/profile.php:30
+#: ../../../include/pages/mobile/register.php:8
+#: ../../../include/pages/mobile/register.php:10
+#: ../../../include/pages/mobile/account/home.php:17
+#: ../../../include/pages/mobile/account/home.php:19
+msgid "Please enter your name"
+msgstr "Insira seu nome"
+
+#: ../../../include/pages/merchant.php:11
+msgid "Please enter your company name"
+msgstr "Insira o nome da sua empresa"
+
+#: ../../../include/pages/merchant.php:14
+#: ../../../include/pages/register.php:52
+#: ../../../include/pages/admin/client_views/accounts.php:65
+#: ../../../include/pages/mobile/register.php:28
+msgid "Please enter an email address"
+msgstr "Insira um endereço de e-mail"
+
+#: ../../../include/pages/merchant.php:16
+#: ../../../include/pages/admin/client_views/accounts.php:67
+#: ../../../include/pages/admin/client_views/locations.php:77
+#: ../../../include/pages/admin/shopper_views/edit.php:45
+#: ../../../include/pages/agent/profile.php:43
+#: ../../../include/pages/mobile/register.php:30
+msgid "Please enter a valid email address"
+msgstr "Insira um endereço de e-mail válido"
+
+#: ../../../include/pages/merchant.php:54
+msgid ""
+"For pricing information or to request more information please contact "
+"iSecretShop for a referral to one of our participating MSPs"
+msgstr ""
+"Para informação de preço ou mais informações, entre em contato com "
+"iSecretShop para indicação de um dos nossos PSEs participantes"
+
+#: ../../../include/pages/merchant.php:59
+#: ../../../include/pages/admin/client_views/edit.php:146
+msgid "Company"
+msgstr "Compania"
+
+#: ../../../include/pages/merchant.php:61
+#: ../../../include/pages/register.php:286
+#: ../../../include/pages/admin/msps.php:108
+#: ../../../include/pages/admin/shop_gallery.php:232
+#: ../../../include/pages/admin/shop_instances.php:419
+#: ../../../include/pages/admin/shopper_msp.php:166
+#: ../../../include/pages/admin/client_views/accounts.php:236
+#: ../../../include/pages/admin/client_views/edit.php:200
+#: ../../../include/pages/admin/client_views/locations.php:317
+#: ../../../include/pages/admin/msp_views/edit.php:158
+#: ../../../include/pages/admin/shopper_views/edit.php:289
+#: ../../../include/pages/admin/shopper_views/edit.php:550
+#: ../../../include/pages/agent/profile.php:302
+#: ../../../include/pages/mobile/register.php:175
+#: ../../../include/pages/mobile/register.php:181
+#: ../../../include/pages/mobile/account/home.php:104
+msgid "State/Province"
+msgstr "Estado/Província"
+
+#: ../../../include/pages/merchant.php:62
+#: ../../../include/pages/register.php:307
+#: ../../../include/pages/admin/shopper_msp.php:182
+#: ../../../include/pages/admin/client_views/edit.php:221
+#: ../../../include/pages/admin/client_views/locations.php:336
+#: ../../../include/pages/admin/shopper_views/edit.php:311
+#: ../../../include/pages/admin/shopper_views/edit.php:560
+#: ../../../include/pages/agent/profile.php:323
+#: ../../../include/pages/mobile/register.php:191
+#: ../../../include/pages/mobile/account/home.php:117
+msgid "Country"
+msgstr "País"
+
+#: ../../../include/pages/merchant.php:64
+#: ../../../include/pages/register.php:383
+msgid "Where did you hear about iSecretShop?"
+msgstr "Onde você ouviu sobre iSecretShop?"
+
+#: ../../../include/pages/privacy.php:2 ../../../include/pages/register.php:28
+msgid "Privacy Policy"
+msgstr "Política de Privacidade"
+
+#: ../../../include/pages/privacy.php:3
+msgid ""
+"Thank you for registering with iSecretShop. This privacy policy tells you "
+"how we use personal information collected at this site. Please read this "
+"privacy policy before using the site or submitting any personal information. "
+"By using this application, you are accepting the practices described in this "
+"privacy policy. You are encouraged to review the privacy policy whenever you "
+"choose to make sure that you understand how any personal information you "
+"provide will be used."
+msgstr ""
+"Obrigado por se registrar em iSecretShop. Esta política de privacidade "
+"explica como usamos as informações pessoais coletadas neste site. Leia esta "
+"política de privacidade antes de usar o site ou enviar qualquer informação "
+"pessoal. Ao usar este app, você está aceitando as práticas descritas nesta "
+"política de privacidade. Recomendamos que você revise a política de "
+"privacidade sempre que quiser ter certeza que entendeu como qualquer "
+"informação pessoal será usada."
+
+#: ../../../include/pages/privacy.php:4
+msgid "Collection of Information"
+msgstr "Coleta de Informação"
+
+#: ../../../include/pages/privacy.php:5
+msgid ""
+"We collect personally identifiable information, like names, postal "
+"addresses, email addresses, etc., when voluntarily submitted by our "
+"shoppers. The information you provide is used only in relation to your role "
+"as a secret shopper. "
+msgstr ""
+"Coletamos informações pessoais identificáveis, como nomes, endereços "
+"postais, endereços de e-mail, etc., quando enviados voluntariamente por "
+"nossos clientes. A informação que você fornece é usada somente em relação ao "
+"seu papel como um cliente secreto."
+
+#: ../../../include/pages/privacy.php:7
+msgid "Distribution of Information"
+msgstr "Distribuição de Informações"
+
+#: ../../../include/pages/privacy.php:8
+msgid ""
+"We may share information with governmental agencies or other companies "
+"assisting us in fraud prevention or investigation. We may do so when: (1) "
+"permitted or required by law; or, (2) trying to protect against or prevent "
+"actual or potential fraud or unauthorized transactions; or, (3) "
+"investigating fraud which has already taken place. The information is not "
+"provided to these companies for marketing purposes."
+msgstr ""
+"Podemos compartilhar informações com agências governamentais ou outras "
+"companias que colaboram na investigação e prevenção à fraude. Podemos fazer "
+"isto quando: (1) exigido ou permitido por lei; ou, (2) na tentativa de "
+"proteger contra ou prevenir atual ou potencial fraude ou transações não "
+"autorizadas; ou, (3) investigando fraudes já ocorridas. A informação não é "
+"fornecida a estas companias para fins de marketing."
+
+#: ../../../include/pages/privacy.php:10
+msgid "Demographic Information"
+msgstr "Informação Demográfica"
+
+#: ../../../include/pages/privacy.php:11
+msgid ""
+"Data that does not contain any personally identifiable information is "
+"collected, compiled and shared with our contracted clients.  Examples "
+"include zip code and gender information."
+msgstr ""
+"Dados que não contém nenhuma informação pessoal identificável são coletados, "
+"compilados e compartilhados com os nossos clientes contratados. Exemplos "
+"incluem informações de gênero e código postal."
+
+#: ../../../include/pages/privacy.php:12
+msgid "Commitment to Data Security"
+msgstr "Compromisso com a Segurança de Dados"
+
+#: ../../../include/pages/privacy.php:13
+msgid ""
+"Your personally identifiable information is kept secure. Only authorized "
+"employees, agents and contractors (who have agreed to keep information "
+"secure and confidential) have access to this information. All emails and "
+"newsletters from our company allow you to opt out of further mailings."
+msgstr ""
+"A sua informação pessoal identificável é mantida segura. Somente "
+"funcionários, agentes e contratantes autorizados (que concordaram em manter "
+"a informação segura e confidencial) terão acesso a esta informação. Todos os "
+"e-mails e boletins da nossa compania permitem a você cancelar futuras "
+"correspondências."
+
+#: ../../../include/pages/privacy.php:16
+msgid ""
+"If you have any questions, concerns, or comments about our privacy policy "
+"you may contact us using the information below:"
+msgstr ""
+"Se você tiver qualquer dúvida, preocupação ou comentário sobre a nossa "
+"política de privacidade, entre em contato conosco usando a informação abaixo:"
+
+#: ../../../include/pages/privacy.php:21
+msgid ""
+"We reserve the right to make changes to this policy. Any changes to this "
+"policy will be posted."
+msgstr ""
+"Nos reservamos o direito de fazer alterações nesta política. Qualquer "
+"alteração nesta política será postada."
+
+#: ../../../include/pages/register.php:13
+msgid "To do work for"
+msgstr "Fazer trabalho para"
+
+#: ../../../include/pages/register.php:13
+#: ../../../include/pages/register.php:17
+msgid "Register to Become an iSecretShop Agent!"
+msgstr "Registre-se para Ser um Agente iSecretShop!"
+
+#: ../../../include/pages/register.php:20
+msgid ""
+"The first step in becoming an active iSS Agent is Registration - you may "
+"register here, through the the browser of your mobile device OR through the "
+"iSecretShop iPhone app. You do not need an iPhone or a smartphone to use our "
+"system - but if you have one… it's awesome!"
+msgstr ""
+"O primeiro passo para ser um Agente iSS ativo é registrar-se - você pode se "
+"registrar aqui, pelo navegador do seu celular OU pelo app iSecretShop "
+"iPhone. Você não precisa de um iPhone ou smartphone para usar o nosso "
+"sistema - mas se tiver... será ótimo! "
+
+#: ../../../include/pages/register.php:22
+msgid ""
+"The registration process takes just a few moments and all the materials you "
+"need to get started will be right at your fingertips.  The more detailed "
+"information you provide, the better able we will be to match you with the "
+"best shops.  Register to become an iSS Agent today - and get paid to shop "
+"now!"
+msgstr ""
+"O processo de inscrição leva só um instante, e todo o material que você "
+"precisa para iniciar estará ao seu alcance. Quanto mais detalhada for a "
+"informação fornecida, mais fácil será encontrar as melhores tarefas para "
+"você. Registre-se hoje para ser um Agente iSS - e seja pago para tarefas "
+"agora! "
+
+#: ../../../include/pages/register.php:24
+msgid ""
+"You can download the app and register from your phone, or register here.  "
+"Either way, the website will always have a wealth of information for you."
+msgstr ""
+"Você pode baixar o app e se registrar pelo seu celular, ou se registrar "
+"aqui. De qualquer forma, o site sempre terá uma riqueza de informações para "
+"você."
+
+#: ../../../include/pages/register.php:28
+msgid "Click to view our"
+msgstr "Clique para ver as nossas"
+
+#: ../../../include/pages/register.php:40
+#: ../../../include/pages/agent/profile.php:32
+#: ../../../include/pages/mobile/register.php:12
+#: ../../../include/pages/mobile/account/home.php:21
+msgid "Please enter your address"
+msgstr "Insira seu endereço "
+
+#: ../../../include/pages/register.php:42
+#: ../../../include/pages/agent/profile.php:34
+#: ../../../include/pages/mobile/register.php:14
+#: ../../../include/pages/mobile/account/home.php:23
+msgid "Please enter your city"
+msgstr "Insira a sua cidade"
+
+#: ../../../include/pages/register.php:44
+#: ../../../include/pages/agent/profile.php:36
+#: ../../../include/pages/mobile/register.php:17
+#: ../../../include/pages/mobile/account/home.php:25
+msgid "Please enter your zip/postal code"
+msgstr "Insira seu CEP/código postal"
+
+#: ../../../include/pages/register.php:46
+#: ../../../include/pages/mobile/register.php:19
+msgid "Please enter your country"
+msgstr "Insira o seu país"
+
+#: ../../../include/pages/register.php:48
+#: ../../../include/pages/agent/profile.php:38
+#: ../../../include/pages/mobile/register.php:21
+#: ../../../include/pages/mobile/account/home.php:27
+msgid "Please enter your phone number"
+msgstr "Insira o seu número de telefone"
+
+#: ../../../include/pages/register.php:54
+msgid "PLease enter a valid email address"
+msgstr "Insira um endereço de e-mail válido"
+
+#: ../../../include/pages/register.php:58
+msgid "Account Exists"
+msgstr "Conta Existente"
+
+#: ../../../include/pages/register.php:60
+msgid ""
+"That already exists but we inactivated.  It has now been reactivated please "
+"log in with your email and old password to update it."
+msgstr ""
+"Isso já existe, mas nós desativamos. Isso foi reativado agora, faça login no "
+"seu e-mail e senha antiga para atualizar."
+
+#: ../../../include/pages/register.php:69
+msgid ""
+"Your email already exists within the iSecretShop system. Please log in and "
+"update your profile."
+msgstr ""
+"Seu e-mail já existe no sistema iSecretShop. Faça login e atualize seu "
+"perfil."
+
+#: ../../../include/pages/register.php:73
+msgid "Please enter your password"
+msgstr "Insira a sua senha"
+
+#: ../../../include/pages/register.php:75
+msgid "Your password must be between 6 and 25 characters"
+msgstr "A sua senha deve ter de 6 a 25 caracteres"
+
+#: ../../../include/pages/register.php:77
+msgid "Your password did not match the confirmation"
+msgstr "A sua senha não corresponde à confirmação"
+
+#: ../../../include/pages/register.php:81
+msgid "Spam is not allowed on this site"
+msgstr "Spam não é permitido neste site"
+
+#: ../../../include/pages/register.php:94
+msgid "Thank you for registering!"
+msgstr "Obrigado por se registrar!"
+
+#: ../../../include/pages/register.php:218
+msgid "Unable to register"
+msgstr "Não é possível registrar"
+
+#: ../../../include/pages/register.php:253
+#: ../../../include/pages/agent/profile.php:262
+#: ../../../include/pages/mobile/register.php:156
+msgid "Shopper Information"
+msgstr "Informação do Cliente"
+
+#: ../../../include/pages/register.php:256
+#: ../../../include/pages/admin/shopper_msp.php:130
+#: ../../../include/pages/admin/client_views/accounts.php:212
+#: ../../../include/pages/admin/shopper_views/edit.php:253
+#: ../../../include/pages/admin/shopper_views/edit.php:522
+#: ../../../include/pages/agent/profile.php:266
+#: ../../../include/pages/mobile/register.php:157
+#: ../../../include/pages/mobile/account/home.php:89
+msgid "First Name"
+msgstr "Primeiro Nome"
+
+#: ../../../include/pages/register.php:262
+#: ../../../include/pages/admin/shopper_msp.php:142
+#: ../../../include/pages/admin/client_views/accounts.php:218
+#: ../../../include/pages/admin/shopper_views/edit.php:265
+#: ../../../include/pages/agent/profile.php:278
+#: ../../../include/pages/mobile/register.php:161
+#: ../../../include/pages/mobile/account/home.php:92
+msgid "Last Name"
+msgstr "Sobrenome"
+
+#: ../../../include/pages/register.php:280
+#: ../../../include/pages/admin/msps.php:102
+#: ../../../include/pages/admin/shopper_msp.php:160
+#: ../../../include/pages/admin/client_views/accounts.php:230
+#: ../../../include/pages/admin/client_views/edit.php:194
+#: ../../../include/pages/admin/client_views/locations.php:313
+#: ../../../include/pages/admin/msp_views/edit.php:152
+#: ../../../include/pages/admin/shopper_views/edit.php:283
+#: ../../../include/pages/admin/shopper_views/edit.php:545
+#: ../../../include/pages/agent/profile.php:296
+#: ../../../include/pages/mobile/register.php:172
+#: ../../../include/pages/mobile/account/home.php:101
+msgid "City"
+msgstr "Cidade"
+
+#: ../../../include/pages/register.php:286
+#: ../../../include/pages/admin/shopper_views/edit.php:289
+msgid "Within North America"
+msgstr "Na América do Norte"
+
+#: ../../../include/pages/register.php:295
+#: ../../../include/pages/admin/shopper_views/edit.php:299
+msgid "State Other"
+msgstr "Outro Estado"
+
+#: ../../../include/pages/register.php:295
+#: ../../../include/pages/admin/shopper_views/edit.php:299
+msgid "Outside North America"
+msgstr "Fora da América do Norte"
+
+#: ../../../include/pages/register.php:301
+#: ../../../include/pages/admin/msps.php:117
+#: ../../../include/pages/admin/shopper_msp.php:176
+#: ../../../include/pages/admin/client_views/accounts.php:245
+#: ../../../include/pages/admin/client_views/edit.php:215
+#: ../../../include/pages/admin/client_views/locations.php:332
+#: ../../../include/pages/admin/msp_views/edit.php:167
+#: ../../../include/pages/admin/shopper_views/edit.php:305
+#: ../../../include/pages/admin/shopper_views/edit.php:555
+#: ../../../include/pages/agent/profile.php:317
+#: ../../../include/pages/mobile/account/home.php:113
+msgid "ZIP/Postal Code"
+msgstr "CEP/Código Postal"
+
+#: ../../../include/pages/register.php:316
+#: ../../../include/pages/admin/admins.php:283
+#: ../../../include/pages/admin/client_views/accounts.php:270
+#: ../../../include/pages/admin/shopper_views/edit.php:344
+#: ../../../include/pages/agent/profile.php:338
+#: ../../../include/pages/mobile/account/home.php:122
+msgid "Language Preference"
+msgstr "Idioma Preferencial"
+
+#: ../../../include/pages/register.php:324
+#: ../../../include/pages/admin/card_completed.php:74
+#: ../../../include/pages/admin/card_declined.php:69
+#: ../../../include/pages/admin/card_pending.php:537
+#: ../../../include/pages/admin/instance_view.php:161
+#: ../../../include/pages/admin/msps.php:123
+#: ../../../include/pages/admin/payroll.php:235
+#: ../../../include/pages/admin/shop_completed.php:112
+#: ../../../include/pages/admin/shop_declined.php:88
+#: ../../../include/pages/admin/shop_pending.php:870
+#: ../../../include/pages/admin/shopper_msp.php:190
+#: ../../../include/pages/admin/shopper_view.php:113
+#: ../../../include/pages/admin/shopper_view2.php:113
+#: ../../../include/pages/admin/shoppers_msp.php:175
+#: ../../../include/pages/admin/user-search.php:194
+#: ../../../include/pages/admin/shopper_views/edit.php:319
+#: ../../../include/pages/admin/shopper_views/edit.php:565
+#: ../../../include/pages/agent/profile.php:346
+#: ../../../include/pages/mobile/register.php:196
+#: ../../../include/pages/mobile/account/home.php:127
+msgid "Home Phone"
+msgstr "Fone Residencia"
+
+#: ../../../include/pages/register.php:330
+#: ../../../include/pages/admin/shopper_msp.php:196
+#: ../../../include/pages/admin/client_views/accounts.php:257
+#: ../../../include/pages/admin/shopper_views/edit.php:325
+#: ../../../include/pages/admin/shopper_views/edit.php:577
+#: ../../../include/pages/agent/profile.php:352
+msgid "Mobile Phone"
+msgstr "Celular"
+
+#: ../../../include/pages/register.php:336
+msgid "MSPA Certification"
+msgstr "Certificação MSPA"
+
+#: ../../../include/pages/register.php:353
+msgid "Birthday"
+msgstr "Aniversário"
+
+#: ../../../include/pages/register.php:359
+msgid "Gender"
+msgstr "Sexo"
+
+#: ../../../include/pages/register.php:362
+msgid "Male"
+msgstr "Masculino"
+
+#: ../../../include/pages/register.php:365
+msgid "Female"
+msgstr "Feminino"
+
+#: ../../../include/pages/register.php:371
+msgid "Number of Children"
+msgstr "Número de Crianças"
+
+#: ../../../include/pages/register.php:377
+msgid "Paypal Email Addresses for Payments"
+msgstr "Endereços de E-mail do PayPal para Pagamentos"
+
+#: ../../../include/pages/register.php:401
+#: ../../../include/pages/agent/profile.php:235
+msgid "Login  Details"
+msgstr "Dados de Login"
+
+#: ../../../include/pages/register.php:416
+#: ../../../include/pages/agent/profile.php:253
+msgid "Confirm Password"
+msgstr "Confirmar Senha"
+
+#: ../../../include/pages/admin/admins.php:276
+#: ../../../include/pages/admin/admins.php:365
+#: ../../../include/pages/admin/client_views/accounts.php:263
+#: ../../../include/pages/admin/client_views/locations.php:354
+#: ../../../include/pages/admin/msp_views/edit.php:179
+#: ../../../include/pages/admin/shopper_views/edit.php:337
+#: ../../../include/pages/agent/profile.php:331
+msgid "Time Zone"
+msgstr "Fuso Horário"
+
+#: ../../../include/pages/admin/admins.php:531
+#: ../../../include/pages/admin/admins.php:563
+#: ../../../include/pages/admin/admins.php:600
+#: ../../../include/pages/admin/admins.php:644
+#: ../../../include/pages/admin/hard_pages.php:82
+#: ../../../include/pages/admin/pages.php:201
+#: ../../../include/pages/admin/payroll.php:226
+#: ../../../include/pages/admin/seo.php:174
+#: ../../../include/pages/admin/client_views/campaigns.php:136
+#: ../../../include/pages/admin/client_views/commentcards.php:152
+#: ../../../include/pages/admin/client_views/levels.php:74
+#: ../../../include/pages/admin/client_views/periods.php:88
+#: ../../../include/pages/admin/client_views/products.php:166
+#: ../../../include/pages/admin/client_views/runs.php:645
+#: ../../../include/pages/admin/client_views/shops.php:186
+#: ../../../include/pages/admin/client_views/surveys.php:151
+#: ../../../include/pages/agent/commentcard.php:370
+#: ../../../include/pages/agent/contracts.php:195
+#: ../../../include/pages/agent/demographics.php:113
+#: ../../../include/pages/client/commentcard.php:217
+#: ../../../include/pages/client/survey.php:210
+#: ../../../include/pages/client/mobile/commentcard.php:199
+msgid "Name"
+msgstr "Nome"
+
+#: ../../../include/pages/admin/all_requests.php:60
+#: ../../../include/pages/admin/instance_views/nearby_shoppers.php:87
+#: ../../../include/pages/admin/instance_views/past_shoppers.php:76
+#: ../../../include/pages/admin/instance_views/requests.php:61
+#: ../../../include/pages/admin/shopper_views/requests.php:62
+#: ../../../include/pages/admin/shopper_views/shops.php:86
+#: ../../../include/pages/agent/available.php:50
+#: ../../../include/pages/mobile/shops/accept.php:37
+msgid "Shop no longer available"
+msgstr "Tarefa não está mais disponível"
+
+#: ../../../include/pages/admin/all_requests.php:79
+#: ../../../include/pages/admin/card_pending.php:475
+#: ../../../include/pages/admin/notify_shopper.php:154
+#: ../../../include/pages/admin/shop_pending.php:798
+#: ../../../include/pages/admin/instance_views/nearby_shoppers.php:117
+#: ../../../include/pages/admin/instance_views/past_shoppers.php:106
+#: ../../../include/pages/admin/instance_views/requests.php:80
+#: ../../../include/pages/admin/shopper_views/requests.php:81
+#: ../../../include/pages/admin/shopper_views/shops.php:114
+#: ../../../include/pages/agent/available.php:271
+#: ../../../include/pages/agent/reschedule.php:166
+#: ../../../include/pages/agent/waitlist.php:178
+#: ../../../include/pages/mobile/shops/accept.php:210
+msgid "Confirm"
+msgstr "Confirmar"
+
+#: ../../../include/pages/admin/all_requests.php:79
+#: ../../../include/pages/admin/push.php:51
+#: ../../../include/pages/admin/client_views/demographics.php:149
+#: ../../../include/pages/admin/client_views/location_demographics.php:154
+#: ../../../include/pages/admin/client_views/shop_demographics.php:155
+#: ../../../include/pages/admin/instance_views/requests.php:80
+#: ../../../include/pages/admin/msp_views/demographics.php:147
+#: ../../../include/pages/admin/shopper_views/demographics.php:82
+#: ../../../include/pages/admin/shopper_views/requests.php:81
+#: ../../../include/pages/agent/assignments.php:103
+#: ../../../include/pages/agent/commentcard.php:549
+#: ../../../include/pages/agent/demographics.php:88
+#: ../../../include/pages/client/survey.php:392
+msgid "Cancel"
+msgstr "Cancelar"
+
+#: ../../../include/pages/admin/card_completed.php:28
+#: ../../../include/pages/admin/card_declined.php:27
+#: ../../../include/pages/agent/commentcard.php:33
+#: ../../../include/pages/client/commentcard.php:33
+#: ../../../include/pages/client/confirmation.php:13
+#: ../../../include/pages/client/mobile/commentcard.php:30
+#: ../../../include/pages/client/mobile/confirmation.php:13
+msgid "Invalid commentcard selected"
+msgstr "Inválido cartão de comentário selecionado"
+
+#: ../../../include/pages/admin/card_pending.php:226
+#: ../../../include/pages/admin/card_pending.php:265
+#: ../../../include/pages/admin/section_edit.php:304
+#: ../../../include/pages/admin/shop_pending.php:473
+#: ../../../include/pages/agent/commentcard.php:443
+#: ../../../include/pages/agent/commentcard.php:484
+#: ../../../include/pages/agent/commentcard.php:617
+#: ../../../include/pages/agent/commentcard.php:658
+#: ../../../include/pages/agent/demographics.php:81
+#: ../../../include/pages/agent/demographics.php:116
+#: ../../../include/pages/agent/shop_edit.php:641
+#: ../../../include/pages/client/commentcard.php:305
+#: ../../../include/pages/client/commentcard.php:346
+#: ../../../include/pages/client/survey.php:289
+#: ../../../include/pages/client/survey.php:330
+#: ../../../include/pages/client/mobile/commentcard.php:252
+#: ../../../include/pages/mobile/shops/edit.php:475
+msgid "Answer"
+msgstr "Responder"
+
+#: ../../../include/pages/admin/card_pending.php:274
+#: ../../../include/pages/admin/section_edit.php:430
+#: ../../../include/pages/admin/shop_pending.php:575
+#: ../../../include/pages/agent/commentcard.php:498
+#: ../../../include/pages/agent/commentcard.php:672
+#: ../../../include/pages/agent/shop_edit.php:769
+#: ../../../include/pages/client/commentcard.php:360
+#: ../../../include/pages/client/survey.php:344
+#: ../../../include/pages/client/mobile/commentcard.php:322
+#: ../../../include/pages/mobile/shops/edit.php:599
+msgid "Price"
+msgstr "Preço"
+
+#: ../../../include/pages/admin/card_pending.php:283
+#: ../../../include/pages/admin/section_edit.php:436
+#: ../../../include/pages/admin/shop_pending.php:584
+#: ../../../include/pages/agent/commentcard.php:433
+#: ../../../include/pages/agent/commentcard.php:504
+#: ../../../include/pages/agent/commentcard.php:607
+#: ../../../include/pages/agent/commentcard.php:678
+#: ../../../include/pages/agent/shop_edit.php:775
+#: ../../../include/pages/client/commentcard.php:295
+#: ../../../include/pages/client/commentcard.php:366
+#: ../../../include/pages/client/survey.php:279
+#: ../../../include/pages/client/survey.php:350
+#: ../../../include/pages/client/mobile/commentcard.php:247
+#: ../../../include/pages/client/mobile/commentcard.php:328
+#: ../../../include/pages/mobile/shops/edit.php:605
+msgid "Comment"
+msgstr "Comentar"
+
+#: ../../../include/pages/admin/card_pending.php:292
+#: ../../../include/pages/admin/section_edit.php:449
+#: ../../../include/pages/admin/shop_pending.php:593
+#: ../../../include/pages/agent/commentcard.php:691
+#: ../../../include/pages/agent/shop_edit.php:788
+#: ../../../include/pages/client/commentcard.php:379
+#: ../../../include/pages/client/survey.php:363
+#: ../../../include/pages/mobile/commentcards/edit.php:669
+#: ../../../include/pages/mobile/shops/edit.php:618
+msgid "Picture"
+msgstr "Foto"
+
+#: ../../../include/pages/admin/card_pending.php:512
+#: ../../../include/pages/admin/config.php:46
+#: ../../../include/pages/admin/emails.php:125
+#: ../../../include/pages/admin/hard_pages.php:66
+#: ../../../include/pages/admin/manual_submit.php:260
+#: ../../../include/pages/admin/pages.php:171
+#: ../../../include/pages/admin/product-import.php:182
+#: ../../../include/pages/admin/question_edit.php:496
+#: ../../../include/pages/admin/seo.php:237
+#: ../../../include/pages/admin/shop_pending.php:364
+#: ../../../include/pages/admin/shop_pending.php:837
+#: ../../../include/pages/admin/tax.php:117
+#: ../../../include/pages/admin/client_views/campaigns.php:227
+#: ../../../include/pages/admin/client_views/commentcard_locations.php:187
+#: ../../../include/pages/admin/client_views/commentcard_questions.php:480
+#: ../../../include/pages/admin/client_views/commentcards.php:252
+#: ../../../include/pages/admin/client_views/demographics.php:149
+#: ../../../include/pages/admin/client_views/location-import.php:299
+#: ../../../include/pages/admin/client_views/location_demographics.php:154
+#: ../../../include/pages/admin/client_views/name-import.php:190
+#: ../../../include/pages/admin/client_views/periods.php:118
+#: ../../../include/pages/admin/client_views/question_edit.php:521
+#: ../../../include/pages/admin/client_views/question_lang.php:300
+#: ../../../include/pages/admin/client_views/runs.php:1012
+#: ../../../include/pages/admin/client_views/shop-import.php:211
+#: ../../../include/pages/admin/client_views/shop_demographics.php:155
+#: ../../../include/pages/admin/client_views/shop_questions.php:533
+#: ../../../include/pages/admin/client_views/shops.php:307
+#: ../../../include/pages/admin/client_views/surveys.php:232
+#: ../../../include/pages/admin/instance_views/edit.php:306
+#: ../../../include/pages/admin/msp_views/demographics.php:147
+#: ../../../include/pages/admin/reports/location-import.php:299
+#: ../../../include/pages/admin/reports/name-import.php:190
+#: ../../../include/pages/admin/reports/shop-import.php:211
+#: ../../../include/pages/admin/shopper_views/contracts.php:117
+#: ../../../include/pages/admin/shopper_views/demographics.php:82
+#: ../../../include/pages/agent/commentcard.php:747
+#: ../../../include/pages/agent/demographics.php:88
+#: ../../../include/pages/agent/shop_edit.php:859
+#: ../../../include/pages/mobile/shops/edit.php:702
+msgid "Save"
+msgstr "Salvar"
+
+#: ../../../include/pages/admin/client_view.php:128
+msgid "Back to Client List"
+msgstr "Voltar à Lista de Clientes"
+
+#: ../../../include/pages/admin/clients.php:46
+#: ../../../include/pages/admin/msps.php:266
+#: ../../../include/pages/admin/shop_gallery.php:257
+#: ../../../include/pages/admin/shop_instances.php:444
+#: ../../../include/pages/admin/shoppers_msp.php:201
+#: ../../../include/pages/admin/user-search.php:220
+#: ../../../include/pages/admin/client_views/locations.php:608
+#: ../../../include/pages/admin/client_views/products.php:498
+#: ../../../include/pages/admin/client_views/shop_products.php:314
+#: ../../../include/pages/admin/instance_views/nearby_shoppers.php:305
+#: ../../../include/pages/agent/available.php:327
+#: ../../../include/pages/agent/commentcards.php:137
+#: ../../../include/pages/agent/commentcards.php:148
+#: ../../../include/pages/agent/waitlist.php:288
+#: ../../../include/pages/client/home.php:178
+#: ../../../include/pages/client/home.php:190
+#: ../../../include/pages/client/mobile/home.php:172
+#: ../../../include/pages/client/mobile/home.php:180
+#: ../../../include/pages/mobile/commentcards/home.php:113
+#: ../../../include/pages/mobile/commentcards/home.php:122
+#: ../../../include/pages/mobile/shops/feedback.php:10
+#: ../../../include/pages/mobile/shops/home.php:129
+#: ../../../include/templates/admin.php:265
+msgid "Search"
+msgstr "Buscar"
+
+#: ../../../include/pages/admin/emails.php:156
+#: ../../../include/pages/admin/client_views/location_queries.php:146
+#: ../../../include/pages/admin/shopper_views/demographics.php:71
+#: ../../../include/pages/agent/demographics.php:77
+msgid "Last Updated"
+msgstr "Última Atualização"
+
+#: ../../../include/pages/admin/import.php:76
+#: ../../../include/pages/agent/commentcards.php:66
+#: ../../../include/pages/agent/commentcards.php:110
+#: ../../../include/pages/agent/commentcards.php:200
+#: ../../../include/pages/client/home.php:64
+#: ../../../include/pages/client/home.php:113
+#: ../../../include/pages/client/home.php:148
+#: ../../../include/pages/client/home.php:230
+#: ../../../include/pages/client/mobile/home.php:64
+#: ../../../include/pages/client/mobile/home.php:113
+#: ../../../include/pages/client/mobile/home.php:219
+msgid "Start"
+msgstr "Iniciar "
+
+#: ../../../include/pages/admin/instance_view.php:94
+#: ../../../include/pages/admin/shop_pending.php:978
+#: ../../../include/pages/agent/shop_edit.php:473
+#: ../../../include/pages/mobile/shops/edit.php:332
+msgid "Assigned Shop Time/Date"
+msgstr "Tarefa Atribuída Hora/Data"
+
+#: ../../../include/pages/admin/question_edit.php:353
+#: ../../../include/pages/admin/client_views/question_lang.php:200
+#: ../../../include/pages/admin/client_views/shop_questions.php:351
+msgid "Worded for Shopper"
+msgstr "Redigido para Cliente"
+
+#: ../../../include/pages/admin/question_edit.php:359
+#: ../../../include/pages/admin/client_views/client.php:84
+#: ../../../include/pages/admin/client_views/question_lang.php:206
+#: ../../../include/pages/admin/client_views/shop_questions.php:357
+#: ../../../include/pages/admin/reports/client.php:84
+#: ../../../include/pages/admin/shopper_views/shops.php:140
+#: ../../../include/pages/admin/shopper_views/shops.php:186
+#: ../../../include/pages/agent/assignments.php:70
+#: ../../../include/pages/agent/assignments.php:122
+#: ../../../include/templates/admin.php:212
+msgid "Client"
+msgstr "Cliente"
+
+#: ../../../include/pages/admin/question_edit.php:360
+#: ../../../include/pages/admin/client_views/question_lang.php:207
+#: ../../../include/pages/admin/client_views/shop_questions.php:358
+msgid "Worded for Client"
+msgstr "Redigido para Cliente"
+
+#: ../../../include/pages/admin/question_edit.php:364
+#: ../../../include/pages/admin/client_views/shop_questions.php:370
+msgid "Base Question"
+msgstr "Questão de Base"
+
+#: ../../../include/pages/admin/question_edit.php:364
+msgid ""
+"It is the responsibility of the MSP to make sure the answer sets match for "
+"the client questions to make sure you are comparing fairly."
+msgstr ""
+"É responsabilidade do PSE certificar-se de que  o grupo de respostas "
+"corresponde às questões do cliente para confirmar que a comparação é justa."
+
+#: ../../../include/pages/admin/question_edit.php:379
+#: ../../../include/pages/admin/client_views/question_lang.php:213
+#: ../../../include/pages/admin/client_views/shop_questions.php:364
+msgid "Tip"
+msgstr "Dica "
+
+#: ../../../include/pages/admin/question_edit.php:390
+#: ../../../include/pages/admin/client_views/shop_questions.php:381
+msgid "Answer Type"
+msgstr "Tipo de Resposta"
+
+#: ../../../include/pages/admin/question_edit.php:403
+#: ../../../include/pages/admin/question_edit.php:415
+#: ../../../include/pages/admin/client_views/shop_questions.php:387
+#: ../../../include/pages/admin/client_views/shop_questions.php:395
+msgid "Answers"
+msgstr "Respostas"
+
+#: ../../../include/pages/admin/question_edit.php:407
+#: ../../../include/pages/admin/client_views/shop_questions.php:391
+msgid "Answer Order"
+msgstr "Ordem de Resposta"
+
+#: ../../../include/pages/admin/question_edit.php:410
+#: ../../../include/pages/admin/client_views/shop_questions.php:393
+msgid "Scores"
+msgstr "Pontuação"
+
+#: ../../../include/pages/admin/question_edit.php:419
+msgid ""
+"Scores should be percentages (0-100%) or NA.  They will be applied to "
+"however many points you give to the question in the shop.  Values over 100% "
+"will be bonus points. <BR /> If not values are set - values will be assigned "
+"from 100 to 0 evenly"
+msgstr ""
+"Pontos devem ser porcentagens (0-100%) ou NA,  aplicadas nos pontos dados à "
+"questão na tarefa. Valores acima de 100% serão pontos de bônus. <BR /> Se "
+"não houver valores estabelecidos - designaremos valores de 100 a 0 "
+"uniformemente"
+
+#: ../../../include/pages/admin/question_edit.php:426
+#: ../../../include/pages/admin/client_views/shop_questions.php:402
+msgid "Formula"
+msgstr "Fórmula"
+
+#: ../../../include/pages/admin/question_edit.php:437
+#: ../../../include/pages/admin/client_views/shop_questions.php:410
+msgid "Minimum Price"
+msgstr "Preço Mínimo"
+
+#: ../../../include/pages/admin/question_edit.php:437
+#: ../../../include/pages/admin/question_edit.php:443
+#: ../../../include/pages/admin/client_views/shop_questions.php:410
+#: ../../../include/pages/admin/client_views/shop_questions.php:415
+msgid "Price Audit Shops"
+msgstr "Tarefas de Auditoria de Preço"
+
+#: ../../../include/pages/admin/question_edit.php:443
+#: ../../../include/pages/admin/client_views/shop_questions.php:415
+msgid "Maximum Price"
+msgstr "Preço Máximo"
+
+#: ../../../include/pages/admin/question_edit.php:451
+#: ../../../include/pages/admin/client_views/shop_questions.php:422
+#: ../../../include/pages/admin/client_views/shop_questions.php:438
+msgid "Comments"
+msgstr "Comentários"
+
+#: ../../../include/pages/admin/question_edit.php:454
+#: ../../../include/pages/admin/client_views/shop_questions.php:425
+msgid "Allow Comment"
+msgstr "Permitir Comentário"
+
+#: ../../../include/pages/admin/question_edit.php:465
+#: ../../../include/pages/admin/client_views/shop_questions.php:430
+msgid "Minimum Required Characters"
+msgstr "Mínimo de Caracteres Necessário"
+
+#: ../../../include/pages/admin/question_edit.php:474
+msgid "Extras"
+msgstr "Extras"
+
+#: ../../../include/pages/admin/question_edit.php:478
+#: ../../../include/pages/admin/client_views/shop_questions.php:441
+msgid "Hide from Client"
+msgstr "Ocultar do Cliente"
+
+#: ../../../include/pages/admin/question_edit.php:479
+#: ../../../include/pages/admin/client_views/shop_questions.php:442
+msgid "Only if NOT Scored"
+msgstr "Apenas se NÃO Pontuou"
+
+#: ../../../include/pages/admin/question_edit.php:481
+#: ../../../include/pages/admin/client_views/edit.php:268
+#: ../../../include/pages/admin/client_views/shop_questions.php:426
+#: ../../../include/pages/admin/client_views/shop_questions.php:449
+#: ../../../include/pages/agent/profile.php:371
+#: ../../../include/pages/agent/profile.php:382
+#: ../../../include/pages/agent/profile.php:394
+#: ../../../include/pages/agent/profile.php:403
+#: ../../../include/pages/mobile/register.php:237
+msgid "No"
+msgstr "Não"
+
+#: ../../../include/pages/admin/question_edit.php:482
+#: ../../../include/pages/admin/client_views/edit.php:267
+#: ../../../include/pages/admin/client_views/shop_questions.php:426
+#: ../../../include/pages/admin/client_views/shop_questions.php:449
+#: ../../../include/pages/agent/profile.php:368
+#: ../../../include/pages/agent/profile.php:379
+#: ../../../include/pages/agent/profile.php:391
+#: ../../../include/pages/agent/profile.php:401
+#: ../../../include/pages/mobile/register.php:234
+msgid "Yes"
+msgstr "Sim"
+
+#: ../../../include/pages/admin/question_edit.php:486
+#: ../../../include/pages/admin/client_views/shop_questions.php:447
+msgid "Photo required"
+msgstr "Necessário foto"
+
+#: ../../../include/pages/admin/question_edit.php:496
+msgid "Once saved, answer type and answers cannot be changed"
+msgstr "Tipo de resposta e respostas não podem ser mudadas depois de salvas."
+
+#: ../../../include/pages/admin/section_edit.php:74
+#: ../../../include/pages/admin/shopper_views/edit.php:177
+#: ../../../include/pages/admin/shopper_views/edit.php:199
+#: ../../../include/pages/agent/commentcard.php:84
+#: ../../../include/pages/agent/commentcard.php:260
+#: ../../../include/pages/agent/profile.php:155
+#: ../../../include/pages/agent/profile.php:175
+#: ../../../include/pages/agent/shop_edit.php:177
+#: ../../../include/pages/client/commentcard.php:95
+#: ../../../include/pages/client/survey.php:105
+#: ../../../include/pages/client/mobile/commentcard.php:94
+#: ../../../include/pages/mobile/commentcards/edit.php:79
+#: ../../../include/pages/mobile/shops/edit.php:157
+msgid "File must be a jpeg"
+msgstr "Arquivo deve ser jpeg"
+
+#: ../../../include/pages/admin/section_edit.php:99
+#: ../../../include/pages/admin/shopper_views/edit.php:177
+#: ../../../include/pages/admin/shopper_views/edit.php:183
+#: ../../../include/pages/admin/shopper_views/edit.php:199
+#: ../../../include/pages/admin/shopper_views/edit.php:205
+#: ../../../include/pages/agent/commentcard.php:94
+#: ../../../include/pages/agent/profile.php:155
+#: ../../../include/pages/agent/profile.php:161
+#: ../../../include/pages/agent/profile.php:175
+#: ../../../include/pages/agent/profile.php:181
+#: ../../../include/pages/agent/shop_edit.php:191
+#: ../../../include/pages/client/commentcard.php:105
+#: ../../../include/pages/client/survey.php:126
+#: ../../../include/pages/client/mobile/commentcard.php:104
+#: ../../../include/pages/mobile/commentcards/edit.php:89
+msgid "Unable to upload photo"
+msgstr "Não é possível carregar foto"
+
+#: ../../../include/pages/admin/section_edit.php:113
+#: ../../../include/pages/client/survey.php:129
+msgid "The photo you have uploaded is too large"
+msgstr "A foto que você carregou é muito grande"
+
+#: ../../../include/pages/admin/section_edit.php:199
+#: ../../../include/pages/admin/sections.php:65
+#: ../../../include/pages/agent/commentcard.php:315
+#: ../../../include/pages/agent/shop_edit.php:302
+#: ../../../include/pages/mobile/shops/edit.php:257
+msgid "Section has been saved"
+msgstr "Seção foi salva"
+
+#: ../../../include/pages/admin/section_edit.php:205
+#: ../../../include/pages/agent/commentcard.php:323
+#: ../../../include/pages/agent/shop_edit.php:309
+#: ../../../include/pages/mobile/shops/edit.php:264
+msgid "Unable to save section"
+msgstr "Não é possível salvar seção"
+
+#: ../../../include/pages/admin/section_edit.php:308
+#: ../../../include/pages/admin/section_edit.php:440
+#: ../../../include/pages/agent/commentcard.php:488
+#: ../../../include/pages/agent/commentcard.php:508
+#: ../../../include/pages/agent/commentcard.php:662
+#: ../../../include/pages/agent/commentcard.php:682
+#: ../../../include/pages/agent/shop_edit.php:645
+#: ../../../include/pages/agent/shop_edit.php:779
+#: ../../../include/pages/client/commentcard.php:350
+#: ../../../include/pages/client/commentcard.php:370
+#: ../../../include/pages/client/survey.php:334
+#: ../../../include/pages/client/survey.php:354
+#: ../../../include/pages/client/mobile/commentcard.php:256
+#: ../../../include/pages/client/mobile/commentcard.php:332
+#: ../../../include/pages/mobile/shops/edit.php:479
+#: ../../../include/pages/mobile/shops/edit.php:609
+msgid "Minimum number of characters required in answer"
+msgstr "Resposta deve ter número mínimo de caracteres"
+
+#: ../../../include/pages/admin/section_edit.php:314
+#: ../../../include/pages/agent/shop_edit.php:651
+#: ../../../include/pages/client/mobile/commentcard.php:262
+#: ../../../include/pages/mobile/shops/edit.php:485
+msgid "Required"
+msgstr "Necessário"
+
+#: ../../../include/pages/admin/section_edit.php:320
+#: ../../../include/pages/agent/commentcard.php:517
+#: ../../../include/pages/agent/shop_edit.php:657
+#: ../../../include/pages/client/mobile/commentcard.php:268
+#: ../../../include/pages/mobile/shops/edit.php:491
+msgid "Optional"
+msgstr "Opcional"
+
+#: ../../../include/pages/admin/section_edit.php:323
+#: ../../../include/pages/agent/shop_edit.php:660
+#: ../../../include/pages/client/mobile/commentcard.php:271
+#: ../../../include/pages/mobile/shops/edit.php:494
+msgid "May be required (based on earlier answer)"
+msgstr "Pode ser necessário (conforme resposta anterior)"
+
+#: ../../../include/pages/admin/section_edit.php:328
+#: ../../../include/pages/admin/shop_pending.php:477
+#: ../../../include/pages/agent/shop_edit.php:664
+#: ../../../include/pages/mobile/shops/edit.php:498
+msgid "Check All that Apply"
+msgstr "Marcar Todas Aplicáveis"
+
+#: ../../../include/pages/admin/section_edit.php:376
+#: ../../../include/pages/admin/shop_pending.php:519
+#: ../../../include/pages/agent/commentcard.php:460
+#: ../../../include/pages/agent/commentcard.php:634
+#: ../../../include/pages/agent/commentcard.php:735
+#: ../../../include/pages/agent/shop_edit.php:847
+#: ../../../include/pages/client/commentcard.php:322
+#: ../../../include/pages/client/survey.php:306
+#: ../../../include/pages/client/mobile/commentcard.php:292
+#: ../../../include/pages/mobile/shops/edit.php:540
+#: ../../../include/pages/mobile/shops/edit.php:690
+msgid "Date / Time"
+msgstr "Data / Hora"
+
+#: ../../../include/pages/admin/section_edit.php:453
+#: ../../../include/pages/agent/shop_edit.php:792
+#: ../../../include/pages/mobile/shops/edit.php:622
+msgid "OPTIONAL"
+msgstr "OPCIONAL"
+
+#: ../../../include/pages/admin/section_edit.php:455
+#: ../../../include/pages/agent/commentcard.php:518
+#: ../../../include/pages/agent/commentcard.php:692
+#: ../../../include/pages/agent/shop_edit.php:794
+#: ../../../include/pages/client/commentcard.php:381
+#: ../../../include/pages/client/survey.php:364
+#: ../../../include/pages/client/mobile/commentcard.php:345
+#: ../../../include/pages/mobile/commentcards/edit.php:676
+#: ../../../include/pages/mobile/shops/edit.php:640
+msgid "Must be less than 1mb"
+msgstr "Deve ser menos que 1mb"
+
+#: ../../../include/pages/admin/section_edit.php:468
+#: ../../../include/pages/agent/shop_edit.php:808
+#: ../../../include/pages/agent/shop_edit.php:809
+#: ../../../include/pages/mobile/shops/edit.php:647
+msgid "delete"
+msgstr "excluir"
+
+#: ../../../include/pages/admin/section_edit.php:487
+#: ../../../include/pages/agent/commentcard.php:715
+#: ../../../include/pages/agent/shop_edit.php:828
+#: ../../../include/pages/mobile/shops/edit.php:670
+msgid "Save and Close"
+msgstr "Salvar e Fechar"
+
+#: ../../../include/pages/admin/section_edit.php:488
+#: ../../../include/pages/agent/commentcard.php:716
+#: ../../../include/pages/agent/shop_edit.php:829
+#: ../../../include/pages/mobile/shops/edit.php:671
+msgid "Exit without Saving"
+msgstr "Sair sem Salvar"
+
+#: ../../../include/pages/admin/shop_completed.php:161
+#: ../../../include/pages/admin/shop_completed.php:165
+#: ../../../include/pages/admin/shop_completed.php:327
+#: ../../../include/pages/admin/shop_declined.php:68
+#: ../../../include/pages/admin/shop_declined.php:112
+#: ../../../include/pages/admin/shop_declined.php:116
+#: ../../../include/pages/admin/shop_declined.php:296
+#: ../../../include/pages/admin/shop_pending.php:1003
+#: ../../../include/pages/admin/shop_pending.php:1010
+#: ../../../include/pages/admin/shopper_views/demographics.php:121
+#: ../../../include/pages/agent/demographics.php:127
+msgid "Not Entered"
+msgstr "Não Inserido"
+
+#: ../../../include/pages/admin/shop_gallery.php:178
+#: ../../../include/pages/admin/shop_instances.php:162
+#: ../../../include/pages/admin/shop_instances.php:365
+#: ../../../include/pages/admin/shop_instances.php:466
+#: ../../../include/pages/agent/profile.php:226
+msgid "Shopper ID"
+msgstr "ID de Cliente"
+
+#: ../../../include/pages/admin/shop_gallery.php:232
+#: ../../../include/pages/admin/shop_instances.php:419
+#: ../../../include/pages/admin/client_views/edit.php:200
+#: ../../../include/pages/admin/client_views/locations.php:317
+#: ../../../include/pages/agent/profile.php:302
+#: ../../../include/pages/mobile/account/home.php:104
+msgid "North America Only"
+msgstr "Só América do Norte"
+
+#: ../../../include/pages/admin/shop_pending.php:692
+msgid "Reimbursement amount is not a number"
+msgstr "Montante de reembolso não é um número"
+
+#: ../../../include/pages/admin/shop_pending.php:903
+#: ../../../include/pages/agent/shop_edit.php:432
+msgid "Shop Files"
+msgstr "Arquivos da Tarefa"
+
+#: ../../../include/pages/admin/shop_pending.php:958
+msgid "Up To"
+msgstr "Até"
+
+#: ../../../include/pages/admin/shop_pending.php:969
+#: ../../../include/pages/agent/shop_edit.php:416
+#: ../../../include/pages/mobile/shops/edit.php:322
+msgid "Special Visit Instructions"
+msgstr "Instruções para Visita Especial"
+
+#: ../../../include/pages/admin/shop_pending.php:995
+msgid "Map"
+msgstr "Mapa"
+
+#: ../../../include/pages/admin/shop_pending.php:1002
+#: ../../../include/pages/agent/shop_edit.php:511
+#: ../../../include/pages/mobile/shops/edit.php:355
+msgid "Shop Started"
+msgstr "Tarefa Iniciada"
+
+#: ../../../include/pages/admin/shop_pending.php:1025
+msgid "Total Score"
+msgstr "Total de Pontos"
+
+#: ../../../include/pages/admin/shop_pending.php:1041
+msgid "Client Files"
+msgstr "Arquivos de Clientes"
+
+#: ../../../include/pages/admin/shop_pending.php:1041
+msgid "Appears on Client Dashboard"
+msgstr "Aparece no Painel do Cliente"
+
+#: ../../../include/pages/admin/shopper_msp.php:136
+#: ../../../include/pages/admin/shopper_views/edit.php:259
+#: ../../../include/pages/agent/profile.php:272
+msgid "Middle Name"
+msgstr "Nome do Meio"
+
+#: ../../../include/pages/admin/shopper_msp.php:202
+#: ../../../include/pages/admin/shopper_views/edit.php:331
+#: ../../../include/pages/admin/shopper_views/edit.php:571
+#: ../../../include/pages/agent/profile.php:358
+msgid "Work Phone"
+msgstr "Fone Trabalho"
+
+#: ../../../include/pages/admin/shopper_msp.php:208
+#: ../../../include/pages/admin/shopper_views/edit.php:352
+#: ../../../include/pages/agent/profile.php:387
+msgid "Receive Automated Reminder Calls"
+msgstr "Receba Chamadas Lembrete Automáticas "
+
+#: ../../../include/pages/admin/shopper_msp.php:208
+#: ../../../include/pages/admin/shopper_views/edit.php:352
+#: ../../../include/pages/agent/profile.php:387
+msgid "Automated late calls not optional"
+msgstr "Chamadas automáticas de atraso não opcionais "
+
+#: ../../../include/pages/admin/client_views/accounts.php:112
+#: ../../../include/pages/agent/profile.php:85
+#: ../../../include/pages/mobile/account/home.php:46
+#: ../../../include/pages/mobile/account/password.php:30
+msgid "Account has been saved"
+msgstr "Conta foi salva"
+
+#: ../../../include/pages/admin/client_views/accounts.php:151
+#: ../../../include/pages/agent/profile.php:195
+#: ../../../include/pages/mobile/account/home.php:73
+msgid "Unable to update account"
+msgstr "Não é possível atualizar conta"
+
+#: ../../../include/pages/admin/client_views/demographics.php:111
+#: ../../../include/pages/admin/client_views/location_demographics.php:117
+#: ../../../include/pages/admin/client_views/shop_demographics.php:118
+#: ../../../include/pages/admin/msp_views/demographics.php:110
+#: ../../../include/pages/admin/shopper_views/demographics.php:69
+#: ../../../include/pages/agent/demographics.php:75
+#: ../../../include/pages/agent/demographics.php:115
+msgid "Group"
+msgstr "Grupo"
+
+#: ../../../include/pages/admin/client_views/edit.php:152
+#: ../../../include/pages/admin/client_views/edit.php:158
+#: ../../../include/pages/admin/client_views/edit.php:164
+msgid "Company Level"
+msgstr "Nível da Compania "
+
+#: ../../../include/pages/admin/client_views/edit.php:170
+msgid "Contact First Name"
+msgstr "Primeiro Nome do Contato"
+
+#: ../../../include/pages/admin/client_views/edit.php:176
+msgid "Contact Last Name"
+msgstr "Sobrenome do Contato"
+
+#: ../../../include/pages/admin/client_views/edit.php:209
+#: ../../../include/pages/admin/client_views/locations.php:326
+#: ../../../include/pages/agent/profile.php:311
+#: ../../../include/pages/mobile/register.php:187
+#: ../../../include/pages/mobile/account/home.php:110
+msgid "State - Outside North America"
+msgstr "Estado - Fora da América do Norte"
+
+#: ../../../include/pages/admin/client_views/edit.php:260
+msgid "Website"
+msgstr "Site"
+
+#: ../../../include/pages/admin/client_views/edit.php:266
+msgid "Allow Client Text Notifications"
+msgstr "Permitir Notificações de Texto do Cliente"
+
+#: ../../../include/pages/admin/client_views/edit.php:275
+msgid "Comment Card Settings"
+msgstr "Configurações do Cartão de Comentário"
+
+#: ../../../include/pages/admin/client_views/edit.php:285
+msgid "Subdomain"
+msgstr "Subdomínio"
+
+#: ../../../include/pages/admin/client_views/edit.php:297
+msgid "Allow Shopper Login in Custom URL"
+msgstr "Permitir Login do Cliente na URL Personalizada"
+
+#: ../../../include/pages/admin/client_views/edit.php:303
+msgid "Highlight Color"
+msgstr "Destacar Cor"
+
+#: ../../../include/pages/admin/client_views/edit.php:303
+msgid "or click rainbow"
+msgstr "ou clique em arco-íris"
+
+#: ../../../include/pages/admin/client_views/edit.php:313
+msgid "Welcome Text"
+msgstr "Texto de Boas-Vindas"
+
+#: ../../../include/pages/admin/client_views/edit.php:314
+msgid "Appears on client subdomain if applicable"
+msgstr "Aparece no subdomínio do cliente, se aplicável"
+
+#: ../../../include/pages/admin/client_views/edit.php:321
+msgid "Mystery Shop Settings"
+msgstr "Configurações de Tarefa Espiã"
+
+#: ../../../include/pages/admin/client_views/edit.php:325
+msgid "Client Default Completed Shop message"
+msgstr "Mensagem Padrão de Tarefa Completa do Cliente"
+
+#: ../../../include/pages/admin/client_views/edit.php:326
+#: ../../../include/pages/admin/client_views/edit.php:338
+#: ../../../include/pages/admin/client_views/edit.php:350
+msgid "Sent when a shop is approved."
+msgstr "Enviado quando uma tarefa é aprovada."
+
+#: ../../../include/pages/admin/client_views/edit.php:331
+msgid "High Limit"
+msgstr "Limite Alto"
+
+#: ../../../include/pages/admin/client_views/edit.php:331
+msgid "Threshold to send Congratulation text"
+msgstr "Limite para enviar texto de Congratulação"
+
+#: ../../../include/pages/admin/client_views/edit.php:337
+msgid "Congratulations Completed Shop message"
+msgstr "Mensagem de Congratulação pela Tarefa Concluída"
+
+#: ../../../include/pages/admin/client_views/edit.php:343
+msgid "Low Limit"
+msgstr "Limite Baixo"
+
+#: ../../../include/pages/admin/client_views/edit.php:343
+msgid "Threshold to send Low Score text"
+msgstr "Limite para enviar texto de Pontuação Baixa"
+
+#: ../../../include/pages/admin/client_views/edit.php:349
+msgid "Low Score Completed Shop message"
+msgstr "Mensagem de Pontuação Baixa daTarefa Concluída"
+
+#: ../../../include/pages/admin/client_views/edit.php:358
+msgid "Dashboard Settings"
+msgstr "Configurações do Painel"
+
+#: ../../../include/pages/admin/client_views/edit.php:361
+msgid "Activate Shops Tab"
+msgstr "Ativar Guia Tarefas"
+
+#: ../../../include/pages/admin/client_views/edit.php:367
+msgid "Activate Comment Card/Surveys Tab"
+msgstr "Ativar Guia de Cartão de Comentário/Pesquisas"
+
+#: ../../../include/pages/admin/client_views/edit.php:373
+msgid "Activate Price Audit Tab"
+msgstr "Ativar Guia Auditoria de Preço "
+
+#: ../../../include/pages/admin/client_views/edit.php:379
+msgid "Activate Campaigns Tab"
+msgstr "Ativar Guia Campanhas "
+
+#: ../../../include/pages/admin/client_views/edit.php:385
+msgid "Show Top and Bottom Locations for Shops"
+msgstr "Mostrar Parte Superior e Inferior de Locais para Tarefas"
+
+#: ../../../include/pages/admin/client_views/edit.php:391
+msgid "Show Score Dial for Shops"
+msgstr "Mostrar Pontos para Tarefas "
+
+#: ../../../include/pages/admin/client_views/edit.php:397
+msgid "Show Top and Bottom Locations for Comment Cards"
+msgstr "Mostrar Parte Superior e Inferior para Cartões de Comentários"
+
+#: ../../../include/pages/admin/client_views/edit.php:403
+msgid "Show Score Dial for Comment Cards"
+msgstr "Mostrar Pontos para Cartões de Comentário"
+
+#: ../../../include/pages/admin/client_views/edit.php:409
+msgid "Activate Benchmark Data"
+msgstr "Ativar Dados de Referência"
+
+#: ../../../include/pages/admin/client_views/edit.php:415
+msgid "Activate Compliance Functions"
+msgstr "Ativar Funções de Conformidade"
+
+#: ../../../include/pages/admin/client_views/edit.php:424
+#: ../../../include/pages/admin/client_views/edit.php:427
+msgid "Logo"
+msgstr "Logo"
+
+#: ../../../include/pages/admin/client_views/edit.php:442
+msgid "Save Client"
+msgstr "Salvar Cliente"
+
+#: ../../../include/pages/admin/client_views/products.php:505
+#: ../../../include/pages/agent/available.php:305
+#: ../../../include/pages/agent/commentcards.php:50
+#: ../../../include/pages/agent/commentcards.php:94
+#: ../../../include/pages/agent/waitlist.php:269
+#: ../../../include/pages/client/home.php:83
+#: ../../../include/pages/client/home.php:135
+#: ../../../include/pages/client/mobile/home.php:83
+#: ../../../include/pages/mobile/commentcards/home.php:40
+#: ../../../include/pages/mobile/commentcards/home.php:73
+#: ../../../include/pages/mobile/shops/home.php:61
+msgid "Search Results"
+msgstr "Resultados da Busca"
+
+#: ../../../include/pages/admin/client_views/question_lang.php:221
+msgid "Choose Language"
+msgstr "Escolher Idioma"
+
+#: ../../../include/pages/admin/client_views/shop_questions.php:459
+#: ../../../include/pages/admin/client_views/shop_questions.php:468
+msgid "Section"
+msgstr "Seção"
+
+#: ../../../include/pages/admin/client_views/shop_questions.php:468
+#: ../../../include/templates/msp.php:109
+msgid "Reporting"
+msgstr "Relatórios"
+
+#: ../../../include/pages/admin/client_views/shop_questions.php:477
+msgid "Page Break After Question"
+msgstr "Quebra de Página Após Questão"
+
+#: ../../../include/pages/admin/client_views/shop_questions.php:481
+msgid "Client Reports Only"
+msgstr "Somente Relatórios de Clientes"
+
+#: ../../../include/pages/admin/shopper_views/contracts.php:129
+#: ../../../include/pages/agent/contracts.php:181
+#: ../../../include/pages/mobile/contracts.php:173
+#: ../../../include/pages/mobile/contracts.php:183
+#: ../../../include/templates/admin.php:302
+#: ../../../include/templates/admin.php:310
+#: ../../../include/templates/agent.php:163
+msgid "Contracts"
+msgstr "Contratos"
+
+#: ../../../include/pages/admin/shopper_views/contracts.php:150
+#: ../../../include/pages/agent/contracts.php:209
+#: ../../../include/pages/mobile/contracts.php:193
+msgid "Not Yet Accepted"
+msgstr "Ainda Não Aceito"
+
+#: ../../../include/pages/admin/shopper_views/demographics.php:39
+#: ../../../include/pages/agent/demographics.php:44
+msgid "Answer has been saved"
+msgstr "Resposta foi salva"
+
+#: ../../../include/pages/admin/shopper_views/edit.php:363
+#: ../../../include/pages/agent/profile.php:364
+msgid "Receive Reminder Texts"
+msgstr "Receber Textos de Lembrete"
+
+#: ../../../include/pages/admin/shopper_views/edit.php:374
+#: ../../../include/pages/agent/profile.php:375
+msgid "Receive Occasional Shop Opportunities via Texts"
+msgstr "Receba Oportunidades de Tarefas Ocasionais via Textos "
+
+#: ../../../include/pages/admin/shopper_views/edit.php:385
+#: ../../../include/pages/agent/profile.php:398
+msgid "Email Notifications of Available Shops"
+msgstr "Notificações por E-mail de Ofertas Disponíveis"
+
+#: ../../../include/pages/admin/shopper_views/edit.php:416
+#: ../../../include/pages/agent/profile.php:413
+msgid "Profile Picture"
+msgstr "Foto do Perfil"
+
+#: ../../../include/pages/admin/shopper_views/edit.php:440
+#: ../../../include/pages/agent/profile.php:436
+msgid "Photo ID"
+msgstr "ID com Foto"
+
+#: ../../../include/pages/admin/shopper_views/payments.php:25
+msgid "Fee"
+msgstr "Paga"
+
+#: ../../../include/pages/admin/shopper_views/shops.php:160
+#: ../../../include/pages/agent/assignments.php:97
+#: ../../../include/pages/agent/available.php:200
+#: ../../../include/pages/agent/available.php:471
+#: ../../../include/pages/agent/available.php:580
+#: ../../../include/pages/agent/waitlist.php:341
+#: ../../../include/pages/mobile/shops/assignments.php:22
+#: ../../../include/pages/mobile/shops/home.php:103
+#: ../../../include/pages/mobile/shops/home.php:183
+msgid "See Instructions"
+msgstr "Ver Instruções"
+
+#: ../../../include/pages/admin/shopper_views/shops.php:185
+#: ../../../include/pages/agent/assignments.php:69
+#: ../../../include/pages/agent/assignments.php:121
+#: ../../../include/pages/agent/waitlist.php:128
+#: ../../../include/pages/mobile/shops/accept.php:160
+msgid "Shop Date"
+msgstr "Data da Tarefa"
+
+#: ../../../include/pages/agent/assignments.php:19
+msgid "Shop Canceled"
+msgstr "Tarefa Cancelada"
+
+#: ../../../include/pages/agent/assignments.php:23
+msgid "Shop NOT Canceled"
+msgstr "Tarefa NÃO Cancelada"
+
+#: ../../../include/pages/agent/assignments.php:25
+msgid "Shop already begun"
+msgstr "Tarefa já iniciada"
+
+#: ../../../include/pages/agent/assignments.php:47
+msgid "Shop Instructions Resent to Email"
+msgstr "Instruções da Tarefa Reenviadas para E-mail"
+
+#: ../../../include/pages/agent/assignments.php:58
+msgid ""
+"The number of Open Shops you may have scheduled at one time depends on your "
+"iSS Agent rank.  New Investigators may only schedule one shop at a time and "
+"must successfully complete it before accepting a new assignment."
+msgstr ""
+"O número de Tarefas Abertas que você agendar de uma vez varia de acordo com "
+"a sua posição de Agente iSS. Novos investigadores só podem agendar uma "
+"tarefa de cada vez e completar com sucesso antes de aceitar uma nova tarefa. "
+
+#: ../../../include/pages/agent/assignments.php:59
+msgid ""
+"NOTE: It is imperative that Agents perform their Assigned Shops on the date "
+"and time agreed.  If for any reason you will be unable to perform a shop you "
+"have scheduled, let the MSP know immediately.  Cancelling three Assigned "
+"Shops may result in your removal from the iSS program."
+msgstr ""
+"Nota: É fundamental que os Agentes realizem suas Tarefas Atribuídas na data "
+"e hora acordados. Se, por qualquer motivo você não puder realizar uma tarefa "
+"que você agendou, comunique ao PSE imediatamente. Cancelar três Tarefas "
+"Atribuídas podem resultar na sua remoção do sistema iSS."
+
+#: ../../../include/pages/agent/assignments.php:98
+msgid "Not Between"
+msgstr "Não Entre"
+
+#: ../../../include/pages/agent/assignments.php:100
+msgid "Complete Shop"
+msgstr "Completar Tarefa"
+
+#: ../../../include/pages/agent/assignments.php:103
+#: ../../../include/pages/client/commentcard.php:416
+msgid "Are you sure you want to cancel?"
+msgstr "Tem certeza que deseja cancelar?"
+
+#: ../../../include/pages/agent/assignments.php:104
+msgid "Reschedule"
+msgstr "Remarcar"
+
+#: ../../../include/pages/agent/assignments.php:107
+msgid "Resend Instructions"
+msgstr "Reenviar Instruções"
+
+#: ../../../include/pages/agent/assignments.php:117
+msgid "Submitted Assignments - Pending Approval"
+msgstr "Tarefas Enviadas - Aprovação Pendente"
+
+#: ../../../include/pages/agent/assignments.php:145
+msgid "Un-Finalize"
+msgstr "Sem Finalização"
+
+#: ../../../include/pages/agent/available.php:36
+msgid "Request Deleted"
+msgstr "Pedido Excluído"
+
+#: ../../../include/pages/agent/available.php:52
+#: ../../../include/pages/mobile/shops/accept.php:40
+msgid "You have been added as a back up shopper"
+msgstr "Você foi adicionado como um cliente reserva"
+
+#: ../../../include/pages/agent/available.php:74
+#: ../../../include/pages/agent/available.php:99
+#: ../../../include/pages/agent/available.php:103
+#: ../../../include/pages/mobile/shops/accept.php:75
+#: ../../../include/pages/mobile/shops/accept.php:96
+#: ../../../include/pages/mobile/shops/accept.php:100
+msgid "This shop has been requested."
+msgstr "Esta tarefa foi solicitada."
+
+#: ../../../include/pages/agent/available.php:79
+msgid "You may not self assign a shop you have previously unassigned."
+msgstr ""
+"Você não pode atribuir para si uma tarefa não atribuída para você "
+"anteriormente."
+
+#: ../../../include/pages/agent/available.php:84
+msgid ""
+"You have been assigned to this shop. Please make sure to check your email or "
+"download the shop instructions by viewing this shop under the Assignments "
+"tab."
+msgstr ""
+"Você foi designado para esta tarefa. Certifique-se de conferir o seu e-mail "
+"ou baixar as instruções da tarefa vendo esta tarefa na guia Tarefas."
+
+#: ../../../include/pages/agent/available.php:103
+#: ../../../include/pages/mobile/shops/accept.php:100
+msgid ""
+"You are currently assigned your limit of shops so the shop may not be self "
+"assigned."
+msgstr ""
+"Você já está designado para o seu limite de tarefas, então não pode atribuir "
+"para si a tarefa."
+
+#: ../../../include/pages/agent/available.php:138
+msgid "Invalid shop"
+msgstr "Tarefa inválida"
+
+#: ../../../include/pages/agent/available.php:155
+#: ../../../include/pages/mobile/shops/accept.php:122
+msgid "View/Accept Shop"
+msgstr "Ver/Aceitar Tarefa"
+
+#: ../../../include/pages/agent/available.php:157
+#: ../../../include/pages/mobile/shops/accept.php:124
+msgid "View/Request Shop"
+msgstr "Ver/Pedir Tarefa"
+
+#: ../../../include/pages/agent/available.php:160
+#: ../../../include/pages/agent/waitlist.php:106
+#: ../../../include/pages/mobile/shops/accept.php:126
+msgid ""
+"Please confirm you are able to complete the shop and meet the shop criteria."
+msgstr "Confirme que você pode seguir os critérios e completar a tarefa."
+
+#: ../../../include/pages/agent/available.php:179
+msgid "Any Day"
+msgstr "Qualquer Dia"
+
+#: ../../../include/pages/agent/available.php:197
+#: ../../../include/pages/agent/reschedule.php:138
+msgid "Available Days to do Shop (must choose one)"
+msgstr "Dias Disponíveis para fazer Tarefa (deve escolher um)"
+
+#: ../../../include/pages/agent/available.php:205
+msgid "CANNOT be Shopped"
+msgstr "NÃO PODE ser Espiado"
+
+#: ../../../include/pages/agent/available.php:252
+#: ../../../include/pages/mobile/shops/accept.php:187
+msgid ""
+"You can self assign for this shop.  Please choose below the exact day you "
+"will do the shop, click confirm, and the shop may be immediately assigned to "
+"you.  You ARE AGREEING to do the shop on the day you choose."
+msgstr ""
+"Você pode atribuir para si esta tarefa. Escolha abaixo o dia exato para "
+"fazer a tarefa, clique em confirmar, e a tarefa pode ser imediatamente "
+"atribuída a você. Você CONCORDA fazer a tarefa no dia que você escolher."
+
+#: ../../../include/pages/agent/available.php:252
+#: ../../../include/pages/mobile/shops/accept.php:187
+msgid ""
+"is currently accepting requests for this shop.  Please choose below the "
+"exact day you can do the shop, click confirm, and your request will be "
+"logged."
+msgstr ""
+"está aceitando agora pedidos para esta tarefa. Escolha abaixo o dia exato "
+"para fazer a tarefa, clique em confirmar e o pedido será registrado."
+
+#: ../../../include/pages/agent/available.php:252
+#: ../../../include/pages/mobile/shops/accept.php:187
+msgid ""
+"will contact you shortly to let you know if it was assigned to you.  You ARE "
+"AGREEING to do the shop on the day you choose if you are assigned.  You can "
+"cancel your request at any time before the shop is assigned by going to your "
+"Requests/Waitlist page.  Make sure to check your assignments frequently to "
+"see if you are assigned."
+msgstr ""
+"entrará em contato em breve para dizer se a tarefa foi atribuída a você. "
+"Você CONCORDA em fazer a tarefa no dia que você escolher caso seja "
+"designado. Você pode cancelar o pedido a qualquer hora antes da tarefa ser "
+"atribuída na página Pedidos/Lista de Espera. Certifique-se de conferir suas "
+"tarefas frequentemente para ver se você é designado. "
+
+#: ../../../include/pages/agent/available.php:261
+#: ../../../include/pages/mobile/shops/accept.php:201
+msgid "What date within the range will you do this shop?"
+msgstr "Entre que dias você fará esta tarefa?"
+
+#: ../../../include/pages/agent/available.php:263
+#: ../../../include/pages/agent/reschedule.php:164
+#: ../../../include/pages/agent/waitlist.php:176
+#: ../../../include/pages/mobile/shops/accept.php:206
+msgid "Click to Pick Date"
+msgstr "Clique para Escolher Data"
+
+#: ../../../include/pages/agent/available.php:307
+#: ../../../include/pages/agent/commentcards.php:51
+#: ../../../include/pages/agent/commentcards.php:95
+#: ../../../include/pages/agent/waitlist.php:270
+#: ../../../include/pages/client/home.php:54
+#: ../../../include/pages/client/home.php:84
+#: ../../../include/pages/client/home.php:136
+#: ../../../include/pages/client/mobile/home.php:54
+#: ../../../include/pages/client/mobile/home.php:84
+#: ../../../include/pages/client/mobile/home.php:134
+#: ../../../include/pages/mobile/commentcards/home.php:41
+#: ../../../include/pages/mobile/commentcards/home.php:74
+#: ../../../include/pages/mobile/shops/home.php:62
+msgid "Go Back"
+msgstr "Voltar"
+
+#: ../../../include/pages/agent/available.php:309
+#: ../../../include/pages/agent/commentcards.php:34
+#: ../../../include/pages/agent/commentcards.php:79
+#: ../../../include/pages/client/home.php:76
+#: ../../../include/pages/client/mobile/home.php:76
+#: ../../../include/pages/mobile/shops/home.php:53
+msgid "Your search did not return any results."
+msgstr "A sua busca não teve resultados."
+
+#: ../../../include/pages/agent/available.php:330
+msgid ""
+"To schedule a secret shop, simply scroll through the list of Available "
+"Assignments below, make sure you are comfortable with the requirements of "
+"the shop and that you can commit to the specific date (and time, if "
+"applicable) and click 'Accept.'"
+msgstr ""
+"Para agendar uma tarefa secreta, percorra a lista de Tarefas Disponíveis "
+"abaixo, certifique-se de que você está confortável com os requisitos da "
+"tarefa e que você pode cumprir a data específica (e hora se aplicável) e "
+"clique 'Aceitar'."
+
+#: ../../../include/pages/agent/available.php:332
+msgid ""
+"The number of shops you may have scheduled at one time depends on your iSS "
+"Agent rank. "
+msgstr ""
+"O número de tarefas agendadas que você pode ter de uma só vez depende da "
+"posição do seu Agente iSS."
+
+#: ../../../include/pages/agent/available.php:333
+msgid ""
+"NOTE: It is imperative that Agents perform their Assigned Shops on the date "
+"and time agreed.  If for any reason you will be unable to perform a shop you "
+"have scheduled, let us know immediately so that arrangements can be made to "
+"cover it in time.  Cancelling three Assigned Shops may result in your "
+"removal from the iSS program."
+msgstr ""
+"Nota: É fundamental que os Agentes façam as tarefas designadas na data e "
+"hora acordadas. Se, por qualquer motivo você não puder realizar uma tarefa "
+"agendada, nos comunique imediatamente para que possamos tomar medidas à "
+"tempo. Cancelar três Tarefas Atribuídas pode resultar na sua remoção do "
+"programa iSS. "
+
+#: ../../../include/pages/agent/available.php:339
+#: ../../../include/pages/agent/waitlist.php:192
+msgid "Pending Requests"
+msgstr "Pedidos Pendentes"
+
+#: ../../../include/pages/agent/available.php:367
+#: ../../../include/pages/agent/available.php:450
+#: ../../../include/pages/agent/available.php:559
+#: ../../../include/pages/agent/waitlist.php:220
+#: ../../../include/pages/agent/waitlist.php:322
+msgid "Mystery Service Provider"
+msgstr "Provedor de Serviço Espião"
+
+#: ../../../include/pages/agent/available.php:379
+#: ../../../include/pages/agent/available.php:463
+#: ../../../include/pages/agent/available.php:572
+#: ../../../include/pages/agent/waitlist.php:231
+#: ../../../include/pages/agent/waitlist.php:333
+#: ../../../include/pages/mobile/shops/assignments.php:25
+#: ../../../include/pages/mobile/shops/home.php:106
+#: ../../../include/pages/mobile/shops/home.php:186
+msgid "Where"
+msgstr "Onde"
+
+#: ../../../include/pages/agent/available.php:384
+#: ../../../include/pages/agent/available.php:468
+#: ../../../include/pages/agent/available.php:577
+#: ../../../include/pages/agent/waitlist.php:236
+#: ../../../include/pages/agent/waitlist.php:338
+#: ../../../include/pages/mobile/shops/assignments.php:22
+#: ../../../include/pages/mobile/shops/home.php:103
+#: ../../../include/pages/mobile/shops/home.php:183
+msgid "When"
+msgstr "Quando"
+
+#: ../../../include/pages/agent/available.php:401
+msgid "Shops Available in Your Area"
+msgstr "Tarefas Disponíveis na Sua Área"
+
+#: ../../../include/pages/agent/available.php:481
+#: ../../../include/pages/agent/available.php:587
+#: ../../../include/pages/mobile/shops/accept.php:192
+msgid "To Request Shop"
+msgstr "Para Pedir Tarefa"
+
+#: ../../../include/pages/agent/available.php:481
+#: ../../../include/pages/agent/available.php:485
+#: ../../../include/pages/agent/available.php:587
+#: ../../../include/pages/agent/available.php:591
+#: ../../../include/pages/mobile/shops/accept.php:192
+#: ../../../include/pages/mobile/shops/accept.php:196
+msgid "View/Accept MSP Contract"
+msgstr "Ver/Aceitar Contrato PSE"
+
+#: ../../../include/pages/agent/available.php:485
+#: ../../../include/pages/agent/available.php:591
+#: ../../../include/pages/mobile/shops/accept.php:196
+msgid "MSP Contract Updated"
+msgstr "Contrato PSE Atualizado"
+
+#: ../../../include/pages/agent/available.php:502
+#: ../../../include/pages/agent/waitlist.php:272
+#: ../../../include/pages/agent/waitlist.php:360
+msgid "No Shops Available"
+msgstr "Sem Tarefas Disponíveis"
+
+#: ../../../include/pages/agent/available.php:502
+#: ../../../include/pages/agent/waitlist.php:272
+#: ../../../include/pages/agent/waitlist.php:360
+msgid "Please check back soon"
+msgstr "Confira novamente em breve"
+
+#: ../../../include/pages/agent/commentcard.php:52
+#: ../../../include/pages/client/commentcard.php:53
+#: ../../../include/pages/client/survey.php:75
+#: ../../../include/pages/client/mobile/commentcard.php:49
+msgid "Comment card has been canceled"
+msgstr "Cartão de comentário foi cancelado"
+
+#: ../../../include/pages/agent/commentcard.php:157
+#: ../../../include/pages/client/mobile/commentcard.php:171
+msgid "Your commentcard has been submitted"
+msgstr "O seu cartão de comentário foi enviado"
+
+#: ../../../include/pages/agent/commentcard.php:163
+#: ../../../include/pages/client/commentcard.php:188
+msgid "Unable to finalize"
+msgstr "Não é possível finalizar"
+
+#: ../../../include/pages/agent/commentcard.php:168
+#: ../../../include/pages/client/commentcard.php:193
+msgid "Work Saved"
+msgstr "Trabalho Salvo"
+
+#: ../../../include/pages/agent/commentcard.php:197
+#: ../../../include/pages/client/commentcard.php:73
+#: ../../../include/pages/client/survey.php:94
+#: ../../../include/pages/client/mobile/commentcard.php:68
+msgid "Invalid date / time"
+msgstr "Data / hora inválida"
+
+#: ../../../include/pages/agent/commentcard.php:217
+#: ../../../include/pages/agent/shop_edit.php:106
+#: ../../../include/pages/mobile/shops/edit.php:95
+msgid "Date has been changed"
+msgstr "Data foi mudada"
+
+#: ../../../include/pages/agent/commentcard.php:223
+#: ../../../include/pages/agent/shop_edit.php:112
+#: ../../../include/pages/mobile/shops/edit.php:101
+msgid "Unable to edit date"
+msgstr "Não é possível editar data"
+
+#: ../../../include/pages/agent/commentcard.php:268
+#: ../../../include/pages/mobile/shops/edit.php:167
+#: ../../../include/post/upload_file_save.php:67
+msgid "Unable to upload file"
+msgstr "Não é possível carregar arquivo"
+
+#: ../../../include/pages/agent/commentcard.php:316
+msgid ""
+"Your commentcard will not be submitted for review until you choose to "
+"finalize it"
+msgstr ""
+"Seu cartão de comentário não será enviado para revisão até que você decida "
+"finalizá-lo"
+
+#: ../../../include/pages/agent/commentcard.php:387
+#: ../../../include/pages/agent/shop_edit.php:511
+#: ../../../include/pages/agent/shop_edit.php:515
+msgid "Not entered"
+msgstr "Não entrou"
+
+#: ../../../include/pages/agent/commentcard.php:388
+msgid "Edit Time"
+msgstr "Editar Hora"
+
+#: ../../../include/pages/agent/commentcard.php:393
+#: ../../../include/pages/client/commentcard.php:257
+msgid "Edit your answers"
+msgstr "Editar suas respostas"
+
+#: ../../../include/pages/agent/commentcard.php:716
+#: ../../../include/pages/agent/shop_edit.php:829
+#: ../../../include/pages/mobile/shops/edit.php:671
+msgid "Any changes will be lost. Continue?"
+msgstr "Qualquer mudança será perdida. Continuar?"
+
+#: ../../../include/pages/agent/commentcard.php:731
+msgid "End Time"
+msgstr "Hora Final"
+
+#: ../../../include/pages/agent/commentcards.php:37
+#: ../../../include/pages/agent/commentcards.php:81
+#: ../../../include/pages/client/home.php:47
+#: ../../../include/pages/client/home.php:77
+#: ../../../include/pages/client/home.php:129
+#: ../../../include/pages/client/mobile/home.php:47
+#: ../../../include/pages/client/mobile/home.php:77
+#: ../../../include/pages/mobile/shops/home.php:54
+msgid "New Search"
+msgstr "Nova Busca"
+
+#: ../../../include/pages/agent/commentcards.php:131
+#: ../../../include/pages/client/home.php:172
+msgid "Change Area"
+msgstr "Mudar Área"
+
+#: ../../../include/pages/agent/commentcards.php:133
+#: ../../../include/pages/client/home.php:174
+#: ../../../include/pages/client/mobile/home.php:170
+#: ../../../include/pages/mobile/commentcards/home.php:112
+#: ../../../include/pages/mobile/shops/feedback.php:9
+#: ../../../include/pages/mobile/shops/home.php:128
+msgid "Please enter the address, city or ZIP/Postal Code"
+msgstr "Insira o endereço, cidade ou CEP/Código Postal"
+
+#: ../../../include/pages/agent/commentcards.php:142
+#: ../../../include/pages/client/home.php:184
+msgid "Search by Code"
+msgstr "Buscar por Código"
+
+#: ../../../include/pages/agent/commentcards.php:153
+#: ../../../include/pages/client/home.php:197
+#: ../../../include/pages/client/mobile/home.php:186
+#: ../../../include/templates/admin.php:282
+#: ../../../include/templates/admin.php:290
+msgid "Incomplete"
+msgstr "Incompleto"
+
+#: ../../../include/pages/agent/commentcards.php:180
+#: ../../../include/pages/client/mobile/home.php:206
+msgid "Available comment cards near you"
+msgstr "Cartões de comentário disponíveis perto de você"
+
+#: ../../../include/pages/agent/contracts.php:32
+#: ../../../include/pages/agent/contracts.php:120
+#: ../../../include/pages/mobile/contracts.php:39
+#: ../../../include/pages/mobile/contracts.php:116
+msgid "Please enter your digital signature"
+msgstr "Insira sua assinatura digital"
+
+#: ../../../include/pages/agent/contracts.php:34
+#: ../../../include/pages/agent/contracts.php:122
+#: ../../../include/pages/mobile/contracts.php:41
+#: ../../../include/pages/mobile/contracts.php:118
+msgid "Contract has been approved"
+msgstr "Contrato foi aprovado"
+
+#: ../../../include/pages/agent/contracts.php:101
+#: ../../../include/pages/agent/contracts.php:164
+#: ../../../include/pages/mobile/contracts.php:99
+#: ../../../include/pages/mobile/contracts.php:155
+msgid "Agree"
+msgstr "Concordo"
+
+#: ../../../include/pages/agent/contracts.php:105
+#: ../../../include/pages/agent/contracts.php:168
+#: ../../../include/pages/mobile/contracts.php:102
+#: ../../../include/pages/mobile/contracts.php:158
+msgid "Return to Contracts"
+msgstr "Voltar para Contratos"
+
+#: ../../../include/pages/agent/contracts.php:190
+#: ../../../include/pages/mobile/contracts.php:182
+msgid "View/Accept Terms"
+msgstr "Ver/Aceitar Termos"
+
+#: ../../../include/pages/agent/contracts.php:197
+msgid "Agreement Signed"
+msgstr "Acordo Assinado"
+
+#: ../../../include/pages/agent/contracts.php:211
+#: ../../../include/pages/mobile/contracts.php:195
+msgid "View/Accept Contract"
+msgstr "Ver/Aceitar Contrato"
+
+#: ../../../include/pages/agent/demographics.php:95
+#: ../../../include/templates/agent.php:161
+msgid "Profile Details"
+msgstr "Dados do Perfil"
+
+#: ../../../include/pages/agent/demographics.php:96
+msgid ""
+"Some shops have certain requirements.  By telling us more information about "
+"yourself, you can qualify for more shops.  For instance, a mystery shop at a "
+"veternarian clinic will require you to have pets."
+msgstr ""
+"Algumas tarefas têm certos requisitos. Conte mais sobre você e qualifique-se "
+"para mais tarefas. Por exemplo, uma tarefa espiã numa clínica veterinária "
+"requer que você tenha animais de estimação."
+
+#: ../../../include/pages/agent/demographics.php:104
+msgid "Show All"
+msgstr "Mostrar Todas"
+
+#: ../../../include/pages/agent/profile.php:121
+msgid ""
+"Confirmation has been email to your new email.  You must confirm before your "
+"new email is active."
+msgstr ""
+"Confirmação enviada para seu e-mail novo. Você deve confirmar antes que o e-"
+"mail novo esteja ativo."
+
+#: ../../../include/pages/agent/profile.php:226
+#: ../../../include/pages/mobile/account/home.php:85
+#: ../../../include/templates/agent.php:160
+msgid "Your Profile"
+msgstr "Seu Perfil"
+
+#: ../../../include/pages/agent/profile.php:239
+msgid "Update Email"
+msgstr "Atualizar E-mail"
+
+#: ../../../include/pages/agent/profile.php:239
+msgid "Changes requires email confirmation"
+msgstr "Mudanças exigem confirmação de e-mail"
+
+#: ../../../include/pages/agent/profile.php:371
+#: ../../../include/pages/agent/profile.php:383
+#: ../../../include/pages/agent/profile.php:394
+msgid "From Participating MSPs ONLY - This will NOT happen for each shop."
+msgstr "SOMENTE de participantes PSEs - Isto NÃO ocorrerá para cada tarefa"
+
+#: ../../../include/pages/agent/reimbursements.php:10
+#: ../../../include/pages/mobile/payments.php:86
+msgid "Reimbursements"
+msgstr "Reembolsos"
+
+#: ../../../include/pages/agent/reimbursements.php:11
+#: ../../../include/pages/mobile/payments.php:87
+msgid "Redeemable Coupons"
+msgstr "Cupons Reembolsáveis"
+
+#: ../../../include/pages/agent/reimbursements.php:22
+#: ../../../include/pages/mobile/payments.php:98
+msgid "Expires"
+msgstr "Expira"
+
+#: ../../../include/pages/agent/reimbursements.php:28
+#: ../../../include/pages/mobile/payments.php:106
+msgid "No Coupons to Redeem"
+msgstr "Sem Cupons Reembolsáveis"
+
+#: ../../../include/pages/agent/reimbursements.php:34
+#: ../../../include/pages/mobile/payments.php:111
+msgid "Pending Payments:"
+msgstr "Pagamentos Pendentes:"
+
+#: ../../../include/pages/agent/reimbursements.php:41
+#: ../../../include/pages/agent/reimbursements.php:59
+msgid "For"
+msgstr "Para"
+
+#: ../../../include/pages/agent/reimbursements.php:51
+#: ../../../include/pages/mobile/payments.php:127
+msgid "Completed Payments"
+msgstr "Pagamentos Efetuados"
+
+#: ../../../include/pages/agent/reimbursements.php:60
+msgid "Date Paid"
+msgstr "Data em que foi Pago"
+
+#: ../../../include/pages/agent/reschedule.php:32
+msgid "Shop rescheduled"
+msgstr "Tarefa remarcada"
+
+#: ../../../include/pages/agent/reschedule.php:36
+#: ../../../include/pages/agent/reschedule.php:46
+#: ../../../include/pages/agent/reschedule.php:73
+#: ../../../include/pages/agent/reschedule.php:84
+#: ../../../include/pages/agent/reschedule.php:95
+msgid "Unable to Reschedule"
+msgstr "Não é possível Remarcar"
+
+#: ../../../include/pages/agent/reschedule.php:75
+msgid "This shop has already been started and cannot be rescheduled."
+msgstr "Esta tarefa já foi iniciada e não pode ser remarcada."
+
+#: ../../../include/pages/agent/reschedule.php:123
+#: ../../../include/pages/agent/reschedule.php:169
+msgid "No Other Dates Available"
+msgstr "Sem Outras Datas Disponíveis"
+
+#: ../../../include/pages/agent/shop_edit.php:65
+msgid "Your shop has been submitted for review"
+msgstr "A sua tarefa foi enviada para revisão"
+
+#: ../../../include/pages/agent/shop_edit.php:72
+msgid "Unable to finalize your shop"
+msgstr "Não é possível finalizar sua tarefa"
+
+#: ../../../include/pages/agent/shop_edit.php:303
+#: ../../../include/pages/mobile/shops/edit.php:258
+msgid ""
+"Your shop will not be submitted for review until you choose to finalize it"
+msgstr ""
+"A sua tarefa não será enviada para revisão até que você escolha finalizá-la"
+
+#: ../../../include/pages/agent/shop_edit.php:365
+#: ../../../include/pages/agent/shop_edit.php:549
+#: ../../../include/pages/mobile/shops/edit.php:385
+msgid "Finalize Shop"
+msgstr "Finalizar Tarefa"
+
+#: ../../../include/pages/agent/shop_edit.php:365
+#: ../../../include/pages/agent/shop_edit.php:549
+#: ../../../include/pages/mobile/shops/edit.php:385
+msgid "Are you sure you are ready to finalize this shop?"
+msgstr "Tem certeza que está pronto para finalizar esta tarefa?"
+
+#: ../../../include/pages/agent/shop_edit.php:421
+msgid "View Instructions"
+msgstr "Ver Instruções"
+
+#: ../../../include/pages/agent/shop_edit.php:432
+msgid "It is Mandatory to open and read ALL files"
+msgstr "É obrigatório abrir e ler TODOS os arquivos"
+
+#: ../../../include/pages/agent/shop_edit.php:512
+msgid "Edit Start Time"
+msgstr "Editar Hora de Início"
+
+#: ../../../include/pages/agent/shop_edit.php:516
+msgid "Edit Completed Time"
+msgstr "Editar Hora de Conclusão"
+
+#: ../../../include/pages/agent/shop_edit.php:524
+#: ../../../include/pages/mobile/shops/edit.php:366
+msgid "Edit Answers"
+msgstr "Editar Respostas"
+
+#: ../../../include/pages/agent/shop_edit.php:525
+#: ../../../include/pages/mobile/shops/edit.php:367
+msgid "Click on a section below to edit that section"
+msgstr "Clique numa seção abaixo para editar essa seção"
+
+#: ../../../include/pages/agent/shop_edit.php:540
+#: ../../../include/pages/mobile/shops/edit.php:377
+msgid "complete"
+msgstr "completo"
+
+#: ../../../include/pages/agent/shop_edit.php:758
+msgid "(Hours:Minutes:Seconds)"
+msgstr "(Horas:Minutos:Segundos)"
+
+#: ../../../include/pages/agent/waitlist.php:105
+msgid "Waitlist Request"
+msgstr "Pedido para Lista de Espera"
+
+#: ../../../include/pages/agent/waitlist.php:291
+msgid ""
+"The following assingments have all been accepted by other agents. You can "
+"request to be a back up shopper for these locations. To be waitlisted, "
+"simply scroll through the list of Waitlist Shops below, make sure you are "
+"comfortable with the requirements of the shop and that you can commit to the "
+"specific date (and time, if applicable) and click 'Waitlist'."
+msgstr ""
+"As tarefas seguintes foram aceitas por outros agentes. Você pode pedir para "
+"ser um cliente reserva para estes locais. Para estar na lista de espera, "
+"percorra as Listas de Espera de Tarefas abaixo, certifique-se que você está "
+"confortável com os requisitos da tarefa e que pode cumprir a data específica "
+"(e hora, se aplicável) e clique \"Lista de Espera\"."
+
+#: ../../../include/pages/client/mobile/home.php:126
+#: ../../../include/pages/mobile/commentcards/home.php:66
+msgid "No forms were found with code"
+msgstr "Nenhum formulário encontrado com código"
+
+#: ../../../include/pages/client/mobile/home.php:167
+msgid "Find Locations with Comment Cards"
+msgstr "Encontrar Locais com Cartões de Comentário"
+
+#: ../../../include/pages/client/mobile/home.php:179
+#: ../../../include/pages/mobile/commentcards/home.php:121
+msgid "Or Search by Code"
+msgstr "Ou Buscar por Código"
+
+#: ../../../include/pages/mobile/payments.php:101
+msgid "Click to Redeem"
+msgstr "Clique para Resgatar"
+
+#: ../../../include/pages/mobile/payments.php:122
+#: ../../../include/pages/mobile/payments.php:139
+msgid "None:"
+msgstr "Nenhum:"
+
+#: ../../../include/pages/mobile/payments.php:133
+msgid "Amount:"
+msgstr "Montante:"
+
+#: ../../../include/pages/mobile/payments.php:134
+msgid "For:"
+msgstr "Para:"
+
+#: ../../../include/pages/mobile/payments.php:135
+msgid "Date Paid:"
+msgstr "Data que foi Pago:"
+
+#: ../../../include/pages/mobile/commentcards/edit.php:671
+#: ../../../include/pages/mobile/shops/edit.php:636
+msgid "Unable to upload photos from your device"
+msgstr "Não é possível carregar fotos do seu dispositivo"
+
+#: ../../../include/pages/mobile/commentcards/edit.php:672
+msgid ""
+"Please use the iSecretShop iPhone app to fill out this card OR log in and "
+"upload the pictures from your home computer."
+msgstr ""
+"Use o app iSecretShop iPhone para preencher este cartão OU faça login e faça "
+"upload das fotos pelo seu computador de casa."
+
+#: ../../../include/pages/mobile/commentcards/home.php:67
+msgid "Click here to try a different search"
+msgstr "Clique aqui e teste uma busca diferente"
+
+#: ../../../include/pages/mobile/shops/edit.php:357
+msgid "Please enter date / time you entered"
+msgstr "Insira data / hora que você entrou"
+
+#: ../../../include/pages/mobile/shops/edit.php:362
+msgid "Please enter date / time you left"
+msgstr "Insira data / hora que você saiu"
+
+#: ../../../include/pages/mobile/shops/edit.php:637
+msgid ""
+"Please use the iSecretShop iPhone app to do this shop OR log in and upload "
+"the pictures from your home computer."
+msgstr ""
+"Por favor use o app iSecretShop iPhone para fazer esta tarefa OU faça login "
+"e carregue as fotos pelo seu computador de casa."
+
+#: ../../../include/pages/mobile/shops/edit.php:686
+msgid "started the shop"
+msgstr "iniciou a tarefa"
+
+#: ../../../include/pages/mobile/shops/edit.php:686
+msgid "completed the shop"
+msgstr "completou a tarefa"
+
+#: ../../../include/templates/admin.php:91
+#: ../../../include/templates/admin_no_side.php:84
+msgid "Service Ticket"
+msgstr "Tícket de Serviço"
+
+#: ../../../include/templates/admin.php:94
+#: ../../../include/templates/admin_no_side.php:88
+msgid "Welcome"
+msgstr "Bem-vindo"
+
+#: ../../../include/templates/admin.php:96
+#: ../../../include/templates/admin_no_side.php:90
+msgid "You have"
+msgstr "Você tem"
+
+#: ../../../include/templates/admin.php:97
+#: ../../../include/templates/admin_no_side.php:91
+msgid "shops w/requests"
+msgstr "tarefas c/pedidos"
+
+#: ../../../include/templates/admin.php:98
+#: ../../../include/templates/admin_no_side.php:92
+msgid "late shops"
+msgstr "tarefas atrasadas"
+
+#: ../../../include/templates/admin.php:99
+#: ../../../include/templates/admin_no_side.php:93
+msgid "open shops"
+msgstr "tarefas abertas"
+
+#: ../../../include/templates/admin.php:100
+#: ../../../include/templates/admin_no_side.php:94
+msgid "pending shops"
+msgstr "tarefas pendentes"
+
+#: ../../../include/templates/admin.php:134
+msgid "Device Report"
+msgstr "Relatório do Dispositivo"
+
+#: ../../../include/templates/admin.php:192
+msgid "Admins"
+msgstr "Adm"
+
+#: ../../../include/templates/admin.php:202
+msgid "Clients"
+msgstr "Clientes"
+
+#: ../../../include/templates/admin.php:205
+msgid "Reports"
+msgstr "Relatórios"
+
+#: ../../../include/templates/admin.php:208
+#: ../../../include/templates/admin.php:209
+msgid "Snapshot"
+msgstr "Foto Instantânea"
+
+#: ../../../include/templates/admin.php:215
+msgid "Outbound Calls"
+msgstr "Chamadas Realizadas"
+
+#: ../../../include/templates/admin.php:216
+msgid "Recorded Calls"
+msgstr "Chamadas Gravadas"
+
+#: ../../../include/templates/admin.php:217
+msgid "Survey"
+msgstr "Pesquisa"
+
+#: ../../../include/templates/admin.php:219
+#: ../../../include/templates/admin.php:227
+msgid "Scheduler"
+msgstr "Agendador"
+
+#: ../../../include/templates/admin.php:221
+#: ../../../include/templates/admin.php:230
+msgid "Editor by shop date"
+msgstr "Editor por data de tarefa"
+
+#: ../../../include/templates/admin.php:222
+#: ../../../include/templates/admin.php:231
+msgid "Editor by approval date"
+msgstr "Editor por data de aprovação"
+
+#: ../../../include/templates/admin.php:241
+#: ../../../include/templates/admin.php:242
+msgid "Permanent Bans"
+msgstr "Proibições Permanentes"
+
+#: ../../../include/templates/admin.php:242
+msgid "System"
+msgstr "Sistema"
+
+#: ../../../include/templates/admin.php:244
+msgid "Private Database"
+msgstr "Banco de Dados Privado"
+
+#: ../../../include/templates/admin.php:245
+msgid "Fraud Score"
+msgstr "Pontuação de Fraude"
+
+#: ../../../include/templates/admin.php:246
+msgid "Invalid Addresses"
+msgstr "Endereços inválidos"
+
+#: ../../../include/templates/admin.php:255
+msgid "Campaigns"
+msgstr "Campanhas"
+
+#: ../../../include/templates/admin.php:258
+msgid "Active"
+msgstr "Ativo"
+
+#: ../../../include/templates/admin.php:262
+msgid "Shops"
+msgstr "Tarefas"
+
+#: ../../../include/templates/admin.php:267
+msgid "Pending - All"
+msgstr "Pendente - Todos"
+
+#: ../../../include/templates/admin.php:268
+msgid "Pending - Finalized"
+msgstr "Pendente - Finalizado"
+
+#: ../../../include/templates/admin.php:270
+#: ../../../include/templates/admin.php:283
+msgid "Declined"
+msgstr "Recusado"
+
+#: ../../../include/templates/admin.php:271
+msgid "Open"
+msgstr "Aberto"
+
+#: ../../../include/templates/admin.php:272
+msgid "Assigned"
+msgstr "Atribuído"
+
+#: ../../../include/templates/admin.php:273
+msgid "Photo Gallery"
+msgstr "Galeria de Fotos"
+
+#: ../../../include/templates/admin.php:280
+msgid "Pending"
+msgstr "Pendente"
+
+#: ../../../include/templates/admin.php:281
+msgid "Available"
+msgstr "Disponível"
+
+#: ../../../include/templates/admin.php:286
+msgid "Surveys"
+msgstr "Pesquisas"
+
+#: ../../../include/templates/admin.php:300
+#: ../../../include/templates/admin.php:308
+msgid "Payroll"
+msgstr "Folha de Pagamento"
+
+#: ../../../include/templates/admin.php:316
+msgid "Sections"
+msgstr "Seções"
+
+#: ../../../include/templates/agent.php:143
+msgid "Welcome to your Agent Control Panel"
+msgstr "Bem-vindo ao seu Painel de Controle do Agente"
+
+#: ../../../include/templates/agent.php:155
+msgid "Visit"
+msgstr "Visitar"
+
+#: ../../../include/templates/agent.php:155
+msgid "to complete online courses, earn points and Certifications!"
+msgstr "para realizar cursos online, ganhar pontos e Certificados!"
+
+#: ../../../include/templates/agent.php:162
+msgid "Payments/Coupons"
+msgstr "Pagamentos/Cupons"
+
+#: ../../../include/templates/agent.php:164
+msgid "Resources"
+msgstr "Recursos"
+
+#: ../../../include/templates/home.php:128
+msgid "Registered Shoppers"
+msgstr "Clientes Registrados"
+
+#: ../../../include/templates/home.php:161
+msgid "Amazingly Adapted"
+msgstr "Incrivelmente Adaptado"
+
+#: ../../../include/templates/home.php:193
+msgid "Incredible Speed & Accuracy"
+msgstr "Velocidade Incrível & Precisão"
+
+#: ../../../include/templates/home.php:226
+msgid "Perfectly Efficient "
+msgstr "Perfeitamente Eficiente"
+
+#: ../../../include/templates/home.php:235
+msgid "Save Time &  Money"
+msgstr "Economize Tempo & Dinheiro"
+
+#: ../../../include/templates/home.php:259
+msgid "Innovation Redefined"
+msgstr "Inovação Redefinida"
+
+#: ../../../include/templates/home.php:268
+msgid "w/ Cutting Edge Technology"
+msgstr "com Tecnologia de Ponta"
+
+#: ../../../include/templates/home.php:294
+msgid "MSPs and MRCs Click Here to Learn about iSS or to Log In"
+msgstr "PSEs e CPMs Cliquem Aqui para Saber sobre iSS ou para Login"
+
+#: ../../../include/templates/home.php:296
+#: ../../../include/templates/home.php:318
+msgid "Learn More"
+msgstr "Saiba Mais"
+
+#: ../../../include/templates/home.php:303
+msgid "iSS is a Shopper Portal & Job Board too!"
+msgstr "iSS também é um Portal de Cliente & Canal de Trabalho!"
+
+#: ../../../include/templates/home.php:303
+msgid "Register to Become an Agent or Log In & Start Shopping!"
+msgstr "Registre-se para Ser um Agente ou Faça Login & Comece o Serviço!"
+
+#: ../../../include/templates/home.php:313
+msgid "Businesses to Business Clients"
+msgstr "Companias para Clientes Empresariais"
+
+#: ../../../include/templates/home.php:315
+msgid "Looking for a cutting-edge program? DIY Shops?"
+msgstr "Procurando um programa de ponta? Tarefas DIY?"
+
+#: ../../../include/templates/home.php:316
+msgid "Existing Clients"
+msgstr "Clientes Existentes"
+
+#: ../../../include/templates/home.php:316
+msgid "Log In Here for your Reports."
+msgstr "Faça Login Aqui para seus Relatórios."
+
+#: ../../../include/templates/home.php:329
+#: ../../../include/templates/home.php:338
+msgid "Register with iSecretShop and Re-Discover Mystery Shopping!"
+msgstr "Registre-se em iSecretShop e Redescubra Serviço Espião!"
+
+#: ../../../include/templates/home.php:331
+msgid "What is iSecretShop?"
+msgstr "O que é iSecretShop?"
+
+msgid "TEXT_HOME_1"
+msgstr ""
+"iSS é um sistema de software de coleta de dados abrangente E um Canal de "
+"Empregos/Portal de Cliente. Clientes registram-se aqui para ganhar acesso "
+"imediato a TODAS as tarefas publicadas pelo Sistema iSS para todas as nossas "
+"PSEs em um local conveniente. iSS não é uma PSE. Somos software. Software "
+"projetado para facilitar de forma inteligente e otimizada a experiência de "
+"cada um."
+
+msgid "TEXT_HOME_2"
+msgstr ""
+"Assim ao invés de se preocupar com centenas de e-mails por semana de dezenas "
+"de PSEs - iSS lhe enviará um e-mail semanal das Tarefas Disponíveis com tudo "
+"perto de você. Não entre numa dúzia de sites para planejar rotas, faça login "
+"aqui uma vez e veja tudo num único lugar. Acompanhe seus pagamentos, "
+"comunique-se com PSEs, complete suas tarefas - tudo aqui."
+
+msgid "TEXT_HOME_3"
+msgstr ""
+"PSEs usam iSS para agendar, editar e publicar tarefas. E para compilar dados "
+"complexos para seus clientes finais. Clientes usam para acelerar, "
+"simplificar e otimizar muito seu trabalho – usando um smartphone ou o "
+"tradicional PC para completar suas tarefas. Ou ambos!"
+
+msgid "FRAUD ALERT"
+msgstr "ALERTA DE FRAUDE"
+
+#: ../../../include/templates/home.php:351
+msgid ""
+"Fraudulent emails and checks are being sent with iSecretShop's name and "
+"address."
+msgstr ""
+"E-mails fraudulentos e cheques estão sendo enviados com nome e endereço de "
+"iSecretShop."
+
+#: ../../../include/templates/home.php:351
+msgid "These are NOT from us! "
+msgstr "Estes NÃO são de iSecretShop!"
+
+#: ../../../include/templates/home.php:351
+msgid "Please delete!"
+msgstr "Exclua por favor!"
+
+#: ../../../include/templates/interior.php:98
+msgid "Agent Data Entry"
+msgstr "Agente de Entrada de Dados"
+
+#: ../../../include/templates/interior.php:110
+msgid "Back to your Agent Control Panel"
+msgstr "Voltar para Painel de Controle do Agente"
+
+#: ../../../include/templates/main.php:101
+msgid ""
+"Need quality feedback but don’t want contracts or recurring shops? Our pre-"
+"made forms and huge shopper pool let you run your own program with ease."
+msgstr ""
+"Busca feedback de qualidade e não quer contratos ou tarefas recorrentes? "
+"Nossos formulários prontos e enorme conjunto de clientes deixam você "
+"executar facilmente o seu programa."
+
+#: ../../../include/templates/msp.php:78
+msgid ""
+"iSecretShop leverages the newest tech and most innovative ideas to give MSPs "
+"tools and controls that no other platform can deliver – with an interface so "
+"intuitive it can be used immediately by Project Managers, Schedulers, "
+"Editors and Shoppers alike."
+msgstr ""
+"iSecretShop usa tecnologias recentes e ideias mais inovadoras para dar a "
+"PSEs ferramentas e controles que nenhuma outra plataforma oferece – com "
+"interface tão intuitiva que pode ser usada imediatamente por Gestores de "
+"Projetos, Agendadores, Editores e Clientes. "
+
+#: ../../../include/templates/msp.php:80
+msgid ""
+"Our sophisticated scheduling and editing tools, cutting-edge fraud detection "
+"and error-checking, mobile and traditional entry methods, complex question "
+"logic, geo-tagging and amazing automation give your team: better results "
+"with less effort, your clients: better data faster and makes shoppers’ jobs "
+"easier as their quality improves."
+msgstr ""
+"Nossas ferramentas sofisticadas de agendamento e edição, detecção de fraude "
+"e verificação de erros de última geração, móvel e tradicional, lógica "
+"complexa de questões, marcação geográfica e incrível automação dá a sua "
+"equipe: melhores resultados com menos esforço, seus clientes: dados rápidos "
+"e melhores, facilitando trabalhos e elevando a qualidade."
+
+#: ../../../include/templates/msp.php:82
+msgid ""
+"With multiple Data Channels (mystery shops, comment cards, audits, surveys "
+"and more), Industry Benchmarking, Shared Questions, Custom Reporting, Phone "
+"and Video shops and a growing, shared shopper pool of over 500,000 agents "
+"waiting to work for you, iSecretShop is the solution you have been looking "
+"for."
+msgstr ""
+"Com vários Canais de Dados (tarefas espiãs, cartões de comentários, "
+"auditorias, pesquisas etc), Referências Industriais, Questões "
+"Compartilhadas, Relatórios Personalizados, tarefas de Fone e Vídeo e fonte "
+"compartilhada de mais de 500,000 agentes esperando para trabalhar para você, "
+"iSecretShop é a solução que você procurava."
+
+#: ../../../include/templates/msp.php:100
+msgid "Overview"
+msgstr "Visão Geral"
+
+#: ../../../include/templates/msp.php:103
+msgid "Data Entry Channels"
+msgstr "Canais de Entrada de Dados"
+
+#: ../../../include/templates/msp.php:106
+msgid "Fraud Tools"
+msgstr "Ferramentas de Fraude"
+
+#: ../../../include/templates/msp.php:115
+msgid "Price Audits"
+msgstr "Auditorias de Preço"
+
+#: ../../../include/templates/msp.php:118
+msgid "Certifications"
+msgstr "Certificações"
+
+#: ../../../include/templates/msp.php:121
+msgid "Benchmarking"
+msgstr "Referência"
+
+#: ../../../include/templates/msp.php:124
+msgid "Sample Shop Reports"
+msgstr "Exemplos de Relatórios de Tarefa"
+
+#: ../../../include/templates/msp.php:127
+msgid "Telephony"
+msgstr "Telefonia"
+
+#: ../../../include/templates/msp.php:135
+msgid "Subscribe to our Newsletter"
+msgstr "Assine o nosso Boletim"
+
+#: ../../../include/templates/msp.php:144
+msgid "All Newsletter Archive"
+msgstr "Todos os Arquivos de Boletins"
+
+#: ../../../include/templates/msp.php:153
+msgid "Download Brochures"
+msgstr "Baixar Brochuras"
+
+#: ../../../include/templates/msp.php:157
+msgid "Download All PDFs"
+msgstr "Baixar Todos os PDFs"

@@ -1,0 +1,1693 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: iSSDirector v1\n"
+"POT-Creation-Date: 2014-11-26 07:07-1000\n"
+"PO-Revision-Date: 2015-01-10 07:22-1000\n"
+"Last-Translator: \n"
+"Language-Team: iSecretShop <jennifer@isecretshop.com>\n"
+"Language: en_US\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Poedit 1.6.10\n"
+"X-Poedit-KeywordsList: _;gettext;gettext_noop\n"
+"X-Poedit-Basepath: .\n"
+"X-Poedit-SourceCharset: UTF-8\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"X-Poedit-SearchPath-0: ../../../include\n"
+
+#: ../../../include/common/class.MiscFunctions.php:275
+#: ../../../include/common/class.MiscFunctions.php:302
+#: ../../../include/common/class.MiscFunctions.php:328
+#: ../../../include/pages/schedule1.php:309
+#: ../../../include/pages/schedule1.php:375
+#: ../../../include/pages/schedule1.php:392
+#: ../../../include/pages/schedule1.php:411
+#: ../../../include/pages/users.php:293 ../../../include/pages/users.php:307
+#: ../../../include/pages/users.php:322 ../../../include/pages/users.php:339
+#: ../../../include/pages/users.php:354 ../../../include/pages/users.php:369
+#: ../../../include/pages/users.php:384 ../../../include/pages/users.php:406
+#: ../../../include/pages/users.php:421 ../../../include/pages/users.php:436
+#: ../../../include/pages/users.php:451 ../../../include/pages/users.php:466
+msgid "Yes"
+msgstr "Jah"
+
+#: ../../../include/common/class.MiscFunctions.php:275
+#: ../../../include/common/class.MiscFunctions.php:302
+#: ../../../include/common/class.MiscFunctions.php:328
+#: ../../../include/pages/schedule1.php:314
+#: ../../../include/pages/schedule1.php:380
+#: ../../../include/pages/schedule1.php:395
+#: ../../../include/pages/schedule1.php:423
+#: ../../../include/pages/users.php:297 ../../../include/pages/users.php:311
+#: ../../../include/pages/users.php:326 ../../../include/pages/users.php:343
+#: ../../../include/pages/users.php:358 ../../../include/pages/users.php:373
+#: ../../../include/pages/users.php:388 ../../../include/pages/users.php:410
+#: ../../../include/pages/users.php:425 ../../../include/pages/users.php:440
+#: ../../../include/pages/users.php:455 ../../../include/pages/users.php:470
+msgid "No"
+msgstr "Ei"
+
+#: ../../../include/common/class.MiscFunctions.php:280
+#: ../../../include/common/class.MiscFunctions.php:307
+#: ../../../include/pages/company.php:174
+#: ../../../include/pages/locations.php:332
+#: ../../../include/pages/locations.php:359
+#: ../../../include/pages/users.php:273
+msgid "Please Choose"
+msgstr "Palun Valige"
+
+#: ../../../include/manual/class.Answer.php:13
+#: ../../../include/manual/class.Answer.php:106
+#: ../../../include/manual/class.Answer.php:167
+#: ../../../include/manual/class.Answer.php:169
+msgid "Not Scored"
+msgstr "Hindamata"
+
+#: ../../../include/manual/class.Answer.php:43
+#: ../../../include/manual/class.Answer.php:141
+msgid "Chosen"
+msgstr "Valitud"
+
+#: ../../../include/manual/class.Answer.php:70
+#: ../../../include/manual/class.Answer.php:181
+msgid "View Photo"
+msgstr "Näita Pilt"
+
+#: ../../../include/manual/class.Answer.php:166
+#: ../../../include/pages/schedule1.php:35
+msgid "Not Applicable"
+msgstr "Ei Ole Kohaldatav"
+
+#: ../../../include/manual/class.Graphs.php:132
+msgid ""
+"Too many points to display in one graph.  Please create a custom report or "
+"client levels"
+msgstr ""
+"Liiga palju punkte, et ühes graafikus näidata. Palun looge kohandatud raport "
+"või kliendi tasemed"
+
+#: ../../../include/manual/class.ReportElements.php:41
+msgid "Current Period Total Score"
+msgstr "Praeguse perioodi täielik skoor"
+
+#: ../../../include/manual/class.ReportElements.php:52
+#: ../../../include/manual/class.ReportElements.php:119
+#: ../../../include/manual/class.ReportElements.php:210
+msgid "No Data to Display"
+msgstr "Kuvatavad andmed puuduvad"
+
+#: ../../../include/manual/class.ReportElements.php:99
+msgid "Previous"
+msgstr "Eelmine"
+
+#: ../../../include/manual/class.ReportElements.php:99
+#: ../../../include/manual/class.ReportElements.php:202
+#: ../../../include/manual/class.ReportElements.php:696
+msgid "Change"
+msgstr "Muuda"
+
+#: ../../../include/manual/class.ReportElements.php:155
+#: ../../../include/manual/class.ReportElements.php:157
+msgid "Past "
+msgstr "Minevik"
+
+#: ../../../include/manual/class.ReportElements.php:155
+#: ../../../include/manual/class.ReportElements.php:157
+msgid "Periods"
+msgstr "Ajavahemikud"
+
+#: ../../../include/manual/class.ReportElements.php:163
+msgid "Current Period"
+msgstr "Käesolev periood"
+
+#: ../../../include/manual/class.ReportElements.php:169
+msgid "Previous Period"
+msgstr "Eelmine Ajavahemik"
+
+#: ../../../include/manual/class.ReportElements.php:176
+#: ../../../include/manual/class.ReportPDFs.php:890
+#: ../../../include/manual/class.ReportPDFs.php:891
+#: ../../../include/manual/class.ReportPDFs.php:1106
+#: ../../../include/manual/class.ReportPDFs.php:1107
+#: ../../../include/manual/class.ReportPDFs.php:1328
+#: ../../../include/manual/class.ReportPDFs.php:1329
+#: ../../../include/manual/class.ReportPDFs.php:1524
+#: ../../../include/manual/class.ReportPDFs.php:1525
+msgid "Comparative Rank"
+msgstr "Võrdlev tase"
+
+#: ../../../include/manual/class.ReportElements.php:202
+msgid "Current Rank"
+msgstr "Praegune tase"
+
+#: ../../../include/manual/class.ReportElements.php:202
+msgid "Previous Rank"
+msgstr "Varasem tase"
+
+#: ../../../include/manual/class.ReportElements.php:285
+#: ../../../include/manual/class.ReportElements.php:286
+#: ../../../include/manual/class.ReportElements.php:287
+msgid "of"
+msgstr "või"
+
+#: ../../../include/manual/class.ReportElements.php:285
+#: ../../../include/manual/class.ReportElements.php:286
+#: ../../../include/manual/class.ReportElements.php:287
+#: ../../../include/pages/schedule1.php:100
+#: ../../../include/pages/schedule1.php:125
+msgid "None"
+msgstr "Pole"
+
+#: ../../../include/manual/class.ReportElements.php:367
+#: ../../../include/manual/class.ReportElements.php:540
+#: ../../../include/pages/answer.php:288
+#: ../../../include/pages/response.php:99
+#: ../../../include/pages/response.php:166
+#: ../../../include/pages/responses.php:380
+#: ../../../include/pages/section.php:237
+msgid "Location"
+msgstr "Asukoht"
+
+#: ../../../include/manual/class.ReportElements.php:367
+msgid "YTD"
+msgstr "YTD"
+
+#: ../../../include/manual/class.ReportElements.php:544
+#: ../../../include/manual/class.ReportPDFs.php:236
+msgid "Visit"
+msgstr "Visiit"
+
+#: ../../../include/manual/class.ReportElements.php:696
+#: ../../../include/pages/section.php:258
+msgid "Question"
+msgstr "Küsimus"
+
+#: ../../../include/manual/class.ReportElements.php:725
+msgid "No Scores in that Range"
+msgstr "Selles vahemikus ei ole punkte"
+
+#: ../../../include/manual/class.ReportElements.php:776
+#: ../../../include/manual/class.ReportElements.php:777
+#: ../../../include/manual/class.ReportElements.php:823
+#: ../../../include/manual/class.ReportElements.php:824
+#: ../../../include/manual/class.ReportPDFs.php:574
+#: ../../../include/manual/class.ReportPDFs.php:1057
+#: ../../../include/manual/class.ReportPDFs.php:1279
+#: ../../../include/manual/class.ReportPDFs.php:1498
+#: ../../../include/pages/excelreports.php:534
+msgid "Location Scores"
+msgstr "Asukoha Skoorid"
+
+#: ../../../include/manual/class.ReportElements.php:901
+#: ../../../include/manual/class.ReportElements.php:902
+#: ../../../include/manual/class.ReportElements.php:945
+#: ../../../include/manual/class.ReportElements.php:946
+#: ../../../include/manual/class.ReportPDFs.php:582
+msgid "Level Scores"
+msgstr "Taseme Skoorid"
+
+#: ../../../include/manual/class.ReportElements.php:919
+#: ../../../include/manual/class.ReportElements.php:962
+msgid "No Data to Report"
+msgstr "Ei ole andmeid mida esitada"
+
+#: ../../../include/manual/class.ReportPDFs.php:63
+msgid "Question Summary Report"
+msgstr "Küsimuste Kokkuvõte Raport"
+
+#: ../../../include/manual/class.ReportPDFs.php:108
+#: ../../../include/manual/class.ReportPDFs.php:161
+msgid "Location Score"
+msgstr "Asukoha Skoor"
+
+#: ../../../include/manual/class.ReportPDFs.php:109
+#: ../../../include/manual/class.ReportPDFs.php:162
+msgid "Company Score"
+msgstr "Ettevõte Skoor"
+
+#: ../../../include/manual/class.ReportPDFs.php:114
+msgid "Overall Score"
+msgstr "Üldine Skoor"
+
+#: ../../../include/manual/class.ReportPDFs.php:144
+msgid "Question Summary"
+msgstr "Küsimuste Kokkuvõte"
+
+#: ../../../include/manual/class.ReportPDFs.php:405
+msgid "Roll-Up Reports"
+msgstr "Roll-Up Raportid"
+
+#: ../../../include/manual/class.ReportPDFs.php:412
+#: ../../../include/manual/class.ReportPDFs.php:760
+#: ../../../include/manual/class.ReportPDFs.php:980
+#: ../../../include/manual/class.ReportPDFs.php:1198
+#: ../../../include/manual/class.ReportPDFs.php:1420
+msgid "Overall Progress"
+msgstr "Üldine Progress"
+
+#: ../../../include/manual/class.ReportPDFs.php:424
+#: ../../../include/manual/class.ReportPDFs.php:772
+#: ../../../include/manual/class.ReportPDFs.php:991
+#: ../../../include/manual/class.ReportPDFs.php:1211
+#: ../../../include/manual/class.ReportPDFs.php:1432
+msgid "Question Reporting"
+msgstr "Küsimuste Raporteerimine"
+
+#: ../../../include/manual/class.ReportPDFs.php:429
+#: ../../../include/manual/class.ReportPDFs.php:430
+#: ../../../include/manual/class.ReportPDFs.php:777
+#: ../../../include/manual/class.ReportPDFs.php:778
+#: ../../../include/manual/class.ReportPDFs.php:996
+#: ../../../include/manual/class.ReportPDFs.php:997
+#: ../../../include/manual/class.ReportPDFs.php:1216
+#: ../../../include/manual/class.ReportPDFs.php:1217
+#: ../../../include/manual/class.ReportPDFs.php:1437
+#: ../../../include/manual/class.ReportPDFs.php:1438
+msgid "Areas With Superior Performance"
+msgstr "Piirkonnad Kõrgeima Esitusega"
+
+#: ../../../include/manual/class.ReportPDFs.php:440
+#: ../../../include/manual/class.ReportPDFs.php:441
+#: ../../../include/manual/class.ReportPDFs.php:788
+#: ../../../include/manual/class.ReportPDFs.php:789
+#: ../../../include/manual/class.ReportPDFs.php:1007
+#: ../../../include/manual/class.ReportPDFs.php:1008
+#: ../../../include/manual/class.ReportPDFs.php:1227
+#: ../../../include/manual/class.ReportPDFs.php:1228
+#: ../../../include/manual/class.ReportPDFs.php:1448
+#: ../../../include/manual/class.ReportPDFs.php:1449
+msgid "Areas With High Performance"
+msgstr "Piirkonnad Kõrge Esitusega"
+
+#: ../../../include/manual/class.ReportPDFs.php:451
+#: ../../../include/manual/class.ReportPDFs.php:452
+#: ../../../include/manual/class.ReportPDFs.php:799
+#: ../../../include/manual/class.ReportPDFs.php:800
+#: ../../../include/manual/class.ReportPDFs.php:1018
+#: ../../../include/manual/class.ReportPDFs.php:1019
+#: ../../../include/manual/class.ReportPDFs.php:1238
+#: ../../../include/manual/class.ReportPDFs.php:1239
+#: ../../../include/manual/class.ReportPDFs.php:1459
+#: ../../../include/manual/class.ReportPDFs.php:1460
+msgid "Areas With Opportunities to Improve"
+msgstr "Valdkonnad, mida on võimalik arendada"
+
+#: ../../../include/manual/class.ReportPDFs.php:462
+#: ../../../include/manual/class.ReportPDFs.php:463
+#: ../../../include/manual/class.ReportPDFs.php:810
+#: ../../../include/manual/class.ReportPDFs.php:811
+#: ../../../include/manual/class.ReportPDFs.php:1029
+#: ../../../include/manual/class.ReportPDFs.php:1030
+#: ../../../include/manual/class.ReportPDFs.php:1249
+#: ../../../include/manual/class.ReportPDFs.php:1250
+#: ../../../include/manual/class.ReportPDFs.php:1470
+#: ../../../include/manual/class.ReportPDFs.php:1471
+msgid "Areas to Improve"
+msgstr "Valdkonnad, mida arendada"
+
+#: ../../../include/manual/class.ReportPDFs.php:478
+#: ../../../include/manual/class.ReportPDFs.php:481
+#: ../../../include/manual/class.ReportPDFs.php:828
+#: ../../../include/manual/class.ReportPDFs.php:829
+#: ../../../include/manual/class.ReportPDFs.php:1043
+#: ../../../include/manual/class.ReportPDFs.php:1044
+#: ../../../include/manual/class.ReportPDFs.php:1264
+#: ../../../include/manual/class.ReportPDFs.php:1265
+#: ../../../include/manual/class.ReportPDFs.php:1484
+#: ../../../include/manual/class.ReportPDFs.php:1485
+msgid "Section Scores"
+msgstr "Osa Skoorid"
+
+#: ../../../include/manual/class.ReportPDFs.php:493
+#: ../../../include/manual/class.ReportPDFs.php:496
+#: ../../../include/manual/class.ReportPDFs.php:858
+#: ../../../include/manual/class.ReportPDFs.php:861
+#: ../../../include/manual/class.ReportPDFs.php:1074
+#: ../../../include/manual/class.ReportPDFs.php:1077
+#: ../../../include/manual/class.ReportPDFs.php:1297
+#: ../../../include/manual/class.ReportPDFs.php:1298
+#: ../../../include/manual/class.ReportPDFs.php:1509
+#: ../../../include/manual/class.ReportPDFs.php:1510
+msgid "Location Performance"
+msgstr "Asukoha Esitus"
+
+#: ../../../include/manual/class.ReportPDFs.php:509
+#: ../../../include/manual/class.ReportPDFs.php:512
+msgid "Shops Location per Period"
+msgstr "Ostude asukohad perioodi kohta"
+
+#: ../../../include/manual/class.ReportPDFs.php:525
+#: ../../../include/manual/class.ReportPDFs.php:528
+#: ../../../include/manual/class.ReportPDFs.php:875
+#: ../../../include/manual/class.ReportPDFs.php:876
+#: ../../../include/manual/class.ReportPDFs.php:1091
+#: ../../../include/manual/class.ReportPDFs.php:1092
+#: ../../../include/manual/class.ReportPDFs.php:1313
+#: ../../../include/manual/class.ReportPDFs.php:1314
+msgid "Level Performance"
+msgstr "Taseme Esitus"
+
+#: ../../../include/manual/class.ReportPDFs.php:754
+msgid "Corporate Reports"
+msgstr "Koporatiivsed aruanded"
+
+#: ../../../include/manual/class.ReportPDFs.php:906
+#: ../../../include/manual/class.ReportPDFs.php:907
+#: ../../../include/manual/class.ReportPDFs.php:1121
+#: ../../../include/manual/class.ReportPDFs.php:1122
+#: ../../../include/manual/class.ReportPDFs.php:1344
+#: ../../../include/manual/class.ReportPDFs.php:1345
+#: ../../../include/manual/class.ReportPDFs.php:1540
+#: ../../../include/manual/class.ReportPDFs.php:1541
+msgid "Question Performance"
+msgstr "Küsimuse Esitus"
+
+#: ../../../include/modules/login.php:7
+msgid "Please enter your email and password"
+msgstr "Palun sisestage oma email ja salasõna"
+
+#: ../../../include/modules/login.php:11
+msgid "Unable to log in."
+msgstr "Ei saa sisse logida."
+
+#: ../../../include/modules/login.php:12
+msgid "Please try again."
+msgstr "Palun proovige uuesti."
+
+#: ../../../include/modules/login.php:17
+msgid "Logged in as "
+msgstr "Sisse logitud nagu"
+
+#: ../../../include/modules/nav.php:13
+msgid "Dashboard"
+msgstr "Paneel"
+
+#: ../../../include/modules/nav.php:18
+msgid "Responses"
+msgstr "Vastused"
+
+#: ../../../include/modules/nav.php:19
+msgid "PDF Summary Reports"
+msgstr "PDF Kokkuvõte Raportid"
+
+#: ../../../include/modules/nav.php:20
+msgid "Dynamic Reports"
+msgstr "Dünaamilised Raportid"
+
+#: ../../../include/modules/nav.php:22
+msgid "Comment Card Reports"
+msgstr "Tagasiside Kaardi Raportid"
+
+#: ../../../include/modules/nav.php:23
+msgid "Price Audit Reports"
+msgstr "Hinna Auditi Raportid"
+
+#: ../../../include/modules/nav.php:29 ../../../include/pages/views.php:150
+#: ../../../include/pages/views.php:153
+msgid "Custom Views"
+msgstr "Tavalised vaated"
+
+#: ../../../include/modules/nav.php:39 ../../../include/modules/nav.php:44
+msgid "Control Panel"
+msgstr "Juhtpaneel"
+
+#: ../../../include/modules/nav.php:45
+msgid "Project Management"
+msgstr "Projektijuht"
+
+#: ../../../include/modules/nav.php:46
+msgid "Launch New Project"
+msgstr "Alusta Uus Projekt"
+
+#: ../../../include/modules/nav.php:47
+msgid "Forms"
+msgstr "Vormid"
+
+#: ../../../include/modules/nav.php:53
+msgid "Company Details"
+msgstr "Ettevõte Detailid"
+
+#: ../../../include/modules/nav.php:54
+msgid "Location Management"
+msgstr "Asukoha Juhtimine"
+
+#: ../../../include/modules/nav.php:55
+msgid "User Management"
+msgstr "Kasutaja Juhtimine"
+
+#: ../../../include/modules/nav.php:56
+msgid "Price Audit Products"
+msgstr "Hinna Auditi Tooted"
+
+#: ../../../include/modules/nav.php:62
+msgid "Account"
+msgstr "Konto"
+
+#: ../../../include/modules/nav.php:67
+msgid "Profile"
+msgstr "Profiil"
+
+#: ../../../include/modules/nav.php:68
+msgid "Settings"
+msgstr "Seaded"
+
+#: ../../../include/modules/nav.php:69
+msgid "Billing"
+msgstr "Arve Esitamine"
+
+#: ../../../include/pages/answer.php:217
+msgid "Answer Breakdown"
+msgstr "Vasta kategooriajaotusele"
+
+#: ../../../include/pages/answer.php:225 ../../../include/pages/answer.php:291
+#: ../../../include/pages/responses.php:383
+#: ../../../include/pages/section.php:240
+msgid "Start Date"
+msgstr "Alustamise Kuupäev"
+
+#: ../../../include/pages/answer.php:229 ../../../include/pages/answer.php:292
+#: ../../../include/pages/responses.php:384
+#: ../../../include/pages/section.php:241
+msgid "End Date"
+msgstr "Lõpetamise Kuupäev"
+
+#: ../../../include/pages/answer.php:233 ../../../include/pages/answer.php:290
+#: ../../../include/pages/response.php:100
+#: ../../../include/pages/responses.php:321
+#: ../../../include/pages/responses.php:382
+#: ../../../include/pages/responses.php:402
+#: ../../../include/pages/section.php:190
+#: ../../../include/pages/section.php:239
+msgid "Period"
+msgstr "Ajavahemik"
+
+#: ../../../include/pages/answer.php:235
+#: ../../../include/pages/responses.php:323
+#: ../../../include/pages/section.php:192
+msgid "Any Period"
+msgstr "Kõik Ajavahemikud"
+
+#: ../../../include/pages/answer.php:240 ../../../include/pages/answer.php:289
+#: ../../../include/pages/company.php:183
+#: ../../../include/pages/locations.php:341
+#: ../../../include/pages/responses.php:381
+#: ../../../include/pages/section.php:238
+msgid "State"
+msgstr "Maakond"
+
+#: ../../../include/pages/answer.php:242
+msgid "Any State"
+msgstr "Kõik Maakonnad"
+
+#: ../../../include/pages/answer.php:247 ../../../include/pages/answer.php:286
+#: ../../../include/pages/responses.php:379
+#: ../../../include/pages/schedule1.php:133
+#: ../../../include/pages/section.php:236
+msgid "Form"
+msgstr "Vorm"
+
+#: ../../../include/pages/answer.php:249
+msgid "Any Form"
+msgstr "Ükskõik milline vorm"
+
+#: ../../../include/pages/answer.php:254 ../../../include/pages/answer.php:287
+#: ../../../include/pages/section.php:257
+msgid "Section"
+msgstr "Osa"
+
+#: ../../../include/pages/answer.php:256
+msgid "Any section"
+msgstr "Kõik osad"
+
+#: ../../../include/pages/answer.php:269
+msgid "Search"
+msgstr "Otsing"
+
+#: ../../../include/pages/answer.php:270
+msgid "Clear Search"
+msgstr "Tühista Otsing"
+
+#: ../../../include/pages/answer.php:275
+#: ../../../include/pages/section.php:225
+msgid "Advanced Filter"
+msgstr "Edutatud Filter"
+
+#: ../../../include/pages/answer.php:285
+#: ../../../include/pages/excelreports.php:480
+#: ../../../include/pages/pdfreports.php:59
+#: ../../../include/pages/response.php:95
+#: ../../../include/pages/responses.php:378
+#: ../../../include/pages/section.php:235
+msgid "Level"
+msgstr "Tase"
+
+#: ../../../include/pages/answer.php:302
+msgid "Answer"
+msgstr "Vastus"
+
+#: ../../../include/pages/answer.php:303
+msgid "Count"
+msgstr "Arvestus"
+
+#: ../../../include/pages/answer.php:303
+msgid "of "
+msgstr "või"
+
+#: ../../../include/pages/company.php:9
+msgid "You do not have permission to update company details"
+msgstr "Sul ei ole õigust firma andmeid uuendada"
+
+#: ../../../include/pages/company.php:111
+msgid "Edit Company Details"
+msgstr "Muuda Ettevõte Detailid"
+
+#: ../../../include/pages/company.php:134
+msgid "Company"
+msgstr "Ettevõte"
+
+#: ../../../include/pages/company.php:140
+msgid "Contact First Name"
+msgstr "Kontakti Eesnimi"
+
+#: ../../../include/pages/company.php:146
+msgid "Contact Last Name"
+msgstr "Kontakti Perenimi"
+
+#: ../../../include/pages/company.php:152
+#: ../../../include/pages/company.php:158
+#: ../../../include/pages/locations.php:305
+#: ../../../include/pages/users.php:228
+msgid "Address"
+msgstr "Aadress"
+
+#: ../../../include/pages/company.php:164
+#: ../../../include/pages/locations.php:311
+#: ../../../include/pages/users.php:234
+msgid "City"
+msgstr "Linn"
+
+#: ../../../include/pages/company.php:170
+#: ../../../include/pages/locations.php:328
+#: ../../../include/pages/users.php:241
+msgid "State/Province"
+msgstr "Maakond/Vald"
+
+#: ../../../include/pages/company.php:179
+#: ../../../include/pages/locations.php:337
+msgid "North America Only"
+msgstr "Ainult Põhja-Ameerika"
+
+#: ../../../include/pages/company.php:187
+#: ../../../include/pages/locations.php:323
+#: ../../../include/pages/locations.php:345
+msgid "Outside North America"
+msgstr "Põhja-Ameerika Väljaspool"
+
+#: ../../../include/pages/company.php:191
+#: ../../../include/pages/locations.php:349
+#: ../../../include/pages/users.php:250
+msgid "ZIP/Postal Code"
+msgstr "ZIP/Posiindeks"
+
+#: ../../../include/pages/company.php:197
+#: ../../../include/pages/locations.php:355
+msgid "Country"
+msgstr "Riik"
+
+#: ../../../include/pages/company.php:205 ../../../include/pages/contact.php:6
+#: ../../../include/pages/contact.php:16
+#: ../../../include/pages/locations.php:366
+#: ../../../include/pages/users.php:257
+msgid "Phone"
+msgstr "Telefon"
+
+#: ../../../include/pages/company.php:211 ../../../include/pages/contact.php:5
+#: ../../../include/pages/contact.php:15 ../../../include/pages/users.php:198
+#: ../../../include/pages/users.php:597 ../../../include/pages/users.php:599
+msgid "Email"
+msgstr "Email"
+
+#: ../../../include/pages/company.php:217 ../../../include/pages/contact.php:7
+msgid "Website"
+msgstr "Kodulehekülg"
+
+#: ../../../include/pages/company.php:223
+msgid "Email and Report Settings"
+msgstr "Emaili ja Raporti Seaded"
+
+#: ../../../include/pages/company.php:226
+msgid "Sent when shops are approved."
+msgstr "Saadetud, kui ostud on heaks kiidetud."
+
+#: ../../../include/pages/company.php:233
+msgid "Default Message"
+msgstr "Vaikimisi sätestatud sõnum"
+
+#: ../../../include/pages/company.php:241
+msgid "High Limit"
+msgstr "Ülempiir"
+
+#: ../../../include/pages/company.php:245
+msgid "Threshold to send Congratulation text sent when shop is approved"
+msgstr "Lävend, et saata õnnesoovide sõnum, kui ost on heaks kiidetud"
+
+#: ../../../include/pages/company.php:249
+msgid "Congratulations Message"
+msgstr "Õnnesoovid!"
+
+#: ../../../include/pages/company.php:257
+msgid "Low Limit"
+msgstr "Alumine Piir"
+
+#: ../../../include/pages/company.php:261
+msgid "Threshold to send Low Score text when shop is approved"
+msgstr "Lävend, et saata madala skoori sõnum, kui ost on heaks kiidetud"
+
+#: ../../../include/pages/company.php:265
+msgid "Low Score Message"
+msgstr "Madala skoori sõnum"
+
+#: ../../../include/pages/company.php:275
+#: ../../../include/pages/company.php:290
+#: ../../../include/pages/company.php:297
+#: ../../../include/pages/company.php:308
+msgid "Highlight Color"
+msgstr "Markeri Värv"
+
+#: ../../../include/pages/company.php:275
+msgid "High"
+msgstr "Kõrge"
+
+#: ../../../include/pages/company.php:290
+msgid "Medium"
+msgstr "Keskmine"
+
+#: ../../../include/pages/company.php:297
+msgid "Low"
+msgstr "Madal"
+
+#: ../../../include/pages/company.php:308
+msgid "for reports"
+msgstr "raportide jaoks"
+
+#: ../../../include/pages/company.php:308
+msgid "or click rainbow"
+msgstr "või klikkige vikekaarile"
+
+#: ../../../include/pages/company.php:317
+msgid "Welcome Text"
+msgstr "Tervitustekst"
+
+#: ../../../include/pages/company.php:318
+msgid "Appears on client subdomain if applicable"
+msgstr "Vajaduse korral avaldatakse kliendi alamdomeenil"
+
+#: ../../../include/pages/company.php:322
+#: ../../../include/pages/locations.php:402
+msgid "Logo"
+msgstr "Logo"
+
+#: ../../../include/pages/company.php:335
+msgid "Save Details"
+msgstr "Salvesta Detailid"
+
+#: ../../../include/pages/contact.php:4
+msgid "MSP"
+msgstr "MSP"
+
+#: ../../../include/pages/contact.php:14
+msgid "Account Manager"
+msgstr "Kontojuht"
+
+#: ../../../include/pages/excelreports.php:96
+msgid "Invalid report selected"
+msgstr "On Valitud Vale Raport"
+
+#: ../../../include/pages/excelreports.php:110
+msgid "Report has been deleted"
+msgstr "Raport oli kustutatud"
+
+#: ../../../include/pages/excelreports.php:136
+msgid "Please enter a report name"
+msgstr "Palun sisestage raporti nimi"
+
+#: ../../../include/pages/excelreports.php:205
+msgid "Report has been saved"
+msgstr "Raport salvestatud"
+
+#: ../../../include/pages/excelreports.php:213
+msgid "Unable to save campaign"
+msgstr "Kampaania salvestamine ebaõnnestus"
+
+#: ../../../include/pages/excelreports.php:220
+msgid "Corporate Report - Full Admins only"
+msgstr "Ettevõtte aruanne - ainult täisõigusega administraatoritele"
+
+#: ../../../include/pages/excelreports.php:222
+msgid " Report"
+msgstr "Raport"
+
+#: ../../../include/pages/excelreports.php:224
+#: ../../../include/pages/excelreports.php:226
+msgid " Admin"
+msgstr "Admin"
+
+#: ../../../include/pages/excelreports.php:229
+msgid "January"
+msgstr "Jaanuar"
+
+#: ../../../include/pages/excelreports.php:230
+msgid "February"
+msgstr "Veebruari"
+
+#: ../../../include/pages/excelreports.php:231
+msgid "March"
+msgstr "Märts"
+
+#: ../../../include/pages/excelreports.php:232
+msgid "April"
+msgstr "Aprill"
+
+#: ../../../include/pages/excelreports.php:233
+msgid "May"
+msgstr "Mai"
+
+#: ../../../include/pages/excelreports.php:234
+msgid "June"
+msgstr "Juuni"
+
+#: ../../../include/pages/excelreports.php:235
+msgid "July"
+msgstr "Juuli"
+
+#: ../../../include/pages/excelreports.php:236
+msgid "August"
+msgstr "August"
+
+#: ../../../include/pages/excelreports.php:237
+msgid "September"
+msgstr "September"
+
+#: ../../../include/pages/excelreports.php:238
+msgid "October"
+msgstr "Oktoober"
+
+#: ../../../include/pages/excelreports.php:239
+msgid "Nevember"
+msgstr "November"
+
+#: ../../../include/pages/excelreports.php:240
+msgid "December"
+msgstr "Detsember"
+
+#: ../../../include/pages/excelreports.php:244
+msgid "Custom Mystery Shop Report"
+msgstr "Salajase Ostu Eriraport"
+
+#: ../../../include/pages/excelreports.php:244
+msgid "Create/Edit"
+msgstr "Loo/Muuda"
+
+#: ../../../include/pages/excelreports.php:245
+msgid ""
+"Custom Reports allow you to create as many report formats as you would like"
+msgstr ""
+"Tavaaruanded lubavad sul koostada nii palju aruandevorminguid, kui sa soovid"
+
+#: ../../../include/pages/excelreports.php:245
+msgid "Please ask your MSP to train and assist you in setting up these reports"
+msgstr ""
+"Palun küsi oma MSPlt, et ta aitaks ja assisteeriks sind aruannete loomisel"
+
+#: ../../../include/pages/excelreports.php:245
+msgid ""
+"Once a template is created, you can run the report each month to create the "
+"pdf of the report"
+msgstr ""
+"Kui mall on juba looodud, saad iga kuu aruande käivitada ning seejärel luua "
+"aruande PDF vormis."
+
+#: ../../../include/pages/excelreports.php:247
+msgid "Reports can not be over 200 pages"
+msgstr "Raport ei saa olla pikem kui 200 lehekülge"
+
+#: ../../../include/pages/excelreports.php:247
+msgid ""
+"There is no need to add the same type of report module for more than one "
+"level - it will simply give you the same information but grouped slightly "
+"differently"
+msgstr ""
+"Ei ole vaja lisada sama tüüpi raporti moodul rohkem kui ühele tasemele - see "
+"on lihtsalt info saamiseks, kuid grupeeritud veidi erinevalt"
+
+#: ../../../include/pages/excelreports.php:251
+msgid "Report Set Up"
+msgstr "Aruande loomine"
+
+#: ../../../include/pages/excelreports.php:255
+#: ../../../include/pages/schedule1.php:15
+#: ../../../include/pages/users.php:598 ../../../include/pages/views.php:116
+#: ../../../include/pages/views.php:159
+msgid "Name"
+msgstr "Nimi"
+
+#: ../../../include/pages/excelreports.php:259
+msgid "Access Level"
+msgstr "Juurdepääsu Tase"
+
+#: ../../../include/pages/excelreports.php:267
+msgid "Data Type"
+msgstr "Data Tüüp"
+
+#: ../../../include/pages/excelreports.php:269
+msgid "Mystery Shops Only"
+msgstr "Ainult Salajased Ostud"
+
+#: ../../../include/pages/excelreports.php:272
+msgid "Both"
+msgstr "Mõlemad"
+
+#: ../../../include/pages/excelreports.php:277
+msgid "Start of Year (for Year to Date)"
+msgstr "Aasta algus (siiani ühe aasta jooksul)"
+
+#: ../../../include/pages/excelreports.php:287
+#: ../../../include/pages/users.php:600
+msgid "Type"
+msgstr "Tüüp"
+
+#: ../../../include/pages/excelreports.php:289
+#: ../../../include/pages/schedule1.php:441
+msgid "Monthly"
+msgstr "Igakuine"
+
+#: ../../../include/pages/excelreports.php:290
+msgid "Quarterly"
+msgstr "Kvartaalne"
+
+#: ../../../include/pages/excelreports.php:306
+msgid "Report Options"
+msgstr "Raporti Valikud"
+
+#: ../../../include/pages/excelreports.php:309
+msgid "Choose the report configuration"
+msgstr "Vali raporti konfiguratsioon"
+
+#: ../../../include/pages/excelreports.php:312
+msgid "Option Name"
+msgstr "Valiku Nimi"
+
+#: ../../../include/pages/excelreports.php:313
+msgid "Description"
+msgstr "Kirjeldus"
+
+#: ../../../include/pages/excelreports.php:314
+msgid "Option"
+msgstr "Valik"
+
+#: ../../../include/pages/excelreports.php:315
+msgid "Value 1"
+msgstr "Väärtus 1"
+
+#: ../../../include/pages/excelreports.php:316
+msgid "Value 2"
+msgstr "Väärtus 2"
+
+#: ../../../include/pages/excelreports.php:350
+#: ../../../include/pages/excelreports.php:380
+msgid "Options"
+msgstr "Valikud"
+
+#: ../../../include/pages/excelreports.php:442
+msgid "Save Report"
+msgstr "Salvesta Raport"
+
+#: ../../../include/pages/excelreports.php:465
+#: ../../../include/pages/pdfreports.php:14
+msgid "Reports"
+msgstr "Raportid"
+
+#: ../../../include/pages/excelreports.php:468
+#: ../../../include/pages/pdfreports.php:46
+msgid "User Reports"
+msgstr "Kasutaja raportid"
+
+#: ../../../include/pages/excelreports.php:469
+msgid "To View more report please contact your Account Manager"
+msgstr "Et näha rohkem aruandeid, võta palun ühendust oma kontaktisikuga."
+
+#: ../../../include/pages/excelreports.php:479
+#: ../../../include/pages/pdfreports.php:58
+msgid "Report Name"
+msgstr "Raporti Nimi"
+
+#: ../../../include/pages/excelreports.php:481
+#: ../../../include/pages/pdfreports.php:60
+msgid "Delivery Type"
+msgstr "Tarneviis"
+
+#: ../../../include/pages/excelreports.php:482
+msgid "Last Sent"
+msgstr "Viimati Saadetud"
+
+#: ../../../include/pages/excelreports.php:483
+#: ../../../include/pages/pdfreports.php:61
+#: ../../../include/pages/section.php:262
+msgid "Action"
+msgstr "Tegevus"
+
+#: ../../../include/pages/excelreports.php:499
+#: ../../../include/pages/pdfreports.php:72
+msgid "Corporate"
+msgstr "Korporatiivne"
+
+#: ../../../include/pages/excelreports.php:504
+#: ../../../include/pages/pdfreports.php:76
+msgid "Run Report"
+msgstr "Käimasolev aruanne"
+
+#: ../../../include/pages/excelreports.php:505
+#: ../../../include/pages/pdfreports.php:77
+msgid "Are you sure you want to delete report for:"
+msgstr "Kas olete kindel, et soovite raporti kustutada:"
+
+#: ../../../include/pages/excelreports.php:505
+#: ../../../include/pages/pdfreports.php:77
+#: ../../../include/pages/users.php:602 ../../../include/pages/views.php:162
+msgid "Delete"
+msgstr "Kustuta"
+
+#: ../../../include/pages/excelreports.php:520
+msgid "Excel Reports"
+msgstr "Excel Raportid"
+
+#: ../../../include/pages/excelreports.php:524
+msgid "Reports From"
+msgstr "Raportid Alates"
+
+#: ../../../include/pages/excelreports.php:526
+msgid "To"
+msgstr ""
+
+#: ../../../include/pages/excelreports.php:534
+msgid "Excel download of average location scores for a given period"
+msgstr "Lae alla Excel keskmised asukoha skoorid määratud ajavahemikus"
+
+#: ../../../include/pages/excelreports.php:537
+msgid "Questions Scores"
+msgstr "Küsimuste Skoorid"
+
+#: ../../../include/pages/excelreports.php:537
+msgid "Excel download of question score summary by location for a given period"
+msgstr ""
+"Excel küsimuste skooride kokkuvõte asukohade järgi määratud ajavahemikus "
+"allalaadimine"
+
+#: ../../../include/pages/excelreports.php:540
+#: ../../../include/pages/excelreports.php:543
+msgid "Data Export"
+msgstr "Andmete Eksport"
+
+#: ../../../include/pages/excelreports.php:540
+msgid "Section Scores and Questions"
+msgstr "Osa Skoorid ja Küsimused"
+
+#: ../../../include/pages/excelreports.php:540
+#: ../../../include/pages/excelreports.php:543
+msgid "Excel download of shop data for a given period"
+msgstr "Excel ostude info määratud ajavahemikus allalaadimine"
+
+#: ../../../include/pages/excelreports.php:543
+msgid "Machine"
+msgstr "Masin"
+
+#: ../../../include/pages/excelreports.php:547
+#: ../../../include/pages/excelreports.php:550
+msgid "Motorola Export"
+msgstr "Motorola Eksport"
+
+#: ../../../include/pages/excelreports.php:547
+#: ../../../include/pages/excelreports.php:550
+msgid "Motorola Excel Download"
+msgstr "Motorola Excel Allalaadimine"
+
+#: ../../../include/pages/excelreports.php:557
+msgid "Standard Price Audit Reports"
+msgstr "Tavalised hinnaauditi aruanded"
+
+#: ../../../include/pages/excelreports.php:561
+msgid "Shop Count by Campaign XLS"
+msgstr "Ostude arv kampaania XLS järgi"
+
+#: ../../../include/pages/locations.php:130
+msgid "Location has been saved"
+msgstr "Asukoht salvestatud"
+
+#: ../../../include/pages/locations.php:253
+#: ../../../include/pages/locations.php:262
+msgid "Location Name"
+msgstr "Asukoha Nimi"
+
+#: ../../../include/pages/locations.php:256
+msgid "Shopper Sees"
+msgstr "Ostja näeb"
+
+#: ../../../include/pages/locations.php:265
+msgid "Internal"
+msgstr "Sisene"
+
+#: ../../../include/pages/locations.php:317
+msgid "Municipality"
+msgstr "Omavalitsus"
+
+#: ../../../include/pages/locations.php:318
+msgid "or"
+msgstr "või"
+
+#: ../../../include/pages/locations.php:319
+msgid "District"
+msgstr "Ringkond"
+
+#: ../../../include/pages/locations.php:324
+msgid "Do NOT duplicate city"
+msgstr "ÄRGE dubleerige linn"
+
+#: ../../../include/pages/locations.php:373
+msgid "Latitude"
+msgstr "Laius"
+
+#: ../../../include/pages/locations.php:379
+msgid "Longitude"
+msgstr "Pikkuskraad"
+
+#: ../../../include/pages/locations.php:383
+msgid "Or Drag and Drop Below"
+msgstr "Või lohista ja pilla allapoole"
+
+#: ../../../include/pages/locations.php:388
+msgid "Location Open/Closed"
+msgstr "Asukoht Avatud/Suletud"
+
+#: ../../../include/pages/locations.php:435
+msgid "Save"
+msgstr "Salvesta"
+
+#: ../../../include/pages/locations.php:443
+msgid "Drag and Drop to Change Actual Location"
+msgstr "Lohista ja pilla, et muuta reaalset asukohta"
+
+#: ../../../include/pages/pdfreports.php:23
+msgid "To View more reports please contact your Account Manager"
+msgstr "Et rohkem raportid näha, palun võtke ühendus oma Kontojuhiga"
+
+#: ../../../include/pages/response.php:44
+msgid "Invalid shop selected"
+msgstr "On Valitud Vale Ost"
+
+#: ../../../include/pages/response.php:91
+msgid "Response"
+msgstr "Vastus"
+
+#: ../../../include/pages/response.php:98
+msgid "Shop"
+msgstr "Ost"
+
+#: ../../../include/pages/response.php:101
+msgid "Removed from Reports"
+msgstr "Eemaldati Raportitest"
+
+#: ../../../include/pages/response.php:117
+#: ../../../include/pages/response.php:119
+msgid "View Shop PDF"
+msgstr "Näita Ostu PDF"
+
+#: ../../../include/pages/response.php:153
+msgid "Response Details"
+msgstr "Vastuse Detailid"
+
+#: ../../../include/pages/response.php:158
+msgid "Shop Name"
+msgstr "Ostu Nimi"
+
+#: ../../../include/pages/response.php:162
+msgid "Date/Time"
+msgstr "Kuupäev/Aeg"
+
+#: ../../../include/pages/response.php:189
+msgid "Client Files"
+msgstr "Kliendi Failid"
+
+#: ../../../include/pages/response.php:195
+msgid "view file"
+msgstr "näita fail"
+
+#: ../../../include/pages/response.php:195
+msgid "download file"
+msgstr "lae fail alla"
+
+#: ../../../include/pages/response.php:204
+#: ../../../include/pages/section.php:261
+msgid "Score"
+msgstr "Skoor"
+
+#: ../../../include/pages/response.php:208
+msgid "Total Score"
+msgstr "Skoor Kokku"
+
+#: ../../../include/pages/response.php:223
+msgid "Points"
+msgstr "Punktid"
+
+#: ../../../include/pages/schedule1.php:4
+msgid "Create / Edit Run Schedule"
+msgstr "Loo/muuda ajagraafikut"
+
+#: ../../../include/pages/schedule1.php:7
+#: ../../../include/pages/schedule1.php:429
+#: ../../../include/pages/views.php:107
+msgid "Cancel"
+msgstr "Katkesta"
+
+#: ../../../include/pages/schedule1.php:21
+msgid "Title"
+msgstr "Pealkiri"
+
+#: ../../../include/pages/schedule1.php:25
+msgid "Public facing"
+msgstr "Avalik nägemine"
+
+#: ../../../include/pages/schedule1.php:27
+msgid "Quick and Easy Dine In Pizza Shop!"
+msgstr "Kiire ja kerge õhtusöök pizzakohas!"
+
+#: ../../../include/pages/schedule1.php:31
+msgid "Campaign"
+msgstr "Kampaania"
+
+#: ../../../include/pages/schedule1.php:38
+msgid "Applicable"
+msgstr "Kohaldatav"
+
+#: ../../../include/pages/schedule1.php:42
+msgid "if applicable"
+msgstr "kui kohaldatav"
+
+#: ../../../include/pages/schedule1.php:46
+msgid "Currency"
+msgstr "Valuuta"
+
+#: ../../../include/pages/schedule1.php:53
+msgid "United States Dollar - $"
+msgstr "USA dollar"
+
+#: ../../../include/pages/schedule1.php:63
+msgid "Compensation"
+msgstr "Kompensatsioon"
+
+#: ../../../include/pages/schedule1.php:74
+#: ../../../include/pages/schedule1.php:114
+msgid "Dollar Amount, Without $"
+msgstr "Summa Dollarites, Ilma $"
+
+#: ../../../include/pages/schedule1.php:78
+msgid "Reimbursement"
+msgstr "Tagasimakse"
+
+#: ../../../include/pages/schedule1.php:89
+msgid "Amount, without $"
+msgstr "Summa, ilma $"
+
+#: ../../../include/pages/schedule1.php:93
+msgid "Reimbursement Type"
+msgstr "Tagasimakse Tüüp"
+
+#: ../../../include/pages/schedule1.php:110
+msgid "Default Billing Rate"
+msgstr "Vaikimisi seatud arve määr"
+
+#: ../../../include/pages/schedule1.php:118
+msgid "Coupon"
+msgstr "Kupong"
+
+#: ../../../include/pages/schedule1.php:121
+msgid "Create New"
+msgstr "Loo Uus"
+
+#: ../../../include/pages/schedule1.php:129
+msgid "If applicable"
+msgstr "Kui kohaldatav"
+
+#: ../../../include/pages/schedule1.php:137
+#: ../../../include/pages/schedule1.php:147
+#: ../../../include/pages/schedule1.php:335
+#: ../../../include/pages/schedule1.php:345
+#: ../../../include/pages/schedule1.php:486
+msgid "Choose"
+msgstr "Vali"
+
+#: ../../../include/pages/schedule1.php:143
+msgid "Location Query"
+msgstr "Asukoha taotlus"
+
+#: ../../../include/pages/schedule1.php:153
+msgid "Shop Overview"
+msgstr "Ostu Ülevaade"
+
+#: ../../../include/pages/schedule1.php:159
+#: ../../../include/pages/schedule1.php:180
+msgid "Time"
+msgstr "Aeg"
+
+#: ../../../include/pages/schedule1.php:176
+msgid "Blocked Time"
+msgstr "Blokeeritud aeg"
+
+#: ../../../include/pages/schedule1.php:195
+msgid "Blocked Days"
+msgstr "Blokeeritud päevad"
+
+#: ../../../include/pages/schedule1.php:197
+msgid "Never Schedule On"
+msgstr "Ära planeeri selleks ajaks"
+
+#: ../../../include/pages/schedule1.php:202
+msgid "Sunday"
+msgstr "Pühapäev"
+
+#: ../../../include/pages/schedule1.php:206
+msgid "Monday"
+msgstr "Esmaspäev"
+
+#: ../../../include/pages/schedule1.php:210
+msgid "Tuesday"
+msgstr "Teisipäev"
+
+#: ../../../include/pages/schedule1.php:214
+msgid "Wednesday"
+msgstr "Kolmapäev"
+
+#: ../../../include/pages/schedule1.php:218
+msgid "Thursday"
+msgstr "Neljapäev"
+
+#: ../../../include/pages/schedule1.php:222
+msgid "Friday"
+msgstr "Reede"
+
+#: ../../../include/pages/schedule1.php:226
+msgid "Saturday"
+msgstr "Laupäev"
+
+#: ../../../include/pages/schedule1.php:232
+msgid "Visits must be at least"
+msgstr "Külastuskäigud peavad kestma vähemalt"
+
+#: ../../../include/pages/schedule1.php:234
+msgid "days apart from another visit to the same location"
+msgstr "päeva peab olema samas kohas tehtava mitme külastuse vahel."
+
+#: ../../../include/pages/schedule1.php:239
+#: ../../../include/pages/schedule1.php:248
+#: ../../../include/pages/schedule1.php:257
+msgid "Shopper may not have more than"
+msgstr "Ostjal ei või olla rohkem kui"
+
+#: ../../../include/pages/schedule1.php:241
+msgid "visits for the location within"
+msgstr "külastust piirkonda"
+
+#: ../../../include/pages/schedule1.php:243
+#: ../../../include/pages/schedule1.php:252
+#: ../../../include/pages/schedule1.php:261
+msgid "days"
+msgstr "päeva"
+
+#: ../../../include/pages/schedule1.php:250
+msgid "visits for the CLIENT within"
+msgstr "külastust KLIENDILE"
+
+#: ../../../include/pages/schedule1.php:259
+msgid "visits for the RUN within"
+msgstr "külastus KÄIKUDELE aja jooksul"
+
+#: ../../../include/pages/schedule1.php:266
+msgid "Shopper may reschedule"
+msgstr "Ostja võib ümber planeerida"
+
+#: ../../../include/pages/schedule1.php:268
+msgid "time(s)"
+msgstr "aeg/ajad"
+
+#: ../../../include/pages/schedule1.php:270
+msgid "Not applicable for specific date shops"
+msgstr "Ei ole kohaldatav konkreetsel ajal tehtavatele ostudele"
+
+#: ../../../include/pages/schedule1.php:275
+msgid "Assignments"
+msgstr "Ülesanned"
+
+#: ../../../include/pages/schedule1.php:279
+msgid "Self Assign"
+msgstr "Iseseisev määramine"
+
+#: ../../../include/pages/schedule1.php:285
+msgid "Shopper may only schedule"
+msgstr "Ostja võib üksnes planeerida"
+
+#: ../../../include/pages/schedule1.php:287
+#: ../../../include/pages/schedule1.php:296
+msgid "days in the future"
+msgstr "päeva tulevikus"
+
+#: ../../../include/pages/schedule1.php:289
+msgid "0 turns feature off - can schedule on any available date"
+msgstr ""
+"0 lülitab rakenduse välja - saab planeerida igale saadavalolevale kuupäevale"
+
+#: ../../../include/pages/schedule1.php:294
+msgid "Assignment is considered late"
+msgstr "Ülesannet arvestatakse hilinenuna"
+
+#: ../../../include/pages/schedule1.php:298
+msgid "0 is default - midnight the night of the due date"
+msgstr "0 on vaikimisi määratud - tähtaja päeva kesköö "
+
+#: ../../../include/pages/schedule1.php:303
+msgid "Auto Unassign"
+msgstr "Automaatne määramise tühistamine"
+
+#: ../../../include/pages/schedule1.php:318
+msgid ""
+"Shops will automatically be unassigned the morning of day they are "
+"considered late.  Make sure to adjust above date"
+msgstr ""
+"Ostude määramine tühistatase automaatselt selle päeva hommikul, kui neid "
+"käsitletakse hilinenuna. Veendu ülalpool oleva kuupäeva kohandamises"
+
+#: ../../../include/pages/schedule1.php:322
+msgid "Unpublish Run after "
+msgstr "Avaldatamata käik pärast"
+
+#: ../../../include/pages/schedule1.php:324
+msgid "shops are approved, pending and assigned (total)"
+msgstr "heaks kiidetud, ootel ja määratud ostud (kogusumma)"
+
+#: ../../../include/pages/schedule1.php:326
+msgid "Will republish if shoppers are unassigned, visits are declined, etc"
+msgstr ""
+"Avaldatakse uuesti, kui ostjate määramine tühistatakse, külastuskäigud "
+"katkestatakse vms"
+
+#: ../../../include/pages/schedule1.php:331
+msgid "Workflow"
+msgstr "Töökorraldus"
+
+#: ../../../include/pages/schedule1.php:341
+msgid "Scheduler"
+msgstr "Planeerija"
+
+#: ../../../include/pages/schedule1.php:351
+msgid "Accept Shop Text"
+msgstr "Aktsepteeri ostu tekst"
+
+#: ../../../include/pages/schedule1.php:357
+msgid "Reminder Text"
+msgstr "Meeldetuletuse Tekst"
+
+#: ../../../include/pages/schedule1.php:363
+msgid "Overdue Text"
+msgstr "Tähtaja ületanud tekst"
+
+#: ../../../include/pages/schedule1.php:369
+msgid "No Editing"
+msgstr "Ei redigeeri"
+
+#: ../../../include/pages/schedule1.php:384
+msgid "Send to the client without edits?"
+msgstr "Saada kliendile ilma muudatusteta?"
+
+#: ../../../include/pages/schedule1.php:388
+msgid "Is this project recurring"
+msgstr "Kas see projekt on korduv"
+
+#: ../../../include/pages/schedule1.php:436
+msgid "Recur every "
+msgstr "Korda iga"
+
+#: ../../../include/pages/schedule1.php:438
+msgid "periods using period type"
+msgstr "perioodidel kasutatav perioodi tüüp"
+
+#: ../../../include/pages/schedule1.php:448
+msgid "Start Run on the"
+msgstr "Alusta käiku"
+
+#: ../../../include/pages/schedule1.php:450
+msgid "day of the period and have it last"
+msgstr "perioodi päev ja kestab kuni"
+
+#: ../../../include/pages/schedule1.php:452
+msgid "days."
+msgstr "päeva."
+
+#: ../../../include/pages/schedule1.php:455
+msgid "Leave blank for entire period"
+msgstr "Jäta tühjaks kogu perioodi jaoks"
+
+#: ../../../include/pages/schedule1.php:460
+#: ../../../include/pages/schedule1.php:467
+msgid "Execute"
+msgstr "Toimeta"
+
+#: ../../../include/pages/schedule1.php:462
+msgid "times for each location in query."
+msgstr "korda igale asukoha päringule."
+
+#: ../../../include/pages/schedule1.php:469
+msgid "days in advance of the period start day."
+msgstr "päeva ette enne perioodi alguspäeva."
+
+#: ../../../include/pages/schedule1.php:474
+msgid "Schedule End Date"
+msgstr "Ajagraafiku lõpukuupäev"
+
+#: ../../../include/pages/schedule1.php:478
+msgid "Leave blank for no end date"
+msgstr "Jäta tühjaks, kui lõpukuupäev puudub"
+
+#: ../../../include/pages/schedule1.php:482
+msgid "Next Scheduled Execution"
+msgstr "Järgmine planeeritud teostus"
+
+#: ../../../include/pages/section.php:174
+msgid "Section Breakdown"
+msgstr "Jagude jaotus"
+
+#: ../../../include/pages/section.php:245
+msgid "Sections"
+msgstr "Osad"
+
+#: ../../../include/pages/users.php:11
+msgid "You do not have permission to manage users"
+msgstr "Sul ei ole luba kasutajate haldamiseks"
+
+#: ../../../include/pages/users.php:97
+msgid "Please enter an email address"
+msgstr "Palun sisestage emaili aadress"
+
+#: ../../../include/pages/users.php:99
+msgid "Please enter a valid email address"
+msgstr "Palun sisestage kehtiv email aadress"
+
+#: ../../../include/pages/users.php:147
+msgid "Account has been saved"
+msgstr "Konto on salvestatud"
+
+#: ../../../include/pages/users.php:163
+msgid "Unable to update account"
+msgstr "Ei saa kontot uuendada"
+
+#: ../../../include/pages/users.php:204
+msgid "Password"
+msgstr "Salasõna"
+
+#: ../../../include/pages/users.php:210
+msgid "Last Log In"
+msgstr "Viimane sisselogimine"
+
+#: ../../../include/pages/users.php:216
+msgid "First Name"
+msgstr "Eesnimi"
+
+#: ../../../include/pages/users.php:222
+msgid "Last Name"
+msgstr "Perenimi"
+
+#: ../../../include/pages/users.php:263
+msgid "Mobile Phone"
+msgstr "Mobiiltelefon"
+
+#: ../../../include/pages/users.php:269
+msgid "Time Zone"
+msgstr "Ajavöönd"
+
+#: ../../../include/pages/users.php:280
+msgid "Language Preference"
+msgstr "Keel"
+
+#: ../../../include/pages/users.php:288
+msgid "Receive Emailed Shop Reports"
+msgstr "Saa Ostu Raportid Emaili Teel"
+
+#: ../../../include/pages/users.php:302
+msgid "Receive Emailed Comment Card/Surveys"
+msgstr "Saa Tagasiside Kaardid/Uuringud Emaili Teel"
+
+#: ../../../include/pages/users.php:317
+msgid "Compliance Dialog Notifications"
+msgstr "Vastava dialoogi märked"
+
+#: ../../../include/pages/users.php:334
+msgid "Text All Shops"
+msgstr "Saada kõikidele ostudele "
+
+#: ../../../include/pages/users.php:349
+msgid "Text High Shops"
+msgstr "Saada kõrgematele ostudele"
+
+#: ../../../include/pages/users.php:364
+msgid "Text Low Shops"
+msgstr "Saada madalatele ostudele"
+
+#: ../../../include/pages/users.php:379
+msgid "Text Comment Cards/Surveys"
+msgstr "Teksti Tagasiside Kaardid/Uuringud"
+
+#: ../../../include/pages/users.php:394
+msgid "Director Settings"
+msgstr "Direktori seaded"
+
+#: ../../../include/pages/users.php:401
+msgid "Allow Access"
+msgstr "Luba Liigipääs"
+
+#: ../../../include/pages/users.php:416
+msgid "Manage Company Details"
+msgstr "Juhtida Ettevõte Detailid"
+
+#: ../../../include/pages/users.php:431
+msgid "Manage Locations"
+msgstr "Juhtida Asukohad"
+
+#: ../../../include/pages/users.php:446
+msgid "Manage User Accounts"
+msgstr "Juhtida Kasutajakontod"
+
+#: ../../../include/pages/users.php:461
+msgid "Edit Reports"
+msgstr "Muuda Raportid"
+
+#: ../../../include/pages/users.php:475
+msgid "Security Access"
+msgstr "Julgeoleku Sissepääs"
+
+#: ../../../include/pages/users.php:491
+msgid "Account Type"
+msgstr "Konto Tüüp"
+
+#: ../../../include/pages/users.php:498
+msgid "Ctrl Click to Select All that Apply"
+msgstr "Ctrl+klikk, et valida kõik sobivad"
+
+#: ../../../include/pages/users.php:548
+msgid "Locations"
+msgstr "Asukohad"
+
+#: ../../../include/pages/users.php:562
+msgid "Access"
+msgstr "Liigipääs"
+
+#: ../../../include/pages/users.php:564
+msgid "Access to all Locations"
+msgstr "Asukohtadele Liigipääs"
+
+#: ../../../include/pages/users.php:568
+msgid "Save user"
+msgstr "Salvesta kasutaja"
+
+#: ../../../include/pages/users.php:583
+msgid "Import Accounts"
+msgstr "Importeeri Kontod"
+
+#: ../../../include/pages/users.php:586
+msgid "Export Accounts"
+msgstr "Eksporteeri Kontod"
+
+#: ../../../include/pages/users.php:601 ../../../include/pages/views.php:161
+msgid "Edit"
+msgstr "Muuda"
+
+#: ../../../include/pages/users.php:615 ../../../include/pages/views.php:174
+msgid "Are you sure you want to delete?"
+msgstr "Kas olete kindel, et soovite kustutada?"
+
+#: ../../../include/pages/views.php:59
+msgid "Please enter a name for the view"
+msgstr "Palun sisestage nimi vaatamiseks"
+
+#: ../../../include/pages/views.php:71
+msgid "View has been saved"
+msgstr "Vaade oli salvestatud"
+
+#: ../../../include/pages/views.php:88
+msgid "Unable to save custom view"
+msgstr "Ei ole võimalik tavavormi salvestada"
+
+#: ../../../include/pages/views.php:122 ../../../include/pages/views.php:160
+msgid "Page"
+msgstr "Lehekülg"
+
+#: ../../../include/pages/views.php:130
+msgid "Time Period"
+msgstr "Ajavahemik"
+
+#: ../../../include/pages/views.php:139
+msgid "Save view"
+msgstr "Salvesta vaade"
+
+#: ../../../include/pages/views.php:182
+msgid "No Views Created"
+msgstr "Pole Ühtegi Vaadet Loodud"
+
+#~ msgid "Merchants"
+#~ msgstr "Merchants"
+
+#~ msgid "Client"
+#~ msgstr "Client"
+
+#~ msgid "Secret Shopping"
+#~ msgstr "Secret Shopping"
+
+#~ msgid "TEXT_HOME_1"
+#~ msgstr ""
+#~ "iSS is both a comprehensive data collection software system AND a Shopper "
+#~ "Portal/Job Board. Shoppers register here to gain immediate access to ALL "
+#~ "the shops published through the iSS System from ALL our MSPs in one "
+#~ "convenient place. iSS is not a MSP. We are software. Software designed to "
+#~ "make everyone's experience easier, smarter and more efficient."
+
+#~ msgid "TEXT_HOME_2"
+#~ msgstr ""
+#~ "So instead of being overwhelmed by 100s of emails a week from dozens of "
+#~ "MSPs - iSS will send you one weekly Available Shops email with everything "
+#~ "near you. Don't log into a dozen sites to plan routes, log in here. Once. "
+#~ "And see everything in a single place. Track your payments, communicate "
+#~ "with MSPs, complete your shops - all right here."
+
+#~ msgid "TEXT_HOME_3"
+#~ msgstr ""
+#~ "MSPs use iSS to schedule, edit and publish shops. And to compile complex "
+#~ "data for their end clients. Shoppers use it to make their work faster, "
+#~ "easier and far more convenient – whether they are using a smartphone or "
+#~ "the traditional PC method to complete their assignments. Or both!"
